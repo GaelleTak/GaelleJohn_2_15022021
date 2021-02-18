@@ -24,28 +24,32 @@
                 <div class="object"><h3>En plein centre ville ou en pleine nature</h3></div>
 
                 <div class="search bar"> <!-- City search bar -->
-                    <div class="icon-wrap">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
-                      </svg>
-                    </div>
+                    <img class="map-pin" src="images/map.svg" width="24" height="24" viewBox="0 0 24 24">
                     <input id="search" type="text" placeholder="Marseille,France" />
                     <button class="btn-search" type="button">Rechercher</button>
-                  </div>
+                </div>
             </header>
 
             <div>
-            
                 <div class="filtres"><h4>Filtres</h4></div> 
 
                 <!-- Filter buttons -->
-                <button class="btn active" onclick="filterSelection('economic')"> Economique</button>
+                <img class="money-pin" src="images/money.svg" width="24" height="24" viewBox="0 0 24 24">
+                <button class="btn" onclick="filterSelection('economic')"> Economique</button>
+                <img class="child-pin" src="images/child.svg" width="24" height="24" viewBox="0 0 24 24">
                 <button class="btn" onclick="filterSelection('familial')"> Familial</button>
+                <img class="heart-pin" src="images/heart.svg" width="24" height="24" viewBox="0 0 24 24">
                 <button class="btn" onclick="filterSelection('romantic')"> Romantique</button>
+                <img class="dog-pin" src="images/dog.svg" width="24" height="24" viewBox="0 0 24 24">
                 <button class="btn" onclick="filterSelection('animals')"> Animaux autorisés</button>
 
+            </div>
+
+            <div>  
+                <img class="info-pin" src="images/info.svg" width="24" height="24" viewBox="0 0 24 24">  
                 <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
             </div>
+            
         </div>
         <section> <!-- Accomodation search -->
 
