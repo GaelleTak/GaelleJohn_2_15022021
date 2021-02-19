@@ -9,49 +9,97 @@
     <body>
         <div id="bloc_page">
             <header>
-                <div class="logo"></div> <!-- Main logo -->
-                <img src="images/logo/Reservia.svg" alt="Logo Reservia"/>
 
-                <nav> <!-- Search bar -->
+                <!-- Main logo -->
+                <div class="logo">
+                    <img src="images/logo/Reservia.svg" alt="Logo Reservia"/>
+                </div> 
+
+                <!-- Search bar -->
+                <nav> 
                     <ul>
                         <li><a href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
                         <li><a href="#">S'inscrire</a></li>
                     </ul>
                 </nav>
+            </header>
 
-                <div class="objet"><h2>Trouvez votre hébergement pour des vacances de rêve</h2></div>
-                <div class="object"><h3>En plein centre ville ou en pleine nature</h3></div>
-
-                <div class="search bar"> <!-- City search bar -->
+            <nav>
+                <!-- Object -->
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <h3>En plein centre ville ou en pleine nature</h3>
+            
+                <!-- City search bar -->
+                <div class="search bar"> 
                     <img class="map-pin" src="images/map.svg" width="24" height="24" viewBox="0 0 24 24">
                     <input id="search" type="text" placeholder="Marseille,France" />
                     <button class="btn-search" type="button">Rechercher</button>
                 </div>
-            </header>
-
-            <div>
-                <div class="filtres"><h4>Filtres</h4></div> 
-
-                <!-- Filter buttons -->
-                <img class="money-pin" src="images/money.svg" width="24" height="24" viewBox="0 0 24 24">
-                <button class="btn" onclick="filterSelection('economic')"> Economique</button>
-                <img class="child-pin" src="images/child.svg" width="24" height="24" viewBox="0 0 24 24">
-                <button class="btn" onclick="filterSelection('familial')"> Familial</button>
-                <img class="heart-pin" src="images/heart.svg" width="24" height="24" viewBox="0 0 24 24">
-                <button class="btn" onclick="filterSelection('romantic')"> Romantique</button>
-                <img class="dog-pin" src="images/dog.svg" width="24" height="24" viewBox="0 0 24 24">
-                <button class="btn" onclick="filterSelection('animals')"> Animaux autorisés</button>
-
-            </div>
-
-            <div>  
-                <img class="info-pin" src="images/info.svg" width="24" height="24" viewBox="0 0 24 24">  
-                <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
-            </div>
             
-        </div>
-        <section> <!-- Accomodation search -->
+
+                <div class="filter">
+                    
+                    <h4>Filtres</h4>
+
+                    <!-- Filter buttons -->
+                    <img class="money-pin" src="images/money.svg" width="24" height="24" viewBox="0 0 24 24">
+                    <button class="btn" onclick="filterSelection('economic')"> Economique</button>
+                    <img class="child-pin" src="images/child.svg" width="24" height="24" viewBox="0 0 24 24">
+                    <button class="btn" onclick="filterSelection('familial')"> Familial</button>
+                    <img class="heart-pin" src="images/heart.svg" width="24" height="24" viewBox="0 0 24 24">
+                    <button class="btn" onclick="filterSelection('romantic')"> Romantique</button>
+                    <img class="dog-pin" src="images/dog.svg" width="24" height="24" viewBox="0 0 24 24">
+                    <button class="btn" onclick="filterSelection('animals')"> Animaux autorisés</button>
+
+                    <!-- Information -->
+                    <div><img class="info-pin" src="images/info.svg" width="24" height="24" viewBox="0 0 24 24">  
+                    <h5>Plus de 500 logements sont disponibles dans cette ville</h5></div>
+                
+            </nav>
+            
+            <section> <!-- Accomodation search -->
+                <div class="objet"><h2>Hébergements à Marseille</h2></div>
+    
+                <div><img class="marcus" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                    <p><strong>Auberge de la Cannebière</strong></p> 
+                    <p>Nuit à partir de <strong>25€</strong></p>
+                    <img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star-regular.svg" width="24" height="24" viewBox="0 0 24 24">
+                </div>
+
+                <div><img class="fred" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                    <p><strong>Hôtel du port</strong></p> 
+                    <p>Nuit à partir de <strong>52€</strong></p>
+                    <img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24">
+                </div>
+
+                <div><img class="reisetopia" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                    <p><strong>Hôtel Les mouettes</strong></p> 
+                    <p>Nuit à partir de <strong>76€</strong></p>
+                    <img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star-regular.svg" width="24" height="24" viewBox="0 0 24 24">
+                </div>
+
+                <div><img class="annie" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                    <p><strong>Hôtel de la mer</strong></p> 
+                    <p>Nuit à partir de <strong>46€</strong></p>
+                    <img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star-regular.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star-regular.svg" width="24" height="24" viewBox="0 0 24 24">
+                </div>
+
+                <div><img class="nicate" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                    <p><strong>Auberge le Panier</strong></p> 
+                    <p>Nuit à partir de <strong>23€</strong></p>
+                    <img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star-regular.svg" width="24" height="24" viewBox="0 0 24 24">
+                </div>
+
+                <div><img class="febrian" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                    <p><strong>Hôtel chez Amina</strong></p> 
+                    <p>Nuit à partir de <strong>96€</strong></p>
+                    <img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/star.svg" width="24" height="24" viewBox="0 0 24 24">
+                </div>
+
+                <p>Afficher plus</p>
+
+
 
         
         </section>
