@@ -2,7 +2,9 @@
 <html>
     <head> <!-- Website name -->
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="GaelleJohn_2_15022021.css" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Reservia"> <!-- Reservia -->
         <title>Reservia</title>
     </head>
 
@@ -12,31 +14,35 @@
 
                 <!-- Main logo -->
                 <div id="logo">
-                    <img src="images/logo/Reservia@3x.png" alt="Logo Reservia"/>
+                    <img src="images/logo/Reservia.svg" alt="Logo Reservia"/>
                 </div> 
 
                 <!-- Search bar -->
                 <nav> 
-                    <div id="option">
+                    <div class="option">
                         <ul>
-                            <li><a href="#Hébergements">Hébergements</a></li>
-                            <li><a href="#Activités">Activités</a></li>
-                            <li><a href="#S'inscrire">S'inscrire</a></li>
+                            <li><a class="hébergements" href="#Hébergements">Hébergements</a></li>
+                            <li><a class="activités" href="#Activités">Activités</a></li>
+                            <li><a id="sinscrire" href="#S'inscrire">S'inscrire</a></li>
                         </ul>
                     </div>    
                 </nav>
             </header>
 
-            <nav>
+            <div class="subtitle">
+
                 <!-- Object -->
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <h3>En plein centre ville ou en pleine nature</h3>
+            </div>
+
+            <nav>
             
                 <!-- City search bar -->
-                <div id="search-bar"> 
-                    <img id="map-pin" src="images/map.svg" alt="map-pin" width="24" height="24">
-                    <input id="search" type="text" placeholder="Marseille,France" />
-                    <button id="btn-search" type="button">Rechercher</button>
+                <div class="search-bar"> 
+                    <img class="map-pin" src="images/map.svg" alt="map-pin">
+                    <input class="search" type="text" placeholder="Marseille,France" />
+                    <button class="btn-search" type="button">Rechercher</button>
                 </div>
                 
                     <h4>Filtres</h4>

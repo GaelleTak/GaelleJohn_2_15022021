@@ -16,6 +16,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding-top: 2em;
 }
 
 /* Principals elements of the page */
@@ -23,10 +24,9 @@ header
 body
 {
     font-family: 'Raleway-Regular', Arial, sans-serif;
-    color: black;
 }
 
-#bloc_page
+.bloc_page
 {
     width: 900px;
     margin: auto;
@@ -34,14 +34,14 @@ body
 
 /* Header - main logo */
 
-#logo
+.logo
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
 
-#logo img
+.logo img
 {
     width: 59px;
     height: 40px;
@@ -49,7 +49,13 @@ body
 
 /* Header - search bar */
 
-#option ul
+#sinscrire
+{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.option ul
 {
     list-style-type: none;
     display: flex;
@@ -57,12 +63,12 @@ body
     justify-content: flex-end;
 }
 
-#option li
+.option li
 {
     padding-right: 15px;
 }
 
-#option a
+.option a
 {
     font-size: 0.90em;
     color: black;
@@ -70,7 +76,7 @@ body
     text-decoration: none;
 }
 
-#option a:hover
+.option a:hover
 {
     color: #0065FC;
     border-top: 1px solid #0065FC;
@@ -78,7 +84,7 @@ body
 
 /* Object */
 
-nav h2
+.subtitle h2
 {
     font-family: 'Raleway-Bold', Arial, sans-serif;
     font-size: 1.25em;
@@ -92,16 +98,45 @@ h3
     font-weight: normal;
 }
 
-#search-bar
+/*City search bar*/
+
+.search-bar
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-#map-pin
+.map-pin
 { 
     background-color: #F2F2F2;
-    width: 20px;
-    height: 20px; 
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    top: 355px;
+    left: 575px;
+    height: 35px;
+    width: 50px;
+    border-color: #F2F2F2;
+}
+.search
+{
+    font-weight: bold;
+    color: black;
+    top: 355px;
+    left: 575px;
+    height: 30px;
+    width: 200px;
+    border-color: #F2F2F2;
+}
+.btn-search
+{
+    background-color: #0065FC ;
+    color: white;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    top: 355px;
+    left: 575px;
+    height: 35px;
+    width: 100px;
+    border-color: #0065FC;
 }
