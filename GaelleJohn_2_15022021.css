@@ -71,13 +71,13 @@ body
 
 #option a:hover
 {
-    color: #DEEBFF;
-    border-top: 1px solid #DEEBFF;
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
 }
 
 /* Object */
 
-h2
+nav h2
 {
     font-size: 1.25em;
     font-weight: bold;
