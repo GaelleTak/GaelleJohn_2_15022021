@@ -4,6 +4,7 @@
 {
     font-family: 'Rallway';
     src: url('raleway/Raleway-Regular.ttf') format('truetype');
+    src: url('raleway/Raleway-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -79,6 +80,7 @@ body
 
 nav h2
 {
+    font-family: 'Raleway-Bold', Arial, sans-serif;
     font-size: 1.25em;
     font-weight: bold;
     margin-bottom: -1%;
@@ -88,4 +90,18 @@ h3
 {
     font-size: 1em;
     font-weight: normal;
+}
+
+#search-bar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#map-pin
+{ 
+    background-color: #F2F2F2;
+    width: 20px;
+    height: 20px; 
 }
