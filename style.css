@@ -306,3 +306,272 @@ h5
     height: 24px;
     margin-bottom: -2.7em;
 }
+
+/*Accomodation*/
+
+.accomodation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 2em;
+}
+
+.accomodation h2
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.marcus
+{
+    flex: 1.2;
+    position:absolute;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.marcus-img
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: -0.35em;
+    margin-right: -0.25em;
+    margin-left: -0.25em;
+}
+
+.marcus-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0em;
+}
+
+.marcus-price
+{
+    margin-top: -0.7em;
+    font-size: 0.85em;
+}
+.marcus-star img
+{
+    margin-top: -0.75em;
+    height: 24px;
+    width: 24px;
+}
+
+
+.fred
+{
+    flex: 1.2;
+    position:relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.fred-img
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: -0.35em;
+    margin-right: -0.25em;
+    margin-left: -0.25em;
+}
+
+.fred-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0em;
+}
+
+.fred-price
+{
+    margin-top: -0.7em;
+    font-size: 0.85em;
+}
+.fred-star img
+{
+    margin-top: -0.75em;
+    height: 24px;
+    width: 24px;
+}
+
+
+.reisetopia
+{
+    flex: 1.2;
+    position:relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.reisetopia-img
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: -0.35em;
+    margin-right: -0.25em;
+    margin-left: -0.25em;
+}
+
+.reisetopia-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0em;
+}
+
+.reisetopia-price
+{
+    margin-top: -0.7em;
+    font-size: 0.85em;
+}
+.reisetopia-star img
+{
+    margin-top: -0.75em;
+    height: 24px;
+    width: 24px;
+}
+
+
+.annie
+{
+    flex: 1.2;
+    position:relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.annie-img
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: -0.35em;
+    margin-right: -0.25em;
+    margin-left: -0.25em;
+}
+
+.annie-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0em;
+}
+
+.annie-price
+{
+    margin-top: -0.7em;
+    font-size: 0.85em;
+}
+.annie-star img
+{
+    margin-top: -0.75em;
+    height: 24px;
+    width: 24px;
+}
+
+.nicate
+{
+    flex: 1.2;
+    position:relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.nicate-img
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: -0.35em;
+    margin-right: -0.25em;
+    margin-left: -0.25em;
+}
+
+.nicate-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0em;
+}
+
+.nicate-price
+{
+    margin-top: -0.7em;
+    font-size: 0.85em;
+}
+.nicate-star img
+{
+    margin-top: -0.75em;
+    height: 24px;
+    width: 24px;
+}
+
+.febrian
+{
+    flex: 1.2;
+    position:relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.febrian-img
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: -0.35em;
+    margin-right: -0.25em;
+    margin-left: -0.25em;
+}
+
+.febrian-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0em;
+}
+
+.febrian-price
+{
+    margin-top: -0.7em;
+    font-size: 0.85em;
+}
+.febrian-star img
+{
+    margin-top: -0.75em;
+    height: 24px;
+    width: 24px;
+}
+
