@@ -159,8 +159,7 @@ h4
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    
+    justify-content: flex-start;  
 }
 
 .familial .child 
@@ -202,6 +201,12 @@ h4
     border-radius: 1em;
 }
 
+.economic:hover 
+  {
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+  }
+
 .child
 {
     width: 40px;
@@ -223,6 +228,11 @@ h4
     border-radius: 1em;
 }
 
+.familial:hover 
+  {
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+  }
 .heart
 {
     width: 40px;
@@ -244,6 +254,11 @@ h4
     border-radius: 1em;
 }
 
+.romantic:hover 
+  {
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+  }
 .dog
 {
     width: 40px;
@@ -264,3 +279,8 @@ h4
     margin-left: -2.7%;
     border-radius: 1em;
 }
+.animals:hover 
+  {
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+  }
