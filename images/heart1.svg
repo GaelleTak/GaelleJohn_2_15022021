@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="money-bill-wave" class="svg-inline--fa fa-money-bill-wave fa-w-20" role="img" viewBox="249.412 189.677 77.533 71.053" xmlns="http://www.w3.org/2000/svg">
+  <circle style="paint-order: fill; fill: rgb(222, 235, 255); fill-rule: evenodd;" cx="286.646" cy="224.26" r="24.24" transform="matrix(1.362248, 0, 0, 1.340385, -102.692818, -75.331032)"/>
+  <text style="font-size: 36; font-family: Roboto; white-space: pre;" transform="matrix(0.026552, 0, 0, 0.639763, -261.973328, -5.629234)">.money
+{
+    width: 35px;
+    height: 35px;
+    margin-top: -0.25em;
+}</text>
+  <path d="M 298.479 212.846 C 295.589 210.032 291.292 210.538 288.639 213.666 L 287.6 214.889 L 286.561 213.666 C 283.914 210.538 279.611 210.032 276.721 212.846 C 273.41 216.076 273.236 221.874 276.199 225.375 L 286.403 237.417 C 287.062 238.194 288.133 238.194 288.792 237.417 L 298.996 225.375 C 301.965 221.874 301.791 216.076 298.479 212.846 Z" style="fill: rgb(0, 101, 252);"/>
+</svg>
