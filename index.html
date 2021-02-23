@@ -9,11 +9,11 @@
     </head>
 
     <body>
-        <div id="bloc_page">
+        <div class="bloc_page">
             <header>
 
                 <!-- Main logo -->
-                <div id="logo">
+                <div class="logo">
                     <img src="images/logo/Reservia.svg" alt="Logo Reservia"/>
                 </div> 
 
@@ -21,8 +21,8 @@
                 <nav> 
                     <div class="option">
                         <ul>
-                            <li><a class="hébergements" href="#Hébergements">Hébergements</a></li>
-                            <li><a class="activités" href="#Activités">Activités</a></li>
+                            <li><a id="hébergements" href="#Hébergements">Hébergements</a></li>
+                            <li><a id="activités" href="#Activités">Activités</a></li>
                             <li><a id="sinscrire" href="#S'inscrire">S'inscrire</a></li>
                         </ul>
                     </div>    
@@ -45,17 +45,21 @@
                     <button class="btn-search" type="button">Rechercher</button>
                 </div>
                 
+                <!-- Filter buttons -->
+                <div class="filters">
+                    
                     <h4>Filtres</h4>
 
-                    <!-- Filter buttons -->
-                    <img class="money-pin" src="images/money.svg" alt="money-pin" width="24" height="24">
-                    <button class="btn" onclick="filterSelection('economic')"> Economique</button>
-                    <img class="child-pin" src="images/child.svg" alt="child-pin" width="24" height="24">
-                    <button class="btn" onclick="filterSelection('familial')"> Familial</button>
-                    <img class="heart-pin" src="images/heart.svg" alt="heart-pin" width="24" height="24">
-                    <button class="btn" onclick="filterSelection('romantic')"> Romantique</button>
-                    <img class="dog-pin" src="images/dog.svg" alt="romantic" width="24" height="24">
-                    <button class="btn" onclick="filterSelection('animals')"> Animaux autorisés</button>
+                    <img class="money" src="images/money1.svg" alt="money-pin">
+                    <button class="economic" onclick="filterSelection('economic')"> Économique</button>
+                    <img class="child" src="images/child.svg" alt="child-pin" width="24" height="24">
+                    <button class="familial" onclick="filterSelection('familial')"> Familial</button>
+                    <img class="heart" src="images/heart.svg" alt="heart-pin" width="24" height="24">
+                    <button class="romantic" onclick="filterSelection('romantic')"> Romantique</button>
+                    <img class="dog" src="images/dog.svg" alt="dog-pin" width="24" height="24">
+                    <button class="animals" onclick="filterSelection('animals')"> Animaux autorisés</button>
+                
+                </div>
 
                     <!-- Information -->
                     <div><img class="info-pin" src="images/info.svg" alt="info-pin" width="24" height="24">  

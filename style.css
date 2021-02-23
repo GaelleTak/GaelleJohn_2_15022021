@@ -140,3 +140,119 @@ h3
     width: 100px;
     border-color: #0065FC;
 }
+
+/*Filter*/
+
+.filters
+{
+    display: flex;
+    align-items: flex-start ;
+    padding-top: 2em;
+}
+
+h4
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-size: 1.25;
+    font-weight: bold;
+    margin-top: 0.8%;
+    margin-right: 2em;
+}
+
+.economic .money 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.familial .child 
+{
+    display: flex; 
+    align-items:unset; 
+}
+
+.romantic .heart 
+{
+    display: flex; 
+    align-items:unset; 
+}
+
+.animals .dog
+{
+    display: flex; 
+    align-items:unset; 
+}
+
+.money
+{
+    width: 40px;
+    height: 30px;
+    margin-top: 0%;
+    position: relative;
+}
+
+.economic
+{
+    margin-right: 1em;
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-style: solid;
+    border-color: #F2F2F2;
+    padding: 5px 15px 5px 30px;
+    margin-left: -2.7%;
+    border-radius: 1em;
+}
+
+
+
+.familial
+{
+    margin-right: 1em;
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.romantic
+{
+    margin-right: 1em;
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.animals
+{
+    margin-right: 1em;
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.child
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 24px;
+    height: 24px;
+}
+
+.heart
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 24px;
+    height: 24px;
+}
+
+.dog
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 1em;
+}
