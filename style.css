@@ -28,7 +28,7 @@ body
 
 .bloc_page
 {
-    width: 900px;
+    width: 950px;
     margin: auto;
 }
 
@@ -309,10 +309,25 @@ h5
 
 /*Accomodation*/
 
+.section1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:inherit;
+}
+
 .accomodation
 {
     background-color: #F2F2F2;
     border-radius: 2em;
+}
+
+aside
+{ 
+    background-color: #F2F2F2;
+    border-radius: 2em;
+    width: 295px;
+    height: 500px; 
 }
 
 .accomodation h2
@@ -596,13 +611,213 @@ h5
 
 .afficher
 {
-    background-color: #F2F2F2 ;
     border-radius: 2em;
     font-family: 'Raleway-Bold', Arial, sans-serif;
     font-weight: bold;
     font-size: 0.8em;
     margin-left: 1.5em;
-    margin-bottom: 5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.table2
+{
+    border-collapse: collapse;
+    border: none;
+    background-color: white;
+    border-radius: 7px;
+    margin: 1.5em;
+    width: 250px;
+}
+
+.emile
+{
+    box-shadow: 0px 2px 5px #1c1a19;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 250px;
+    height: 100px;
+    margin-left: 1.5em;
+}
+
+.emile-img
+{
+    width: 100px;
+    height: 90px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 0.25em;
+    margin-top: 0.25em ;
+}
+
+.emile-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.80em;
+    margin-left: 10em;
+    margin-top: -7em;
+}
+.emile-title2
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.80em;
+    margin-left: 10em;
+    margin-top: -1em;
+}
+
+.emile-price
+{
+    margin-top: -0.5em;
+    margin-left: 11.5em;
+    font-size: 0.70em;
+}
+
+.emile-star
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.emile-star img
+{
+    height: 10px;
+    width: 10px;
+    margin-bottom: -1em;
+}
+
+.emile-star1
+{
+    margin-left: 8em;
+}
+
+.aw
+{
+    box-shadow: 0px 2px 5px #1c1a19;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 250px;
+    height: 100px;
+    margin-left: 1.5em;
+}
+
+.aw-img
+{
+    width: 100px;
+    height: 90px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 0.25em;
+    margin-top: 0.25em ;
+}
+
+.aw-title
+{ 
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.80em;
+    margin-left: 10em;
+    margin-top: -7em;
+}
+
+.aw-title2
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.80em;
+    margin-left: 10em;
+    margin-top: -1em;
+}
+
+.aw-price
+{
+    margin-top: -0.5em;
+    margin-left: 11.5em;
+    font-size: 0.70em;
+}
+
+.aw-star
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.aw-star img
+{
+    height: 10px;
+    width: 10px;
+    margin-bottom: -1em;
+}
+
+.aw-star1
+{
+    margin-left: 8em;
+}
+
+.zakaria
+{
+    box-shadow: 0px 2px 5px #1c1a19;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 250px;
+    height: 100px;
+    margin-left: 1.5em;
+}
+
+.zakaria-img
+{
+    width: 100px;
+    height: 90px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 0.25em;
+    margin-top: 0.25em ;
+}
+
+.zakaria-title
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.80em;
+    margin-left: 10em;
+    margin-top: -7em;
+}
+
+.zakaria-title2
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.80em;
+    margin-left: 10em;
+    margin-top: -1em;
+}
+
+.zakaria-price
+{
+    margin-top: -0.5em;
+    margin-left: 11.5em;
+    font-size: 0.70em;
+}
+
+.zakaria-star
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.zakaria-star img
+{
+    height: 10px;
+    width: 10px;
+    margin-bottom: -1em;
+}
+
+.zakaria-star1
+{
+    margin-left: 8em;
 }
