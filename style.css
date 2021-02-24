@@ -320,6 +320,8 @@ h5
 {
     background-color: #F2F2F2;
     border-radius: 2em;
+    width: 625px;
+    height: 500px;
 }
 
 aside
@@ -640,6 +642,7 @@ aside
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
+    margin-top: 5%;
 }
 
 .emile-img
@@ -703,6 +706,7 @@ aside
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
+    margin-top: 2em;
 }
 
 .aw-img
@@ -767,6 +771,7 @@ aside
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
+    margin-top: 2em;
 }
 
 .zakaria-img
@@ -820,4 +825,28 @@ aside
 .zakaria-star1
 {
     margin-left: 8em;
+}
+
+.most-popular
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.most-popular h2
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+.most-popular img
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 3em;
+    padding-top: 2.5em;
 }
