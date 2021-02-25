@@ -163,29 +163,10 @@ h4
     justify-content: flex-start;  
 }
 
-.familial .child 
-{
-    display: flex; 
-    align-items:unset; 
-}
-
-.romantic .heart 
-{
-    display: flex; 
-    align-items:unset; 
-}
-
-.animals .dog
-{
-    display: flex; 
-    align-items:unset; 
-}
-
 .money
 {
     width: 40px;
     height: 30px;
-    margin-top: 0%;
     position: relative;
 }
 
@@ -203,10 +184,16 @@ h4
 }
 
 .economic:hover 
-  {
+{
     color: #0065FC;
     border-top: 1px solid #0065FC;
-  }
+}
+
+.familial .child 
+{
+    display: flex; 
+    align-items:unset; 
+}
 
 .child
 {
@@ -230,10 +217,17 @@ h4
 }
 
 .familial:hover 
-  {
+{
     color: #0065FC;
     border-top: 1px solid #0065FC;
-  }
+}
+
+.romantic .heart 
+{
+    display: flex; 
+    align-items:unset; 
+}
+
 .heart
 {
     width: 40px;
@@ -256,10 +250,17 @@ h4
 }
 
 .romantic:hover 
-  {
+{
     color: #0065FC;
     border-top: 1px solid #0065FC;
-  }
+}
+
+.animals .dog
+{
+    display: flex; 
+    align-items:unset; 
+}
+
 .dog
 {
     width: 40px;
@@ -281,10 +282,10 @@ h4
     border-radius: 1em;
 }
 .animals:hover 
-  {
+{
     color: #0065FC;
     border-top: 1px solid #0065FC;
-  }
+}
 
 /*Information*/
 
@@ -350,7 +351,7 @@ aside
     padding: 10px;
     font-size: 0.9em;
     width: 150px;
-    height: 130px;
+    height: 140px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -376,7 +377,7 @@ aside
 
 .marcus-price
 {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -384,7 +385,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-top: -1em; 
+    margin-top: 0.75em; 
 }
 
 
@@ -396,7 +397,7 @@ aside
     padding: 10px;
     font-size: 0.9em;
     width: 150px;
-    height: 130px;
+    height: 140px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -422,7 +423,7 @@ aside
 
 .fred-price
 {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -430,7 +431,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-top: -1em; 
+    margin-top: 0.75em;
 }
 
 
@@ -442,7 +443,7 @@ aside
     padding: 10px;
     font-size: 0.9em;
     width: 150px;
-    height: 130px;
+    height: 140px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -468,7 +469,7 @@ aside
 
 .reisetopia-price
 {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -476,7 +477,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-top: -1em; 
+    margin-top: 0.75em; 
 }
 
 .annie
@@ -487,7 +488,7 @@ aside
     padding: 10px;
     font-size: 0.9em;
     width: 150px;
-    height: 130px;
+    height: 140px;
     margin-left: 1.5em;
 }
 
@@ -512,7 +513,7 @@ aside
 
 .annie-price
 {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -520,7 +521,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-top: -1em; 
+    margin-top: 0.75em; 
 }
 
 .nicate
@@ -531,7 +532,7 @@ aside
     padding: 10px;
     font-size: 0.9em;
     width: 150px;
-    height: 130px;
+    height: 140px;
     margin-left: 1.5em;
 }
 
@@ -556,7 +557,7 @@ aside
 
 .nicate-price
 {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -564,7 +565,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-top: -1em; 
+    margin-top: 0.75em;
 }
 
 .febrian
@@ -575,7 +576,7 @@ aside
     padding: 10px;
     font-size: 0.9em;
     width: 150px;
-    height: 130px;
+    height: 140px;
     margin-left: 1.5em;
 }
 
@@ -600,7 +601,7 @@ aside
 
 .febrian-price
 {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -608,7 +609,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-top: -1em; 
+    margin-top: 0.75em;
 }
 
 .afficher
@@ -689,7 +690,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-bottom: -1em;
+    margin-bottom: -0.5em;
 }
 
 .emile-star1
@@ -754,7 +755,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-bottom: -1em;
+    margin-bottom: -0.5em;
 }
 
 .aw-star1
@@ -819,7 +820,7 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-bottom: -1em;
+    margin-bottom: -0.5em;
 }
 
 .zakaria-star1
@@ -1021,4 +1022,42 @@ aside
     height: 115px;
     margin-left: 2.10em;
     margin-top: 3em;
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 2em;
+}
+footer p, footer h4
+{
+    font-size: 0.70em;
+}
+
+footer h4
+{
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.a-propos
+{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.nos-hébergements
+{
+    margin-top: 1em;
+    margin-left: -3em;
+}
+
+.assistance
+{
+    margin-top: 1em;
+    margin-right: 14em;
 }
