@@ -388,6 +388,11 @@ aside
     margin-top: 0.75em; 
 }
 
+.marcus-link
+{
+    color: black;
+    text-decoration: none;
+}
 
 .fred
 {
@@ -434,6 +439,11 @@ aside
     margin-top: 0.75em;
 }
 
+.fred-link
+{
+    color: black;
+    text-decoration: none;
+}
 
 .reisetopia
 {
@@ -480,6 +490,11 @@ aside
     margin-top: 0.75em; 
 }
 
+.reisetopia-link
+{
+    color: black;
+    text-decoration: none;
+}
 .annie
 {
     background-color: white;
@@ -522,6 +537,12 @@ aside
     height: 10px;
     width: 10px;
     margin-top: 0.75em; 
+}
+
+.annie-link
+{
+    color: black;
+    text-decoration: none;
 }
 
 .nicate
@@ -568,6 +589,12 @@ aside
     margin-top: 0.75em;
 }
 
+.nicate-link
+{
+    color: black;
+    text-decoration: none;
+}
+
 .febrian
 {
     background-color: white;
@@ -610,6 +637,12 @@ aside
     height: 10px;
     width: 10px;
     margin-top: 0.75em;
+}
+
+.febrian-link
+{
+    color: black;
+    text-decoration: none;
 }
 
 .afficher
@@ -698,6 +731,12 @@ aside
     margin-left: 8em;
 }
 
+.emile-link
+{
+    color: black;
+    text-decoration: none;
+}
+
 .aw
 {
     box-shadow: 0px 2px 5px #1c1a19;
@@ -761,6 +800,12 @@ aside
 .aw-star1
 {
     margin-left: 8em;
+}
+
+.aw-link
+{
+    color: black;
+    text-decoration: none;
 }
 
 .zakaria
@@ -828,6 +873,12 @@ aside
     margin-left: 8em;
 }
 
+.zakaria-link
+{
+    color: black;
+    text-decoration: none;
+}
+
 .most-popular
 {
     display: flex;
@@ -891,6 +942,12 @@ aside
     margin-top: 0.5em;
 }
 
+.port-link
+{
+    color: black;
+    text-decoration: none;
+}
+
 .pomegues-img
 {
     width: 200px;
@@ -915,6 +972,12 @@ aside
     border-radius: 10px;
     height: 145px;
     margin-left: 2.10em;
+}
+
+.pomegues-link
+{
+    color: black;
+    text-decoration: none;
 }
 
 .frioul-img
@@ -944,6 +1007,12 @@ aside
     margin-top: 1.1em;
 }
 
+.frioul-link
+{
+    color: black;
+    text-decoration: none;
+}
+
 .national
 {
     background-color: white;
@@ -968,6 +1037,12 @@ aside
     font-size: 0.70em;
     margin-left: 1em;
     margin-top: 0.5em;
+}
+
+.national-link
+{
+    color: black;
+    text-decoration: none;
 }
 
 .garde-img
@@ -997,6 +1072,12 @@ aside
     margin-top: -0.3em;
 }
 
+.garde-link
+{
+    color: black;
+    text-decoration: none;
+}
+
 .parc-img
 {
     width: 200px;
@@ -1022,6 +1103,12 @@ aside
     height: 115px;
     margin-left: 2.10em;
     margin-top: 3em;
+}
+
+.parc-link
+{
+    color: black;
+    text-decoration: none;
 }
 
 /* Footer */
