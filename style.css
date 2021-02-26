@@ -43,8 +43,8 @@ body
 
 .logo img
 {
-    width: 59px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
 }
 
 /* Header - search bar */
@@ -79,7 +79,7 @@ body
 .option a:hover
 {
     color: #0065FC;
-    border-top: 1px solid #0065FC;
+    text-decoration-line: overline;
 }
 
 /* Object */
