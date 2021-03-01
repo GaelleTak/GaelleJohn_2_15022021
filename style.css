@@ -32,7 +32,7 @@ body
     margin-right: 9em;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
     .bloc_page
     {
@@ -90,7 +90,7 @@ body
     text-decoration-line: overline;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
     .option a:hover
     {
@@ -119,7 +119,7 @@ body
     margin-bottom: -1%;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
     .subtitle h2
     {
@@ -133,7 +133,7 @@ h3
     font-weight: normal;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
     h3
     {
@@ -189,7 +189,7 @@ h3
         display: none;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
     .search-bar
     {
@@ -394,7 +394,7 @@ h4
     border-top: 1px solid #0065FC;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
 
     .filters
@@ -457,7 +457,7 @@ h5
     margin-left: 2.5em;
 }
 
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
     h5
     {
@@ -485,7 +485,7 @@ h5
 {
     background-color: #F2F2F2;
     border-radius: 2em;
-    width: 625px;
+    width: 660px;
     height: 500px;
 }
 
@@ -512,9 +512,9 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     font-size: 0.9em;
-    width: 150px;
+    width: 170px;
     height: 140px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
@@ -522,13 +522,13 @@ aside
 
 .marcus-img
 {
-    width: 155px;
+    width: 175px;
     height: 100px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-top: -0.35em;
     margin-right: -0.25em;
-    margin-left: -0.25em;
+    margin-left: -0.15em;
 }
 
 .marcus-title
@@ -563,9 +563,9 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     font-size: 0.9em;
-    width: 150px;
+    width: 170px;
     height: 140px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
@@ -573,13 +573,13 @@ aside
 
 .fred-img
 {
-    width: 155px;
+    width: 175px;
     height: 100px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-top: -0.35em;
     margin-right: -0.25em;
-    margin-left: -0.25em;
+    margin-left: -0.15em;
 }
 
 .fred-title
@@ -614,9 +614,9 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     font-size: 0.9em;
-    width: 150px;
+    width: 170px;
     height: 140px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
@@ -624,13 +624,13 @@ aside
 
 .reisetopia-img
 {
-    width: 155px;
+    width: 175px;
     height: 100px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-top: -0.35em;
     margin-right: -0.25em;
-    margin-left: -0.25em;
+    margin-left: -0.15em;
 }
 
 .reisetopia-title
@@ -664,22 +664,23 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     font-size: 0.9em;
-    width: 150px;
+    width: 170px;
     height: 140px;
+    margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
 
 .annie-img
 {
-    width: 155px;
+    width: 175px;
     height: 100px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-top: -0.35em;
     margin-right: -0.25em;
-    margin-left: -0.25em;
+    margin-left: -0.15em;
 }
 
 .annie-title
@@ -714,22 +715,23 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     font-size: 0.9em;
-    width: 150px;
+    width: 170px;
     height: 140px;
+    margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
 
 .nicate-img
 {
-    width: 155px;
+    width: 175px;
     height: 100px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-top: -0.35em;
     margin-right: -0.25em;
-    margin-left: -0.25em;
+    margin-left: -0.15em;
 }
 
 .nicate-title
@@ -764,22 +766,23 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     font-size: 0.9em;
-    width: 150px;
+    width: 170px;
     height: 140px;
+    margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
 
 .febrian-img
 {
-    width: 155px;
+    width: 175px;
     height: 100px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-top: -0.35em;
     margin-right: -0.25em;
-    margin-left: -0.25em;
+    margin-left: -0.15em;
 }
 
 .febrian-title
@@ -821,16 +824,6 @@ aside
     padding-bottom: 1em;
 }
 
-.table2
-{
-    border-collapse: collapse;
-    border: none;
-    background-color: white;
-    border-radius: 7px;
-    margin: 1.5em;
-    width: 250px;
-}
-
 .emile
 {
     box-shadow: 0px 2px 5px #1c1a19;
@@ -840,7 +833,7 @@ aside
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
-    margin-top: 5%;
+    margin-top: 1.5%;
 }
 
 .emile-img
@@ -850,7 +843,7 @@ aside
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     margin-left: 0.25em;
-    margin-top: 0.25em ;
+    margin-top: 0.35em ;
 }
 
 .emile-title
@@ -920,7 +913,7 @@ aside
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     margin-left: 0.25em;
-    margin-top: 0.25em ;
+    margin-top: 0.35em ;
 }
 
 .aw-title
@@ -991,7 +984,7 @@ aside
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     margin-left: 0.25em;
-    margin-top: 0.25em ;
+    margin-top: 0.35em ;
 }
 
 .zakaria-title
@@ -1147,7 +1140,7 @@ aside
 .frioul-img
 {
     width: 200px;
-    height: 80px;
+    height: 90px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1158,7 +1151,7 @@ aside
     font-weight: bold;
     font-size: 0.70em;
     margin-left: 1em;
-    margin-top: 0.25em;
+    margin-top: 0.35em;
 }
 
 .frioul
@@ -1166,9 +1159,9 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2; 
     border-radius: 10px;
-    height: 110px;
-    margin-left: 2em;
-    margin-top: 1.1em;
+    height: 120px;
+    margin-left: 2.10em;
+    margin-top: 0.95em;
 }
 
 .frioul-link
@@ -1182,14 +1175,14 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
-    height: 280px;
+    height: 285px;
     margin-left: 2.10em;
 }
 
 .national-img
 {
     width: 200px;
-    height: 250px;
+    height: 255px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1212,7 +1205,7 @@ aside
 .garde-img
 {
     width: 200px;
-    height: 80px;
+    height: 100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1223,7 +1216,7 @@ aside
     font-weight: bold;
     font-size: 0.70em;
     margin-left: 1em;
-    margin-top: 0.5em;
+    margin-top: 0.6em;
 }
 
 .garde
@@ -1231,9 +1224,9 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
-    height: 115px;
+    height: 130px;
     margin-left: 2.10em;
-    margin-top: -0.3em;
+    margin-bottom: -0.3em;
 }
 
 .garde-link
@@ -1245,7 +1238,7 @@ aside
 .parc-img
 {
     width: 200px;
-    height: 80px;
+    height: 100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1264,9 +1257,9 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
-    height: 115px;
+    height: 130px;
     margin-left: 2.10em;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .parc-link
