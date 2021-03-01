@@ -481,12 +481,31 @@ h5
     align-items:inherit;
 }
 
+@media all and  (max-width: 375px)
+{
+    .section1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
 .accomodation
 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 2em;
     width: 660px;
     height: 500px;
+}
+.accomodation1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 aside
@@ -495,6 +514,27 @@ aside
     border-radius: 2em;
     width: 295px;
     height: 500px; 
+}
+
+@media all and  (max-width: 375px)
+{
+    aside
+    { 
+        background-color: #F2F2F2;
+        border-radius: 0em;
+        width: 350px;
+        height: 480px; 
+        margin-left: -0.5em;
+        padding-right: 1.5em;
+    }
+
+    .accomodation
+    {
+        background-color:transparent;
+        width: 295px;
+        height: 500px;
+        margin-left: -0.5em;
+    }
 }
 
 .accomodation h2
@@ -510,12 +550,13 @@ aside
 .marcus
 {
     background-color: white;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     padding: 8px;
     font-size: 0.9em;
     width: 170px;
-    height: 140px;
+    height: 145px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -524,10 +565,10 @@ aside
 {
     width: 175px;
     height: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -0.35em;
-    margin-right: -0.25em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: -0.25em;
+    margin-right: -0.15em;
     margin-left: -0.15em;
 }
 
@@ -561,12 +602,13 @@ aside
 .fred
 {
     background-color: white;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     padding: 8px;
     font-size: 0.9em;
     width: 170px;
-    height: 140px;
+    height: 145px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -575,10 +617,10 @@ aside
 {
     width: 175px;
     height: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -0.35em;
-    margin-right: -0.25em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: -0.25em;
+    margin-right: -0.15em;
     margin-left: -0.15em;
 }
 
@@ -612,12 +654,13 @@ aside
 .reisetopia
 {
     background-color: white;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     padding: 8px;
     font-size: 0.9em;
     width: 170px;
-    height: 140px;
+    height: 145px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -626,10 +669,10 @@ aside
 {
     width: 175px;
     height: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -0.35em;
-    margin-right: -0.25em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: -0.25em;
+    margin-right: -0.15em;
     margin-left: -0.15em;
 }
 
@@ -662,12 +705,13 @@ aside
 .annie
 {
     background-color: white;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     padding: 8px;
     font-size: 0.9em;
     width: 170px;
-    height: 140px;
+    height: 145px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -676,10 +720,10 @@ aside
 {
     width: 175px;
     height: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -0.35em;
-    margin-right: -0.25em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: -0.25em;
+    margin-right: -0.15em;
     margin-left: -0.15em;
 }
 
@@ -713,12 +757,13 @@ aside
 .nicate
 {
     background-color: white;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     padding: 8px;
     font-size: 0.9em;
     width: 170px;
-    height: 140px;
+    height: 145px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -727,10 +772,10 @@ aside
 {
     width: 175px;
     height: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -0.35em;
-    margin-right: -0.25em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: -0.25em;
+    margin-right: -0.15em;
     margin-left: -0.15em;
 }
 
@@ -764,12 +809,13 @@ aside
 .febrian
 {
     background-color: white;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     padding: 8px;
     font-size: 0.9em;
     width: 170px;
-    height: 140px;
+    height: 145px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
@@ -778,10 +824,10 @@ aside
 {
     width: 175px;
     height: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -0.35em;
-    margin-right: -0.25em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: -0.25em;
+    margin-right: -0.15em;
     margin-left: -0.15em;
 }
 
@@ -826,24 +872,24 @@ aside
 
 .emile
 {
-    box-shadow: 0px 2px 5px #1c1a19;
     background-color: white;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     font-size: 0.9em;
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
-    margin-top: 1.5%;
 }
 
 .emile-img
 {
     width: 100px;
     height: 90px;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    margin-left: 0.25em;
-    margin-top: 0.35em ;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    margin-top: 0.35em;
+    margin-left: 0.4em;
 }
 
 .emile-title
@@ -896,24 +942,25 @@ aside
 
 .aw
 {
-    box-shadow: 0px 2px 5px #1c1a19;
     background-color: white;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     font-size: 0.9em;
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .aw-img
 {
     width: 100px;
     height: 90px;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    margin-left: 0.25em;
-    margin-top: 0.35em ;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    margin-top: 0.35em;
+    margin-left: 0.4em;
 }
 
 .aw-title
@@ -967,24 +1014,25 @@ aside
 
 .zakaria
 {
-    box-shadow: 0px 2px 5px #1c1a19;
     background-color: white;
-    border-radius: 10px;
+    box-shadow: 0px 2px 5px #F2F2F2;
+    border-color: #F2F2F2;
+    border-radius: 12px;
     font-size: 0.9em;
     width: 250px;
     height: 100px;
     margin-left: 1.5em;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .zakaria-img
 {
     width: 100px;
     height: 90px;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    margin-left: 0.25em;
-    margin-top: 0.35em ;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    margin-top: 0.35em;
+    margin-left: 0.4em;
 }
 
 .zakaria-title
@@ -1059,6 +1107,224 @@ aside
     margin-left: 3em;
     padding-top: 2.5em;
 }
+
+
+@media all and  (max-width: 375px)
+{
+    .most-popular 
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: -1em;
+        margin-left: -1em;
+    }
+    
+    .most-popular img
+    {
+        margin-right: -1.5em;
+        margin-left: 7em;
+    }
+
+    .emile
+    {
+        border-color: #F2F2F2;
+        box-shadow: none;
+        border-style: solid;
+        border-width: thin;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 0.9em;
+        width: 320px;
+        height: 120px;
+        margin-left: 1.5em;
+        margin-top: 1.5%;
+    }
+
+    .emile-img
+    {
+        width: 130px;
+        height: 110px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 0.5%;
+    }
+
+    .emile-title
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.90em;
+        margin-left: 12em;
+        margin-top: -8em;
+    }
+
+    .emile-title2
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.90em;
+        margin-left: 12em;
+    }
+
+    .emile-price
+    {
+        margin-top: -0.5em;
+        margin-left: 13.5em;
+        font-size: 0.80em;
+    }
+
+    .emile-star
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .emile-star img
+    {
+        height: 12px;
+        width: 12px;
+        margin-bottom: -1.5em;
+    }
+
+    .emile-star1
+    {
+        margin-left: 10.5em;
+    }
+
+    .aw
+    {
+        border-color: #F2F2F2;
+        box-shadow: none;
+        border-style: solid;
+        border-width: thin;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 0.9em;
+        width: 320px;
+        height: 120px;
+        margin-left: 1.5em;
+        margin-top: 1.5%;
+    }
+
+    .aw-img
+    {
+        width: 130px;
+        height: 110px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 0.5%;
+    }
+
+    .aw-title
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.90em;
+        margin-left: 12em;
+        margin-top: -8em;
+    }
+
+    .aw-title2
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.90em;
+        margin-left: 12em;
+    }
+
+    .aw-price
+    {
+        margin-top: -0.5em;
+        margin-left: 13.5em;
+        font-size: 0.80em;
+    }
+
+    .aw-star
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .aw-star img
+    {
+        height: 12px;
+        width: 12px;
+        margin-bottom: -1.5em;
+    }
+
+    .aw-star1
+    {
+        margin-left: 10.5em;
+    }
+
+
+    .zakaria
+    {
+        border-color: #F2F2F2;
+        box-shadow: none;
+        border-style: solid;
+        border-width: thin;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 0.9em;
+        width: 320px;
+        height: 120px;
+        margin-left: 1.5em;
+        margin-top: 1.5%;
+    }
+
+    .zakaria-img
+    {
+        width: 130px;
+        height: 110px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 0.5%;
+    }
+
+    .zakaria-title
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.90em;
+        margin-left: 12em;
+        margin-top: -8em;
+    }
+
+    .zakaria-title2
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.90em;
+        margin-left: 12em;
+    }
+
+    .zakaria-price
+    {
+        margin-top: -0.5em;
+        margin-left: 13.5em;
+        font-size: 0.80em;
+    }
+
+    .zakaria-star
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .zakaria-star img
+    {
+        height: 12px;
+        width: 12px;
+        margin-bottom: -1.5em;
+    }
+
+    .zakaria-star1
+    {
+        margin-left: 10.5em;
+    }
+}
+
 
 /* Activities search*/
 
