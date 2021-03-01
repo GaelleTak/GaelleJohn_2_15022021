@@ -28,8 +28,16 @@ body
 
 .bloc_page
 {
-    width: 950px;
-    margin: auto;
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+@media all and (max-width: 980px)
+{
+    .bloc_page
+    {
+        margin: auto;
+    }
 }
 
 /* Header - main logo */
@@ -82,6 +90,25 @@ body
     text-decoration-line: overline;
 }
 
+@media all and (max-width: 980px)
+{
+    .option a:hover
+    {
+        color: #0065FC;
+        text-decoration-line: underline;
+    }
+        
+    #activités
+    {
+
+    }
+
+    #hébergements
+    {
+    
+    }
+}
+
 /* Object */
 
 .subtitle h2
@@ -92,10 +119,27 @@ body
     margin-bottom: -1%;
 }
 
+@media all and (max-width: 980px)
+{
+    .subtitle h2
+    {
+        text-align: left;
+    }
+}
+
 h3
 {
     font-size: 1em;
     font-weight: normal;
+}
+
+@media all and (max-width: 980px)
+{
+    h3
+    {
+        font-size: 0.9em;
+        font-weight: normal;
+    }
 }
 
 /*City search bar*/
@@ -110,31 +154,93 @@ h3
 .map-pin
 { 
     border-color: #F2F2F2;
-    height: 39px;
+    height: 34px;
     width: 40px;
-    margin-top: -0.20%;
 }
 .search
 {
     font-weight: bold;
-    color: black;
-    top: 355px;
-    left: 575px;
     height: 30px;
     width: 200px;
     border-color: #F2F2F2;
+    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: thin;
+    margin-left: -0.3em;
 }
 .btn-search
 {
     background-color: #0065FC ;
     color: white;
-    border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
     top: 355px;
     left: 575px;
-    height: 35px;
+    height: 34px;
     width: 100px;
     border-color: #0065FC;
+    border: none;
+}
+
+.search-bar-mobile
+{
+        display: none;
+}
+
+@media all and (max-width: 980px)
+{
+    .search-bar
+    {
+        display: none;
+    }
+    
+    .search-bar-mobile
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .map-pin-mobile
+    { 
+        border-color: #F2F2F2;
+        height: 34px;
+        width: 40px;  
+        position: relative;  
+    
+    }
+    .search-mobile
+    {
+        height: 30px;
+        width: 200px;
+        border-color:#F2F2F2;
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        color: black;
+        border-style: solid;
+        border-width: thin;
+        margin-left: -0.3em;
+    }
+    .btn-search-mobile
+    {
+        background-color: #0065FC ;
+        color: white;
+        border-radius: 0.8em;
+        height: 34px;
+        width: 40px;
+        border-color: #0065FC;
+        border: none;
+        margin-left: -1em;
+    }  
+    .search-pin-mobile
+    {
+        color: #F2F2F2;
+        height: 20px;
+        width: 20px;
+        margin-top: 0.2em;
+    }
 }
 
 /*Filter*/
@@ -152,7 +258,7 @@ h4
     font-family: 'Raleway-Bold', Arial, sans-serif;
     font-size: 0.85em;
     font-weight: bold;
-    margin-top: 0.8%;
+    margin-top: 1em;
     margin-right: 2em;
 }
 
@@ -165,8 +271,8 @@ h4
 
 .money
 {
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     position: relative;
 }
 
@@ -178,9 +284,10 @@ h4
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
-    padding: 5px 15px 5px 30px;
-    margin-left: -2.7%;
-    border-radius: 1em;
+    padding: 10px 25px 10px 40px;
+    margin-left: -3em;
+    border-radius: 3em;
+
 }
 
 .economic:hover 
@@ -197,8 +304,8 @@ h4
 
 .child
 {
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     margin-top: 0%;
     position: relative;
 }
@@ -211,9 +318,9 @@ h4
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
-    padding: 5px 15px 5px 30px;
-    margin-left: -2.7%;
-    border-radius: 1em;
+    padding: 10px 25px 10px 40px;
+    margin-left: -3em;
+    border-radius: 3em;
 }
 
 .familial:hover 
@@ -230,8 +337,8 @@ h4
 
 .heart
 {
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     margin-top: 0%;
     position: relative;
 }
@@ -244,9 +351,9 @@ h4
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
-    padding: 5px 15px 5px 30px;
-    margin-left: -2.7%;
-    border-radius: 1em;
+    padding: 10px 25px 10px 40px;
+    margin-left: -3em;
+    border-radius: 3em;
 }
 
 .romantic:hover 
@@ -263,8 +370,8 @@ h4
 
 .dog
 {
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     margin-top: 0%;
     position: relative;
 }
@@ -277,9 +384,9 @@ h4
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
-    padding: 5px 15px 5px 30px;
-    margin-left: -2.7%;
-    border-radius: 1em;
+    padding: 10px 25px 10px 40px;
+    margin-left: -3em;
+    border-radius: 3em;
 }
 .animals:hover 
 {
@@ -287,6 +394,55 @@ h4
     border-top: 1px solid #0065FC;
 }
 
+@media all and (max-width: 980px)
+{
+
+    .filters
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .economic
+    {
+        margin-left: 0.9em;
+        margin-top: -3em;
+    }
+
+    .child
+    {
+        margin-left: 10.5em;
+        margin-top: -2.5em;
+    }
+
+    .familial
+    {
+        margin-left: 13.5em;
+        margin-top: -2.95em;
+    }
+
+    .heart
+    {
+        margin-top: 0.7em;
+    }
+
+    .romantic
+    {
+        margin-left: 0.9em;
+        margin-top: -2.95em;
+    }
+
+    .dog
+    {
+        margin-top: 0.7em;
+    }
+
+    .animals
+    {
+        margin-left: 0.9em;
+        margin-top: -2.95em;
+    }
+}
 /*Information*/
 
 .information
@@ -299,6 +455,14 @@ h5
 {
     font-size: 0.75em;
     margin-left: 2.5em;
+}
+
+@media all and (max-width: 980px)
+{
+    h5
+    {
+        text-align: left;
+    }
 }
 
 .info-pin
