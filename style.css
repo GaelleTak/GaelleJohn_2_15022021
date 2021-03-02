@@ -537,12 +537,12 @@ aside
     }
 }
 
-.accomodation h2
+#Hébergements
 {
     font-family: 'Raleway-Bold', Arial, sans-serif;
-    font-size: 1.25em;
+    font-size: 0.75em;
     font-weight: bold;
-    margin-left: 1.5em;
+    margin-left: 2em;
     margin-bottom: 1em;
     padding-top: 1em;
 }
@@ -1328,15 +1328,29 @@ aside
 
 /* Activities search*/
 
+.section2
+{
+    margin-left: -1em;
+}
+
 .activities
 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: 'Raleway-Bold', Arial, sans-serif;
     font-size: 0.75em;
     font-weight: bold;
-    margin-left: 1.5em;
+    margin-left: 1.7em;
     margin-bottom: 1em;
     padding-top: 1em;
-    margin-top: 4em;
+    margin-top: 2em;
+}
+.places
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .port
@@ -1350,7 +1364,7 @@ aside
 
 .port-img
 {
-    width: 200px;
+    width: 216px;
     height: 250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1373,7 +1387,7 @@ aside
 
 .pomegues-img
 {
-    width: 200px;
+    width: 216px;
     height: 115px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1394,7 +1408,7 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 145px;
-    margin-left: 2.10em;
+    margin-left: 2em;
 }
 
 .pomegues-link
@@ -1405,7 +1419,7 @@ aside
 
 .frioul-img
 {
-    width: 200px;
+    width: 216px;
     height: 90px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1426,8 +1440,8 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2; 
     border-radius: 10px;
     height: 120px;
-    margin-left: 2.10em;
-    margin-top: 0.95em;
+    margin-left: -13.5em;
+    margin-top: 10em;
 }
 
 .frioul-link
@@ -1441,14 +1455,14 @@ aside
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
-    height: 285px;
+    height: 280px;
     margin-left: 2.10em;
 }
 
 .national-img
 {
-    width: 200px;
-    height: 255px;
+    width: 216px;
+    height: 250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1470,7 +1484,7 @@ aside
 
 .garde-img
 {
-    width: 200px;
+    width: 216px;
     height: 100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1503,7 +1517,7 @@ aside
 
 .parc-img
 {
-    width: 200px;
+    width: 216px;
     height: 100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1524,8 +1538,8 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 130px;
-    margin-left: 2.10em;
-    margin-top: 2em;
+    margin-left: 48.1em;
+    margin-top: -8.1em;
 }
 
 .parc-link
@@ -1542,6 +1556,8 @@ footer
     justify-content: space-between;
     background-color: #F2F2F2;
     margin-top: 2em;
+    margin-left: -2em;
+    width: 1050px;
 }
 footer p, footer h4
 {
@@ -1557,7 +1573,7 @@ footer h4
 .a-propos
 {
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 2.5em;
 }
 
 .nos-hébergements
@@ -1569,5 +1585,5 @@ footer h4
 .assistance
 {
     margin-top: 1em;
-    margin-right: 14em;
+    margin-right: 18em;
 }
