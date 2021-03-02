@@ -45,6 +45,7 @@ body
     .bloc_page
     {
         margin: auto;
+        padding-left: 1em;
     }
 }
 
@@ -117,7 +118,8 @@ body
         padding-bottom: 3px;
         text-decoration-line: none; 
         padding-bottom: 1.5em;
-        border-bottom: medium solid #F2F2F2;
+        border-bottom: 3px solid #F2F2F2;
+        width: 100%;
     }
     
     #hébergements
@@ -140,9 +142,16 @@ body
         border-bottom: medium solid #0065FC;
     }
 
+    #hébergements, #activités
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+    }
+
     #sinscrire
     {
-        margin-top: -3em;
+        margin-top: -3.5em;
         margin-left: -6em;
         border-bottom: none;
         color: #0065FC;
@@ -568,9 +577,10 @@ aside
         background-color: #F2F2F2;
         border-radius: 0em;
         width: 350px;
-        height: 480px; 
-        margin-left: -0.5em;
-        padding-right: 1.5em;
+        height: 480px;
+        margin-left: -2.5em;
+        padding-right: 1em;
+        padding-left: 2em;
     }
 
     .accomodation1 
@@ -586,7 +596,7 @@ aside
         background-color:transparent;
         width: 295px;
         height: 500px;
-        margin-left: -0.5em;
+        margin-left: -0.5em;;
     }
 }
 
@@ -2090,7 +2100,8 @@ footer h4
         flex-direction: column;
         background-color: #F2F2F2;
         width: 400px;
-        height: 400px;
+        height: 450px;
+        margin-bottom: -4em;
     }
 
         footer p, footer h4
