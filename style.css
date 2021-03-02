@@ -123,7 +123,7 @@ body
 {
     .subtitle h2
     {
-        text-align: left;
+        width: 270px;
     }
 }
 
@@ -461,7 +461,7 @@ h5
 {
     h5
     {
-        text-align: left;
+        width: 250px;
     }
 }
 
@@ -528,6 +528,14 @@ aside
         padding-right: 1.5em;
     }
 
+    .accomodation1 
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: -1em;
+        margin-left: -1.5em;
+    }
+
     .accomodation
     {
         background-color:transparent;
@@ -542,7 +550,7 @@ aside
     font-family: 'Raleway-Bold', Arial, sans-serif;
     font-size: 0.75em;
     font-weight: bold;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
 }
@@ -599,6 +607,33 @@ aside
     text-decoration: none;
 }
 
+@media all and  (max-width: 375px)
+{
+    .marcus
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 0.9em;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 1.5em;
+        margin-left: 1.75em;
+    }
+
+    .marcus-img
+    {
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        margin-top: -0.15em;
+        margin-right: -0.15em;
+        margin-left: -0.15em;
+    }
+}
 .fred
 {
     background-color: white;
@@ -649,6 +684,34 @@ aside
 {
     color: black;
     text-decoration: none;
+}
+
+@media all and  (max-width: 375px)
+{
+    .fred
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 0.9em;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 1.5em;
+        margin-left: 1.75em;
+    }
+
+    .fred-img
+    {
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        margin-top: -0.15em;
+        margin-right: -0.15em;
+        margin-left: -0.15em;
+    }
 }
 
 .reisetopia
@@ -702,6 +765,35 @@ aside
     color: black;
     text-decoration: none;
 }
+
+@media all and  (max-width: 375px)
+{
+    .reisetopia
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 0.9em;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 1.5em;
+        margin-left: 1.75em;
+    }
+
+    .reisetopia-img
+    {
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        margin-top: -0.15em;
+        margin-right: -0.15em;
+        margin-left: -0.15em;
+    }
+}
+
 .annie
 {
     background-color: white;
@@ -752,6 +844,33 @@ aside
 {
     color: black;
     text-decoration: none;
+}
+
+@media all and  (max-width: 375px)
+{
+    .annie
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 0.9em;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 1.5em;
+        margin-left: 1.75em;
+    }
+
+    .annie-img
+    {
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        margin-top: -0.15em;
+        margin-right: -0.15em;
+        margin-left: -0.15em;
 }
 
 .nicate
@@ -806,6 +925,34 @@ aside
     text-decoration: none;
 }
 
+@media all and  (max-width: 375px)
+{
+    .nicate
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 0.9em;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 1.5em;
+        margin-left: 1.75em;
+    }
+
+    .nicate-img
+    {
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        margin-top: -0.15em;
+        margin-right: -0.15em;
+        margin-left: -0.15em;
+    }
+}
+
 .febrian
 {
     background-color: white;
@@ -858,6 +1005,36 @@ aside
     text-decoration: none;
 }
 
+@media all and  (max-width: 375px)
+{
+    .febrian
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 0.9em;
+        width: 250px;
+        height: 180px;
+        margin-top: 0em;
+        margin-left: 2em;
+        margin-bottom: -1em;
+    }
+
+    .febrian-img
+    {
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        margin-top: -0.15em;
+        margin-right: -0.15em;
+        margin-left: -0.15em;
+        
+    }
+}
+
 .afficher
 {
     border-radius: 2em;
@@ -868,6 +1045,20 @@ aside
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+@media all and  (max-width: 375px)
+{
+    .afficher
+    {
+        border-radius: none;
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.9em;
+        position: absolute;
+        margin-left: -10.5em;
+        margin-top: 90em;
+    }
 }
 
 .emile
@@ -1121,8 +1312,7 @@ aside
     
     .most-popular img
     {
-        margin-right: -1.5em;
-        margin-left: 7em;
+        margin-right: 3.5em;
     }
 
     .emile
@@ -1134,10 +1324,11 @@ aside
         background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 320px;
+        width: 270px;
         height: 120px;
-        margin-left: 1.5em;
+        margin-left: 3%;
         margin-top: 1.5%;
+        margin-bottom: 0.75em;
     }
 
     .emile-img
@@ -1153,24 +1344,24 @@ aside
     {
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 0.90em;
-        margin-left: 12em;
-        margin-top: -8em;
+        font-size: 0.80em;
+        margin-left: 12.5em;
+        margin-top: -9em;
     }
 
     .emile-title2
     {
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 0.90em;
-        margin-left: 12em;
+        font-size: 0.80em;
+        margin-left: 12.5em;
     }
 
     .emile-price
     {
         margin-top: -0.5em;
-        margin-left: 13.5em;
-        font-size: 0.80em;
+        margin-left: 14.3em;
+        font-size: 0.70em;
     }
 
     .emile-star
@@ -1181,14 +1372,14 @@ aside
 
     .emile-star img
     {
-        height: 12px;
-        width: 12px;
-        margin-bottom: -1.5em;
+        height: 10px;
+        width: 10px;
+        margin-bottom: -2em;
     }
 
     .emile-star1
     {
-        margin-left: 10.5em;
+        margin-left: 10em;
     }
 
     .aw
@@ -1200,10 +1391,11 @@ aside
         background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 320px;
+        width: 270px;
         height: 120px;
-        margin-left: 1.5em;
+        margin-left: 3%;
         margin-top: 1.5%;
+        margin-bottom: 0.75em;
     }
 
     .aw-img
@@ -1219,24 +1411,24 @@ aside
     {
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 0.90em;
-        margin-left: 12em;
-        margin-top: -8em;
+        font-size: 0.80em;
+        margin-left: 12.5em;
+        margin-top: -9em;
     }
 
     .aw-title2
     {
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 0.90em;
-        margin-left: 12em;
+        font-size: 0.80em;
+        margin-left: 12.5em;
     }
 
     .aw-price
     {
         margin-top: -0.5em;
-        margin-left: 13.5em;
-        font-size: 0.80em;
+        margin-left: 14.3em;
+        font-size: 0.70em;
     }
 
     .aw-star
@@ -1247,14 +1439,14 @@ aside
 
     .aw-star img
     {
-        height: 12px;
-        width: 12px;
-        margin-bottom: -1.5em;
+        height: 10px;
+        width: 10px;
+        margin-bottom: -2em;
     }
 
     .aw-star1
     {
-        margin-left: 10.5em;
+        margin-left: 10em;
     }
 
 
@@ -1267,10 +1459,11 @@ aside
         background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 320px;
+        width: 270px;
         height: 120px;
-        margin-left: 1.5em;
+        margin-left: 3%;
         margin-top: 1.5%;
+        margin-bottom: 0.75em;
     }
 
     .zakaria-img
@@ -1286,24 +1479,24 @@ aside
     {
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 0.90em;
-        margin-left: 12em;
-        margin-top: -8em;
+        font-size: 0.80em;
+        margin-left: 12.5em;
+        margin-top: -9em;
     }
 
     .zakaria-title2
     {
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 0.90em;
-        margin-left: 12em;
+        font-size: 0.80em;
+        margin-left: 12.5em;
     }
 
     .zakaria-price
     {
         margin-top: -0.5em;
-        margin-left: 13.5em;
-        font-size: 0.80em;
+        margin-left: 14.3em;
+        font-size: 0.70em;
     }
 
     .zakaria-star
@@ -1314,14 +1507,14 @@ aside
 
     .zakaria-star img
     {
-        height: 12px;
-        width: 12px;
-        margin-bottom: -1.5em;
+        height: 10px;
+        width: 10px;
+        margin-bottom: -2em;
     }
 
     .zakaria-star1
     {
-        margin-left: 10.5em;
+        margin-left: 10em;
     }
 }
 
@@ -1346,11 +1539,38 @@ aside
     padding-top: 1em;
     margin-top: 2em;
 }
-.places
+
+
+@media all and (max-width: 375px)
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+    .section2
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0em;
+        margin-top: 55em;
+        margin-bottom: 3em;
+    }  
+    
+    .places
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10em;
+    }
+
+    .activities
+    {
+        font-size: 0.75em;
+        font-weight: bold;
+        margin-left: 0.7em;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        margin-top: 2em;
+    }
 }
 
 .port
@@ -1359,6 +1579,7 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 280px;
+    width: 216px;
     margin-left: 1em;
 }
 
@@ -1369,6 +1590,7 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 
 .port p
 {
@@ -1383,6 +1605,43 @@ aside
 {
     color: black;
     text-decoration: none;
+}
+
+@media all and (max-width: 375px)
+{
+    .port
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 160px;
+        width: 270px;
+        margin-top: -10em;   
+        margin-left: 0.5em;
+    }
+    
+    .port-img
+    {
+        width: 270px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; 
+    } 
+
+    .port p
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.80em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+
+    .port-link
+    {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 .pomegues-img
@@ -1408,7 +1667,9 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 145px;
-    margin-left: 2em;
+    width: 216px;
+    margin-left: 16em;
+    margin-top: -17.5em;
 }
 
 .pomegues-link
@@ -1417,6 +1678,42 @@ aside
     text-decoration: none;
 }
 
+@media all and (max-width: 375px)
+{
+    .pomegues-img
+    {
+        width: 270px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .pomegues p
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.80em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+
+    .pomegues
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 160px;
+        width: 270px;
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+
+    .pomegues-link
+    {
+        color: black;
+        text-decoration: none;
+    }
+}
 .frioul-img
 {
     width: 216px;
@@ -1440,8 +1737,9 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2; 
     border-radius: 10px;
     height: 120px;
-    margin-left: -13.5em;
-    margin-top: 10em;
+    width: 216px;
+    margin-left: 16em;
+    margin-top: 1em;
 }
 
 .frioul-link
@@ -1450,13 +1748,52 @@ aside
     text-decoration: none;
 }
 
+@media all and (max-width: 375px)
+{
+    .frioul-img
+    {
+        width: 270px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .frioul p
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.80em;
+        margin-left: 1em;
+        margin-top: 0.35em;
+    }
+
+    .frioul
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2; 
+        border-radius: 10px;
+        height: 160px;
+        width: 270px;
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+
+    .frioul-link
+    {
+        color: black;
+        text-decoration: none;
+    }
+}
+
 .national
 {
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 280px;
-    margin-left: 2.10em;
+    width: 216px;
+    margin-left: 32em;
+    margin-top: -17.5em;
 }
 
 .national-img
@@ -1482,6 +1819,37 @@ aside
     text-decoration: none;
 }
 
+
+@media all and (max-width: 375px)
+{
+        .national
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 160px;
+        width: 270px;
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+
+    .national-img
+    {
+        width: 270px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .national p
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.80em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+}
 .garde-img
 {
     width: 216px;
@@ -1505,8 +1873,9 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 130px;
-    margin-left: 2.10em;
-    margin-bottom: -0.3em;
+    width: 216px;
+    margin-left: 47.5em;
+    margin-top: -17.5em;
 }
 
 .garde-link
@@ -1514,6 +1883,44 @@ aside
     color: black;
     text-decoration: none;
 }
+
+@media all and (max-width: 375px)
+{
+        .garde-img
+    {
+        width: 270px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .garde p
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        margin-left: 0.5em;
+        margin-top: 0.6em;
+    }
+
+    .garde
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 160px;
+        width: 270px;
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+
+    .garde-link
+    {
+        color: black;
+        text-decoration: none;
+    }
+}
+
 
 .parc-img
 {
@@ -1538,14 +1945,52 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-radius: 10px;
     height: 130px;
-    margin-left: 48.1em;
-    margin-top: -8.1em;
+    width: 216px;
+    margin-left: 47.5em;
+    margin-top: 1.3em;
 }
 
 .parc-link
 {
     color: black;
     text-decoration: none;
+}
+
+@media all and (max-width: 375px)
+{
+        .parc-img
+    {
+        width: 270px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .parc p
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+
+    .parc
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 160px;
+        width: 270px;
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+
+    .parc-link
+    {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 /* Footer */
@@ -1587,3 +2032,41 @@ footer h4
     margin-top: 1em;
     margin-right: 18em;
 }
+
+@media all and (max-width: 375px)
+{
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 400px;
+        height: 300pxpx;
+    }
+
+        footer p, footer h4
+    {
+        font-size: 0.80em;
+    }
+
+
+        .a-propos
+    {
+        margin-top: 1em;
+        margin-left: 3.5em;
+    }
+
+    .nos-hébergements
+    {
+        margin-top: 1em;
+        margin-left: 3.5em;
+    }
+
+    .assistance
+    {
+        margin-top: 1em;
+        margin-left: 3.5em;
+        margin-right: 0em;
+        margin-bottom: 2em;
+    }
+}    
