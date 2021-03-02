@@ -34,6 +34,14 @@ body
 
 @media all and (max-width: 375px)
 {
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 0em;
+    }
+
     .bloc_page
     {
         margin: auto;
@@ -61,6 +69,16 @@ body
 {
     color: #0065FC;
     font-weight: bold;
+}
+
+@media all and (max-width: 375px)
+{
+    .logo img, #sinscrire
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
 }
 
 .option ul
@@ -92,21 +110,47 @@ body
 
 @media all and (max-width: 375px)
 {
+    .option a
+    {
+        font-size: 0.90em;
+        color:black;
+        padding-bottom: 3px;
+        text-decoration-line: none; 
+        padding-bottom: 1.5em;
+        border-bottom: medium solid #F2F2F2;
+    }
+    
+    #hébergements
+    { 
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: -4em;
+    }    
+    #activités
+    {
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: -2em;
+    }
+
     .option a:hover
     {
         color: #0065FC;
-        text-decoration-line: underline;
-    }
-        
-    #activités
-    {
-
+        text-decoration-line: none;
+        border-bottom: medium solid #0065FC;
     }
 
-    #hébergements
+    #sinscrire
     {
+        margin-top: -3em;
+        margin-left: -6em;
+        border-bottom: none;
+        color: #0065FC;
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+    }
+
     
-    }
 }
 
 /* Object */
@@ -443,6 +487,7 @@ h4
         margin-top: -2.95em;
     }
 }
+
 /*Information*/
 
 .information
@@ -634,6 +679,7 @@ aside
         margin-left: -0.15em;
     }
 }
+
 .fred
 {
     background-color: white;
@@ -871,6 +917,7 @@ aside
         margin-top: -0.15em;
         margin-right: -0.15em;
         margin-left: -0.15em;
+    }
 }
 
 .nicate
@@ -1051,7 +1098,7 @@ aside
 {
     .afficher
     {
-        border-radius: none;
+        border-radius: 0em;
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
         font-size: 0.9em;
@@ -1714,6 +1761,7 @@ aside
         text-decoration: none;
     }
 }
+
 .frioul-img
 {
     width: 216px;
@@ -1850,6 +1898,7 @@ aside
         margin-top: 0.5em;
     }
 }
+
 .garde-img
 {
     width: 216px;
@@ -2041,14 +2090,13 @@ footer h4
         flex-direction: column;
         background-color: #F2F2F2;
         width: 400px;
-        height: 300pxpx;
+        height: 400px;
     }
 
         footer p, footer h4
     {
         font-size: 0.80em;
     }
-
 
         .a-propos
     {
