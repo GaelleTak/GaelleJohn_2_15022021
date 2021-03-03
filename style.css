@@ -718,7 +718,7 @@ aside
     .accomodation
     {
         background-color:transparent;
-        width: 295px;
+        width: 400px;
         height: 500px;
         margin-left: 0em;;
     }
@@ -1242,6 +1242,19 @@ aside
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    .afficher
+    {
+        border-radius: 0em;
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.9em;
+        position: absolute;
+        margin-left: -19em;
+        margin-top: 38em;
+    }
+}
 .emile
 {
     background-color: white;
@@ -1754,6 +1767,36 @@ aside
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    .section2
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: -1em;
+        margin-top: 10em;
+        margin-bottom: 3em;
+    }  
+
+    .places
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10em;
+    }
+
+    .activities
+    {
+        font-size: 0.75em;
+        font-weight: bold;
+        margin-left: 0.7em;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        margin-top: 2em;
+    }
+}
 .port
 {
     background-color: white;
