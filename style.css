@@ -49,7 +49,7 @@ body
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
+@media only screen and (min-width : 768px) and (max-width : 1024px) 
 {
     header
     {
@@ -64,6 +64,16 @@ body
         margin: auto;
         padding-left: 1em;
     }  
+}
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .bloc_page
+    {
+        margin-left: 9%;
+        margin-right: 9%;
+        padding-left: 0em;
+    }
 }
 /* Header - main logo */
 
@@ -727,6 +737,17 @@ aside
     }
 }
 
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .accomodation1
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 1%;
+    }
+}
+
 #Hébergements
 {
     font-family: 'Raleway-Bold', Arial, sans-serif;
@@ -746,6 +767,19 @@ aside
         margin-left: -5em;
         margin-bottom: 2.5em;
         margin-top: 1em;
+        padding-top: 1em;
+    }
+}
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    #Hébergements
+    {
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-size: 0.75em;
+        font-weight: bold;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
         padding-top: 1em;
     }
 }
@@ -1270,6 +1304,21 @@ aside
         margin-left: -20.5em;
         margin-top: 26em;
     }
+}
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .afficher
+    {
+        border-radius: 2em;
+        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        padding-top: 0em;
+        padding-bottom: 2em;
+    }   
 }
 .emile
 {
@@ -2096,6 +2145,20 @@ aside
         text-decoration: none;
     }
 }
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .pomegues
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 145px;
+        width: 216px;
+        margin-left: 17em;
+        margin-top: -17.5em;
+    } 
+}
 .frioul-img
 {
     width: 216px;
@@ -2203,6 +2266,19 @@ aside
     }
 }
 
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .frioul
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2; 
+        border-radius: 10px;
+        height: 120px;
+        width: 216px;
+        margin-left: 17em;
+        margin-top: 1em;
+    }
+}
 .national
 {
     background-color: white;
@@ -2300,6 +2376,19 @@ aside
     }
 }
 
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .national
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 280px;
+        width: 216px;
+        margin-left: 33em;
+        margin-top: -17.5em;
+    } 
+}
 .garde-img
 {
     width: 216px;
@@ -2407,6 +2496,20 @@ aside
         text-decoration: none;
     }
 }
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{   
+    .garde
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 130px;
+        width: 216px;
+        margin-left: 49em;
+        margin-top: -17.5em;
+    }
+}
 .parc-img
 {
     width: 216px;
@@ -2512,6 +2615,20 @@ aside
     {
         color: black;
         text-decoration: none;
+    }
+}
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .parc
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #F2F2F2;
+        border-radius: 10px;
+        height: 130px;
+        width: 216px;
+        margin-left: 49em;
+        margin-top: 1.3em;
     }
 }
 
@@ -2628,5 +2745,20 @@ footer h4
         margin-left: 3.5em;
         margin-right: 0em;
         margin-bottom: 4em;
+    }
+}
+
+@media only screen and (min-width : 1191px) and (max-width : 1224px) 
+{
+    .nos-hébergements
+    {
+        margin-top: 1em;
+        margin-left: -1em;
+    }
+    
+    .assistance
+    {
+        margin-top: 1em;
+        margin-right: 16em;
     }
 }
