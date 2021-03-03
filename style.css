@@ -32,7 +32,7 @@ body
     margin-right: 9em;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     header
     {
@@ -75,6 +75,18 @@ body
         padding-left: 0em;
     }
 }
+
+@media only screen and (min-width : 1025px) and (max-width : 1190px) 
+{
+    .bloc_page
+    {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 0em;
+    }
+
+}
+
 /* Header - main logo */
 
 .logo
@@ -98,7 +110,7 @@ body
     font-weight: bold;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .logo img, #sinscrire
     {
@@ -144,13 +156,12 @@ body
     text-decoration-line: overline;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .option a
     {
         font-size: 0.90em;
         color:black;
-        padding-bottom: 3px;
         text-decoration-line: none; 
         padding-bottom: 1.5em;
         border-bottom: 3px solid #F2F2F2;
@@ -218,7 +229,7 @@ body
     margin-bottom: -1%;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .subtitle h2
     {
@@ -232,7 +243,7 @@ h3
     font-weight: normal;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     h3
     {
@@ -289,7 +300,7 @@ h3
         display: none;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .search-bar
     {
@@ -494,7 +505,7 @@ h4
     border-top: 1px solid #0065FC;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
 
     .filters
@@ -607,7 +618,7 @@ h5
     margin-left: 2.5em;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     h5
     {
@@ -631,7 +642,7 @@ h5
     align-items:inherit;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .section1
     {
@@ -676,7 +687,7 @@ aside
     height: 500px; 
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     aside
     { 
@@ -836,7 +847,7 @@ aside
     text-decoration: none;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .marcus
     {
@@ -916,7 +927,7 @@ aside
     text-decoration: none;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .fred
     {
@@ -996,7 +1007,7 @@ aside
     text-decoration: none;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .reisetopia
     {
@@ -1076,7 +1087,7 @@ aside
     text-decoration: none;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .annie
     {
@@ -1156,7 +1167,7 @@ aside
     text-decoration: none;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .nicate
     {
@@ -1236,7 +1247,7 @@ aside
     text-decoration: none;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .febrian
     {
@@ -1278,7 +1289,7 @@ aside
     padding-bottom: 1em;
 }
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .afficher
     {
@@ -1559,7 +1570,7 @@ aside
 }
 
 
-@media all and  (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .most-popular 
     {
@@ -1863,7 +1874,7 @@ aside
 }
 
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
 
     .section2
@@ -1964,7 +1975,7 @@ aside
     text-decoration: none;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .port
     {
@@ -2072,7 +2083,7 @@ aside
     text-decoration: none;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .pomegues-img
     {
@@ -2193,7 +2204,7 @@ aside
     text-decoration: none;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .frioul-img
     {
@@ -2314,7 +2325,7 @@ aside
 }
 
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .national
     {
@@ -2423,7 +2434,7 @@ aside
     text-decoration: none;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .garde-img
     {
@@ -2544,7 +2555,7 @@ aside
     text-decoration: none;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     .parc-img
     {
@@ -2672,7 +2683,7 @@ footer h4
     margin-right: 18em;
 }
 
-@media all and (max-width: 375px)
+@media only screen and (min-width : 375px) and (max-width : 767px) 
 {
     footer
     {
