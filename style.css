@@ -49,6 +49,22 @@ body
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 0em;
+    }
+
+    .bloc_page
+    {
+        margin: auto;
+        padding-left: 1em;
+    }  
+}
 /* Header - main logo */
 
 .logo
@@ -82,6 +98,15 @@ body
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    .logo img, #sinscrire
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+}
 .option ul
 {
     list-style-type: none;
@@ -161,6 +186,18 @@ body
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+        .option ul
+    {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-left: 20em;
+        margin-top: -2em;
+    }
+}
 /* Object */
 
 .subtitle h2
@@ -497,6 +534,55 @@ h4
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    .filters
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .economic
+    {
+        margin-left: 0.9em;
+        margin-top: -3em;
+    }
+
+    .child
+    {
+        margin-left: 10.5em;
+        margin-top: -2.5em;
+    }
+
+    .familial
+    {
+        margin-left: 13.5em;
+        margin-top: -2.95em;
+    }
+
+    .heart
+    {
+        margin-top: 0.7em;
+    }
+
+    .romantic
+    {
+        margin-left: 0.9em;
+        margin-top: -2.95em;
+    }
+
+    .dog
+    {
+        margin-top: -2.5em;
+        margin-left: 10.5em;
+    }
+
+    .animals
+    {
+        margin-left: 13.5em;
+        margin-top: -2.95em;
+    }
+}
 /*Information*/
 
 .information
@@ -544,6 +630,14 @@ h5
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    .section1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 .accomodation
 {
@@ -597,6 +691,36 @@ aside
         width: 295px;
         height: 500px;
         margin-left: -0.5em;;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    aside
+    { 
+        background-color: #F2F2F2;
+        border-radius: 2em;
+        width: 350px;
+        height: 480px;
+        margin-left: 0em;
+        padding-right: 1em;
+        padding-left: 2em;
+    }
+
+    .accomodation1 
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: -1em;
+        margin-left: -1.5em;
+    }
+
+    .accomodation
+    {
+        background-color:transparent;
+        width: 295px;
+        height: 500px;
+        margin-left: 0em;;
     }
 }
 
