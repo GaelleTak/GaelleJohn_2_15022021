@@ -650,6 +650,37 @@ h4
     }
 
 }
+
+@media only screen and (min-width : 1025px) and (max-width : 1190px) 
+{
+    .economic
+    {
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
+    }
+
+    .familial
+    {
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
+    }
+
+    .romantic
+    {
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
+    }
+
+    .animals
+    {
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
+    }
+}
 /*Information*/
 
 .information
@@ -825,6 +856,7 @@ aside
         margin-bottom: 2.5em;
         margin-top: 1em;
         padding-top: 1em;
+        -webkit-margin-start: -4em;
     }
 }
 
@@ -1356,10 +1388,10 @@ aside
         border-radius: 0em;
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
-        font-size: 1.25em;
+        font-size: 1em;
         position: absolute;
         margin-left: -20.5em;
-        margin-top: 26em;
+        margin-top: 33em;
     }
 }
 
@@ -1972,7 +2004,7 @@ aside
         flex-wrap: wrap;
         margin-top: 8em;
         width: 768px;
-        margin-left: 20%;
+        margin-left: 25%;
         margin-right: 25%;
     }
 
@@ -1981,7 +2013,7 @@ aside
         font-size: 1em;
         font-weight: bold;
         position: absolute;
-        margin-left: 1.7em;
+        margin-left: 3.5em;
         margin-bottom: 1em;
         padding-top: 1em;
         margin-top: 0em;
