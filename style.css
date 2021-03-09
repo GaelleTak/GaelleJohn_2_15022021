@@ -44,8 +44,8 @@ body
 
     .bloc_page
     {
-        margin: auto;
-        padding-left: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
     }
 }
 
@@ -158,8 +158,9 @@ body
         color:black;
         text-decoration-line: none; 
         padding-bottom: 1.5em;
+        padding-right: 1em;
         border-bottom: 3px solid #F2F2F2;
-        width: 100%;
+        width: 90%;
     }
     
     #hébergements
@@ -673,7 +674,6 @@ h5
     }
 }
 
-
 .accomodation
 {
     display: flex;
@@ -705,11 +705,11 @@ aside
     { 
         background-color: #F2F2F2;
         border-radius: 0em;
-        width: 350px;
-        height: 480px;
-        margin-left: -2.5em;
-        padding-right: 1em;
-        padding-left: 2em;
+        width: 295px;
+        height: auto;
+        margin-left: -1em;
+        padding-right: 0em;
+        padding-left: 0.5em;
     }
 
     .accomodation1 
@@ -717,7 +717,7 @@ aside
         display: flex;
         justify-content: space-around;
         margin-top: -1em;
-        margin-left: -1.5em;
+        margin-left:-1em;
     }
 
     .accomodation
@@ -725,10 +725,14 @@ aside
         background-color:transparent;
         width: 295px;
         height: 500px;
-        margin-left: -0.5em;
+        margin-left: -1em;
+    }
+
+    .accomodation h2
+    {
+        margin-left: 0.5em;
     }
 }
-
 
 @media only screen and (min-width : 1225px)
 {   
@@ -924,23 +928,23 @@ aside
         box-shadow: 0px 2px 5px #F2F2F2;
         border-color: #F2F2F2;
         border-radius: 15px;
-        padding: 8px;
+        padding: 7px;
         font-size: 0.9em;
-        width: 250px;
-        height: 180px;
+        width: 255px;
+        height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.75em;
+        margin-left: 1.8em;
     }
 
     .marcus-img
     {
-        width: 250px;
-        height: 130px;
+        width: 255px;
+        height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
-        margin-left: -0.15em;
+        margin-left: -0em;
     }
 }
 
@@ -1004,23 +1008,23 @@ aside
         box-shadow: 0px 2px 5px #F2F2F2;
         border-color: #F2F2F2;
         border-radius: 15px;
-        padding: 8px;
+        padding: 7px;
         font-size: 0.9em;
-        width: 250px;
-        height: 180px;
+        width: 255px;
+        height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.75em;
+        margin-left: 1.8em;
     }
 
     .fred-img
     {
-        width: 250px;
-        height: 130px;
+        width: 255px;
+        height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
-        margin-left: -0.15em;
+        margin-left: -0em;
     }
 }
 
@@ -1084,23 +1088,23 @@ aside
         box-shadow: 0px 2px 5px #F2F2F2;
         border-color: #F2F2F2;
         border-radius: 15px;
-        padding: 8px;
+        padding: 7px;
         font-size: 0.9em;
-        width: 250px;
-        height: 180px;
+        width: 255px;
+        height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.75em;
+        margin-left: 1.8em;
     }
 
     .reisetopia-img
     {
-        width: 250px;
-        height: 130px;
+        width: 255px;
+        height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
-        margin-left: -0.15em;
+        margin-left: -0em;
     }
 }
 
@@ -1164,23 +1168,23 @@ aside
         box-shadow: 0px 2px 5px #F2F2F2;
         border-color: #F2F2F2;
         border-radius: 15px;
-        padding: 8px;
+        padding: 7px;
         font-size: 0.9em;
-        width: 250px;
-        height: 180px;
+        width: 255px;
+        height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.75em;
+        margin-left: 1.8em;
     }
 
     .annie-img
     {
-        width: 250px;
-        height: 130px;
+        width: 255px;
+        height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
-        margin-left: -0.15em;
+        margin-left: -0em;
     }
 }
 
@@ -1244,23 +1248,23 @@ aside
         box-shadow: 0px 2px 5px #F2F2F2;
         border-color: #F2F2F2;
         border-radius: 15px;
-        padding: 8px;
+        padding: 7px;
         font-size: 0.9em;
-        width: 250px;
-        height: 180px;
+        width: 255px;
+        height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.75em;
+        margin-left: 1.8em;
     }
 
     .nicate-img
     {
-        width: 250px;
-        height: 130px;
+        width: 255px;
+        height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
-        margin-left: -0.15em;
+        margin-left: -0em;
     }
 }
 
@@ -1324,25 +1328,23 @@ aside
         box-shadow: 0px 2px 5px #F2F2F2;
         border-color: #F2F2F2;
         border-radius: 15px;
-        padding: 8px;
+        padding: 7px;
         font-size: 0.9em;
-        width: 250px;
-        height: 180px;
-        margin-top: 0em;
-        margin-left: 2em;
-        margin-bottom: -1em;
+        width: 255px;
+        height: 155px;
+        margin-bottom: 1.5em;
+        margin-left: 1.8em;
     }
 
     .febrian-img
     {
-        width: 250px;
-        height: 130px;
+        width: 255px;
+        height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
-        margin-left: -0.15em;
-        
+        margin-left: -0em;
     }
 }
 
@@ -1368,7 +1370,7 @@ aside
         font-size: 0.9em;
         position: absolute;
         margin-left: -10.5em;
-        margin-top: 90em;
+        margin-top: 78em;
     }
 }
 
@@ -1639,7 +1641,7 @@ aside
     
     .most-popular img
     {
-        margin-right: 3.5em;
+        margin-right: -0.5em;
     }
 
     .emile
@@ -1978,7 +1980,7 @@ aside
         flex-direction: column;
         flex-wrap: wrap;
         margin-left: 0em;
-        margin-top: 55em;
+        margin-top: 45em;
         margin-bottom: 3em;
     }  
     
@@ -1994,7 +1996,7 @@ aside
     {
         font-size: 0.75em;
         font-weight: bold;
-        margin-left: 0.7em;
+        margin-left: 0.4em;
         margin-bottom: 1em;
         padding-top: 1em;
         margin-top: 2em;
@@ -2115,16 +2117,16 @@ aside
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 160px;
-        width: 270px;
+        height: 140px;
+        width: 260px;
         margin-top: -10em;   
         margin-left: 0.5em;
     }
     
     .port-img
     {
-        width: 270px;
-        height: 130px;
+        width: 260px;
+        height: 100px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px; 
     } 
@@ -2230,8 +2232,8 @@ aside
 {
     .pomegues-img
     {
-        width: 270px;
-        height: 130px;
+        width: 260px;
+        height: 100px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -2250,8 +2252,8 @@ aside
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 160px;
-        width: 270px;
+        height: 140px;
+        width: 260px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -2361,8 +2363,8 @@ aside
 {
     .frioul-img
     {
-        width: 270px;
-        height: 130px;
+        width: 260px;
+        height: 100px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -2381,8 +2383,8 @@ aside
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2; 
         border-radius: 10px;
-        height: 160px;
-        width: 270px;
+        height: 140px;
+        width: 260px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -2494,16 +2496,16 @@ aside
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 160px;
-        width: 270px;
+        height: 140px;
+        width: 260px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
 
     .national-img
     {
-        width: 270px;
-        height: 130px;
+        width: 260px;
+        height: 100px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -2615,8 +2617,8 @@ aside
 {
     .garde-img
     {
-        width: 270px;
-        height: 130px;
+        width: 260px;
+        height: 100px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -2635,8 +2637,8 @@ aside
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 160px;
-        width: 270px;
+        height: 140px;
+        width: 260px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -2745,8 +2747,8 @@ aside
 {
     .parc-img
     {
-        width: 270px;
-        height: 130px;
+        width: 260px;
+        height: 100px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -2765,8 +2767,8 @@ aside
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 160px;
-        width: 270px;
+        height: 140px;
+        width: 260px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -2885,7 +2887,7 @@ footer h4
         flex-direction: column;
         background-color: #F2F2F2;
         width: 375px;
-        height: 450px;
+        height: auto;
         margin-bottom: -4em;
     }
 
