@@ -710,9 +710,9 @@ aside
         border-radius: 0em;
         width: 295px;
         height: auto;
-        margin-left: -1em;
-        padding-right: 0em;
-        padding-left: 0.5em;
+        margin-left: -0.5em;
+        padding-right: 1em;
+        padding-left: 1em;
         -webkit-padding-end: 1em;
         -webkit-padding-start: 1em;
 
@@ -731,7 +731,7 @@ aside
         background-color:transparent;
         width: 295px;
         height: 500px;
-        margin-left: -1em;
+        margin-left: -0.5em;
         -webkit-padding-start: 0.5em;
     }
 
@@ -1648,7 +1648,7 @@ aside
     
     .most-popular img
     {
-        margin-right: -0.5em;
+        margin-right: 0.5em;
     }
 
     .emile
@@ -1986,7 +1986,7 @@ aside
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 0em;
+        margin-left: 0.5em;
         margin-top: 45em;
         margin-bottom: 3em;
         -webkit-padding-start: 0.5em;
@@ -2898,6 +2898,8 @@ footer h4
         width: 375px;
         height: auto;
         margin-bottom: -4em;
+        padding-right: 1.5em;
+        
     }
 
         footer p, footer h4
