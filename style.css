@@ -32,7 +32,7 @@ body
     margin-right: 9em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     header
     {
@@ -46,10 +46,11 @@ body
     {
         margin-left: 0em;
         margin-right: 0em;
+
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1190px) 
+@media only screen and (min-width : 550px) and (max-width : 1190px) 
 {
     .bloc_page
     {
@@ -104,7 +105,7 @@ body
     font-weight: bold;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .logo img, #sinscrire
     {
@@ -114,7 +115,7 @@ body
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .logo img, #sinscrire
     {
@@ -150,7 +151,7 @@ body
     text-decoration-line: overline;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .option a
     {
@@ -202,7 +203,7 @@ body
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
         .option ul
     {
@@ -224,7 +225,7 @@ body
     margin-bottom: -1%;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .subtitle h2
     {
@@ -238,7 +239,7 @@ h3
     font-weight: normal;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     h3
     {
@@ -295,7 +296,7 @@ h3
         display: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .search-bar
     {
@@ -500,7 +501,7 @@ h4
     border-top: 1px solid #0065FC;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
 
     .filters
@@ -575,7 +576,7 @@ h4
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px) 
+@media only screen and (min-width : 550px) and (max-width : 1190px) 
 {
     .economic
     {
@@ -615,14 +616,16 @@ h4
 
     .animals
     {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
+        margin-left: -3.5em;
+        margin-top: 5.25em;
         -webkit-margin-start: -3em;
         -webkit-margin-before: 4em;
     }
 
     .dog
     {
+        margin-top: 3.5em;
+        margin-left: -27.5em;
         -webkit-margin-start: -30.25em;
         -webkit-margin-before: 3.3em;
     }
@@ -641,7 +644,7 @@ h5
     margin-left: 2.5em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     h5
     {
@@ -665,7 +668,7 @@ h5
     align-items:inherit;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .section1
     {
@@ -699,7 +702,7 @@ aside
     height: 500px; 
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     aside
     { 
@@ -710,6 +713,9 @@ aside
         margin-left: -1em;
         padding-right: 0em;
         padding-left: 0.5em;
+        -webkit-padding-end: 1em;
+        -webkit-padding-start: 1em;
+
     }
 
     .accomodation1 
@@ -726,6 +732,7 @@ aside
         width: 295px;
         height: 500px;
         margin-left: -1em;
+        -webkit-padding-start: 0.5em;
     }
 
     .accomodation h2
@@ -795,7 +802,7 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1190px) 
+@media only screen and (min-width : 550px) and (max-width : 1190px) 
 {   
         .section1
     {
@@ -920,7 +927,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .marcus
     {
@@ -1000,7 +1007,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .fred
     {
@@ -1080,7 +1087,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .reisetopia
     {
@@ -1160,7 +1167,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .annie
     {
@@ -1240,7 +1247,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .nicate
     {
@@ -1320,7 +1327,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .febrian
     {
@@ -1360,7 +1367,7 @@ aside
     padding-bottom: 1em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .afficher
     {
@@ -1629,7 +1636,7 @@ aside
 }
 
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .most-popular 
     {
@@ -1849,7 +1856,7 @@ aside
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .most-popular
     {
@@ -1971,7 +1978,7 @@ aside
 }
 
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
 
     .section2
@@ -1982,6 +1989,7 @@ aside
         margin-left: 0em;
         margin-top: 45em;
         margin-bottom: 3em;
+        -webkit-padding-start: 0.5em;
     }  
     
     .places
@@ -1990,6 +1998,7 @@ aside
         flex-direction: column;
         flex-wrap: wrap;
         margin-top: 10em;
+        
     }
 
     .activities
@@ -2004,7 +2013,7 @@ aside
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .section2
     {
@@ -2110,7 +2119,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .port
     {
@@ -2149,7 +2158,7 @@ aside
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .port
     {
@@ -2228,7 +2237,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .pomegues-img
     {
@@ -2267,7 +2276,7 @@ aside
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .pomegues
     {
@@ -2359,7 +2368,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .frioul-img
     {
@@ -2397,7 +2406,7 @@ aside
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .frioul
     {
@@ -2489,7 +2498,7 @@ aside
 }
 
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .national
     {
@@ -2522,7 +2531,7 @@ aside
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .national
     {
@@ -2613,7 +2622,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .garde-img
     {
@@ -2652,7 +2661,7 @@ aside
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .garde
     {
@@ -2743,7 +2752,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     .parc-img
     {
@@ -2781,7 +2790,7 @@ aside
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1190px)
+@media only screen and (min-width : 550px) and (max-width : 1190px)
 {
     .parc
     {
@@ -2879,7 +2888,7 @@ footer h4
     margin-right: 18em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 767px) 
+@media only screen and (min-width : 375px) and (max-width : 549px) 
 {
     footer
     {
@@ -2933,7 +2942,7 @@ footer h4
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1190px) 
+@media only screen and (min-width : 550px) and (max-width : 1190px) 
 {
     footer
     {
@@ -2943,6 +2952,24 @@ footer h4
         width: auto;
         height: auto;
         margin-bottom: -4em;
+    }
+
+    .a-propos
+    {
+        margin-top: 1em;
+        margin-left: 2em;
+    }
+
+    .nos-hébergements
+    {
+        margin-top: 1em;
+        margin-left: 3em;
+    }
+
+    .assistance
+    {
+        margin-top: 1em;
+        margin-left: 3em;
     }
 }
 
