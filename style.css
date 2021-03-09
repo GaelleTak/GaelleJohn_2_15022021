@@ -49,24 +49,7 @@ body
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) 
-{
-    header
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-top: 0em;
-    }
-
-    .bloc_page
-    {
-        margin: auto;
-        padding-left: 1em;
-    }  
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px) 
+@media only screen and (min-width : 768px) and (max-width : 1190px) 
 {
     .bloc_page
     {
@@ -131,7 +114,7 @@ body
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .logo img, #sinscrire
     {
@@ -218,7 +201,7 @@ body
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
         .option ul
     {
@@ -589,107 +572,58 @@ h4
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .filters
-    {
-        display: flex;
-        flex-direction: column;
-    }
 
+
+@media only screen and (min-width : 768px) and (max-width : 1190px) 
+{
     .economic
     {
-        margin-left: 0.9em;
-        margin-top: -3.5em;
-        -webkit-margin-start: 0.5em;
-        -webkit-margin-before: -3em;
-        -webkit-margin-after: 2em;
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
+    }
+
+    .money
+    {
+        -webkit-margin-before: 0.1em;
+    }
+
+    .familial
+    {
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
     }
 
     .child
     {
-        margin-left: 10.5em;
-        margin-top: -2.5em;
-        -webkit-margin-after: 0.9em;
-        -webkit-margin-start: 10.5em;
+        -webkit-margin-before: 0.1em;
     }
 
-    .familial
+    .romantic
     {
-        margin-left: 16em;
-        margin-top: -3.5em;
-        -webkit-margin-after-collapse: 2em;
-        -webkit-margin-before: -4.5em;
-        -webkit-margin-start: 13.5em;
-    }
-    
-    .child, .familial
-    {
-        -webkit-margin-before: -4em;
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
     }
 
     .heart
     {
-        margin-top: 0.7em;
+        -webkit-margin-before: 0.1em;
     }
 
-    .romantic
+    .animals
     {
-        margin-left: 0.9em;
-        margin-top: -3.5em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-before: -3em;
+        margin-left: -3.7em;
+        margin-top: 0.1em;
+        -webkit-margin-start: -3em;
+        -webkit-margin-before: 4em;
     }
 
     .dog
     {
-        margin-top: 0.7em;
-        -webkit-margin-before: 2em;
-        -webkit-margin-after: -2.5em;
-    }
-
-    .animals
-    {
-        margin-left: 0.9em;
-        margin-top: -3.5em;
-        -webkit-margin-after: 0em;
-    }
-
-    .dog, .animals
-    {
-        -webkit-margin-before: 0em;
-    }
-
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px) 
-{
-    .economic
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
-    }
-
-    .familial
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
-    }
-
-    .romantic
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
-    }
-
-    .animals
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
+        -webkit-margin-start: -30.25em;
+        -webkit-margin-before: 3.3em;
     }
 }
 /*Information*/
@@ -739,16 +673,6 @@ h5
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .section1
-    {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 768px;
-        margin-left: 12.5%;
-    }
-}
 
 .accomodation
 {
@@ -805,36 +729,6 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    aside
-    { 
-        background-color: #F2F2F2;
-        border-radius: 2em;
-        width: 350px;
-        height: 480px;
-        margin-left: 0em;
-        padding-right: 1em;
-        padding-left: 2em;
-    }
-
-    .accomodation1 
-    {
-        display: flex;
-        justify-content: space-around;
-        margin-top: -1em;
-        margin-left: -1.5em;
-    }
-
-    .accomodation
-    {
-        background-color:transparent;
-        width: 400px;
-        height: 500px;
-        margin-left: 0em;
-        margin-bottom: 3em;
-    }
-}
 
 @media only screen and (min-width : 1225px)
 {   
@@ -897,7 +791,7 @@ aside
     }
 }
 
-@media only screen and (min-width : 1025px) and (max-width : 1190px) 
+@media only screen and (min-width : 768px) and (max-width : 1190px) 
 {   
         .section1
     {
@@ -955,20 +849,6 @@ aside
     margin-left: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
-}
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    #Hébergements
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-size: 1em;
-        font-weight: bold;
-        margin-left: -5em;
-        margin-bottom: 2.5em;
-        margin-top: 1em;
-        padding-top: 1em;
-        -webkit-margin-start: -4em;
-    }
 }
 
 @media only screen and (min-width : 1191px) and (max-width : 1224px) 
@@ -1492,19 +1372,7 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .afficher
-    {
-        border-radius: 0em;
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 1em;
-        position: absolute;
-        margin-left: -20.5em;
-        margin-top: 33em;
-    }
-}
+
 
 @media only screen and (min-width : 1191px) and (max-width : 1224px) 
 {
@@ -1977,72 +1845,9 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{  
-    .most-popular
-    {
-        display: flex;
-        flex-direction: row;
-    }
 
-    .most-popular h2
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-size: 1.25em;
-        font-weight: bold;
-        margin-left: -0.5em;
-        margin-bottom: 1em;
-        padding-top: 1em;
-    }
 
-    .most-popular img
-    {
-        height: 20px;
-        width: 20px;
-        margin-left: 8em;
-        padding-top: 2.5em;
-    } 
-
-    .emile
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 12px;
-        font-size: 0.9em;
-        width: 250px;
-        height: 100px;
-        margin-left: 10%;
-    }
-
-    .aw
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 12px;
-        font-size: 0.9em;
-        width: 250px;
-        height: 100px;
-        margin-left: 10%;
-        margin-top: 1.5em;
-    }
-
-    .zakaria
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 12px;
-        font-size: 0.9em;
-        width: 250px;
-        height: 100px;
-        margin-left: 10%;
-        margin-top: 1.5em;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .most-popular
     {
@@ -2073,7 +1878,7 @@ aside
         font-size: 0.9em;
         width: 250px;
         height: 100px;
-        margin-left: 2em;
+        margin-left: 1.25em;
         margin-top: 5em;
     }   
 
@@ -2086,7 +1891,7 @@ aside
         font-size: 0.9em;
         width: 250px;
         height: 100px;
-        margin-left: 2em;
+        margin-left: 1.25em;
         margin-top: 5em;
     }   
 
@@ -2196,43 +2001,8 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .section2
-    {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: -1em;
-        margin-top: 10em;
-        margin-bottom: 3em;
-        width: 768px;
-    }  
 
-    .places
-    {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-top: 8em;
-        width: 768px;
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-
-    .activities
-    {
-        font-size: 1em;
-        font-weight: bold;
-        position: absolute;
-        margin-left: 3.5em;
-        margin-bottom: 1em;
-        padding-top: 1em;
-        margin-top: 0em;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .section2
     {
@@ -2248,7 +2018,7 @@ aside
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: -2em;
-        margin-left: -12em;
+        margin-left: -2em;
         width: auto;
     }
 
@@ -2375,44 +2145,9 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .port
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
-        height: 160px;
-        width: 270px;
-        margin-top: -2em;   
-        margin-left: 0.5em;
-    }
-    
-    .port-img
-    {
-        width: 270px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px; 
-    } 
 
-    .port p
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
 
-    .port-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .port
     {
@@ -2421,7 +2156,7 @@ aside
         border-radius: 10px;
         height: 135px;
         width: 175px;
-        margin-left: 13.5em;
+        margin-left: 2em;
         margin-top: 2em;
     } 
 
@@ -2528,44 +2263,9 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .pomegues-img
-    {
-        width: 270px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 
-    .pomegues p
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
 
-    .pomegues
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
-        height: 160px;
-        width: 270px;
-        margin-left: 0.5em;
-        margin-top: 1em;
-    }
-
-    .pomegues-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .pomegues
     {
@@ -2693,44 +2393,9 @@ aside
         text-decoration: none;
     }
 }
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .frioul-img
-    {
-        width: 270px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 
-    .frioul p
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.35em;
-    }
 
-    .frioul
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2; 
-        border-radius: 10px;
-        height: 160px;
-        width: 270px;
-        margin-left: 0.5em;
-        margin-top: 1em;
-    }
-
-    .frioul-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .frioul
     {
@@ -2853,38 +2518,9 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .national
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
-        height: 160px;
-        width: 270px;
-        margin-left: 0.5em;
-        margin-top: 1em;
-    }
 
-    .national-img
-    {
-        width: 270px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 
-    .national p
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .national
     {
@@ -3012,44 +2648,9 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .garde-img
-    {
-        width: 270px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 
-    .garde p
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 0.8em;
-        margin-left: 0.5em;
-        margin-top: 0.6em;
-    }
 
-    .garde
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
-        height: 160px;
-        width: 270px;
-        margin-left: 0.5em;
-        margin-top: 1em;
-    }
-
-    .garde-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-}
-
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .garde
     {
@@ -3058,7 +2659,7 @@ aside
         border-radius: 10px;
         height: 135px;
         width: 175px;
-        margin-left: 13.5em;
+        margin-left: 2em;
         margin-top: 2em;
     } 
 
@@ -3177,43 +2778,8 @@ aside
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    .parc-img
-    {
-        width: 270px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 
-    .parc p
-    {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
-        font-size: 0.8em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
-
-    .parc
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
-        height: 160px;
-        width: 270px;
-        margin-left: 0.5em;
-        margin-top: 1em;
-    }
-
-    .parc-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-}
-@media only screen and (min-width : 1025px) and (max-width : 1190px)
+@media only screen and (min-width : 768px) and (max-width : 1190px)
 {
     .parc
     {
@@ -3349,43 +2915,6 @@ footer h4
     }
 }   
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-    footer
-    {
-        display: flex;
-        flex-direction: column;
-        background-color: #F2F2F2;
-        width: 768px;
-        height: 300px;
-        margin-bottom: -4em;
-    }
-
-        footer p, footer h4
-    {
-        font-size: 0.80em;
-    }
-
-        .a-propos
-    {
-        margin-top: 1em;
-        margin-left: 3.5em;
-    }
-
-    .nos-hébergements
-    {
-        margin-top: -8em;
-        margin-left: 25.5em;
-    }
-
-    .assistance
-    {
-        margin-top: 3em;
-        margin-left: 3.5em;
-        margin-right: 0em;
-        margin-bottom: 4em;
-    }
-}
 
 @media only screen and (min-width : 1191px) and (max-width : 1224px) 
 {
@@ -3402,14 +2931,14 @@ footer h4
     }
 }
 
-@media only screen and (min-width : 1025px) and (max-width : 1190px) 
+@media only screen and (min-width : 768px) and (max-width : 1190px) 
 {
     footer
     {
         display: flex;
         flex-direction: row;
         background-color: #F2F2F2;
-        width: 1190px;
+        width: auto;
         height: auto;
         margin-bottom: -4em;
     }
