@@ -32,7 +32,7 @@ body
     margin-right: 9em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     header
     {
@@ -105,7 +105,7 @@ body
     font-weight: bold;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .logo img, #sinscrire
     {
@@ -117,7 +117,7 @@ body
 
 @media only screen and (min-width : 550px) and (max-width : 1190px)
 {
-    .logo img, #sinscrire
+    .logo img
     {
         display: flex;
         flex-direction: row;
@@ -152,7 +152,7 @@ body
     padding-top: 3.8em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .option a
     {
@@ -184,6 +184,8 @@ body
         color: #0065FC;
         text-decoration-line: none;
         border-bottom: medium solid #0065FC;
+        border-top: 0;
+        padding-top: 0em;
     }
 
     #hébergements, #activités
@@ -206,15 +208,40 @@ body
 
 @media only screen and (min-width : 550px) and (max-width : 1190px)
 {
-        .option ul
+    .option ul
     {
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        margin-left: 20em;
-        margin-top: -2em;
     }
+
+    .option li
+    {
+        padding-right: 15px;
+    }
+
+    .option a
+    {
+        font-size: 0.90em;
+        color: black;
+        padding-bottom: 3px;
+        text-decoration: none;
+    }
+
+    .option a:hover
+    {
+        color: #0065FC;
+        border-top: 2px solid #0065FC;
+        padding-top: 3.8em;
+    }
+
+    #sinscrire
+    {
+        color: #0065FC;
+        font-weight: bold;
+    }
+
 }
 /* Object */
 
@@ -226,7 +253,7 @@ body
     margin-bottom: -1%;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .subtitle h2
     {
@@ -240,7 +267,7 @@ h3
     font-weight: normal;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     h3
     {
@@ -297,7 +324,7 @@ h3
         display: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .search-bar
     {
@@ -502,7 +529,7 @@ h4
     border-top: 1px solid #0065FC;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
 
     .filters
@@ -645,7 +672,7 @@ h5
     margin-left: 2.5em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     h5
     {
@@ -669,7 +696,7 @@ h5
     align-items:inherit;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .section1
     {
@@ -703,7 +730,7 @@ aside
     height: 500px; 
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     aside
     { 
@@ -928,7 +955,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .marcus
     {
@@ -1008,7 +1035,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .fred
     {
@@ -1088,7 +1115,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .reisetopia
     {
@@ -1168,7 +1195,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .annie
     {
@@ -1248,7 +1275,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .nicate
     {
@@ -1328,7 +1355,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .febrian
     {
@@ -1368,7 +1395,7 @@ aside
     padding-bottom: 1em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .afficher
     {
@@ -1637,7 +1664,7 @@ aside
 }
 
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .most-popular 
     {
@@ -1979,7 +2006,7 @@ aside
 }
 
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
 
     .section2
@@ -2120,7 +2147,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .port
     {
@@ -2238,7 +2265,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .pomegues-img
     {
@@ -2369,7 +2396,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .frioul-img
     {
@@ -2499,7 +2526,7 @@ aside
 }
 
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .national
     {
@@ -2623,7 +2650,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .garde-img
     {
@@ -2753,7 +2780,7 @@ aside
     text-decoration: none;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     .parc-img
     {
@@ -2889,7 +2916,7 @@ footer h4
     margin-right: 18em;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 549px) 
+@media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     footer
     {
