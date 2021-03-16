@@ -1931,79 +1931,8 @@ footer h4
     }
 }
 
-@media only screen and (min-width : 550px) and (max-width : 1190px) 
+@media only screen and (min-width : 1040px) and (max-width : 1350px) 
 {
-    .bloc_page
-    {
-        margin-left: 2%;
-        margin-right: 2%;
-        padding-left: 0em;
-    }
-    .logo img
-    {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-    }
-    .option ul
-    {
-        list-style-type: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-    .option li
-    {
-        padding-right: 15px;
-    }
-    .option a
-    {
-        font-size: 0.90em;
-        color: black;
-        padding-bottom: 3px;
-        text-decoration: none;
-    }
-    .option a:hover
-    {
-        color: #0065FC;
-        border-top: 2px solid #0065FC;
-        padding-top: 3.8em;
-    }
-    #sinscrire
-    {
-        color: #0065FC;
-        font-weight: bold;
-    }
-    .economic
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
-    }
-    .money
-    {
-        -webkit-margin-before: 0.1em;
-    }
-    .familial
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
-    }
-    .child
-    {
-        -webkit-margin-before: 0.1em;
-    }
-    .romantic
-    {
-        margin-left: -3.7em;
-        margin-top: 0.1em;
-        -webkit-margin-start: -3em;
-    }
-    .heart
-    {
-        -webkit-margin-before: 0.1em;
-    }
     .animals
     {
         margin-left: -3.5em;
@@ -2018,6 +1947,7 @@ footer h4
         -webkit-margin-start: -30.25em;
         -webkit-margin-before: 3.3em;
     }
+    
    .section1
     {
         display: flex;
@@ -2027,21 +1957,12 @@ footer h4
     }
     .accomodation
     {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: #F2F2F2;
-        border-radius: 2em;
-        margin-right: auto;
         margin-top: 2em;
         width: auto;
         height: auto;
     }
     .accomodation1
     {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         margin-top: 0em;
     }
     aside
@@ -2055,10 +1976,11 @@ footer h4
         width: auto;
         height: auto; 
         padding-bottom: 2em;
+        margin-left: -1em;
     }
     .afficher
     {
-        margin-top: -1.5em;
+        margin-top: -0.5em;
     }
     .most-popular
     {
@@ -2068,39 +1990,18 @@ footer h4
     }
     .emile
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 12px;
-        font-size: 0.9em;
-        width: 250px;
-        height: 100px;
-        margin-left: -18em;
         margin-top: 5em;
+        margin-left: -20em;
     }
     .aw
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 12px;
-        font-size: 0.9em;
-        width: 250px;
-        height: 100px;
-        margin-left: 1.25em;
         margin-top: 5em;
+        margin-left: 1em;
     }   
     .zakaria
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 12px;
-        font-size: 0.9em;
-        width: 250px;
-        height: 100px;
-        margin-left: 1.25em;
         margin-top: 5em;
+        margin-left: 1em;
     }   
     .section2
     {
@@ -2136,7 +2037,7 @@ footer h4
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 135px;
+        height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
@@ -2153,7 +2054,7 @@ footer h4
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 135px;
+        height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
@@ -2170,7 +2071,7 @@ footer h4
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 135px;
+        height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
@@ -2187,7 +2088,7 @@ footer h4
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 135px;
+        height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
@@ -2204,7 +2105,7 @@ footer h4
         background-color: white;
         box-shadow: 0px 2px 5px #F2F2F2;
         border-radius: 10px;
-        height: 135px;
+        height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
@@ -2241,20 +2142,19 @@ footer h4
         width: auto;
         height: auto;
         margin-bottom: -4em;
+        margin-right: -2em;
     }
     .a-propos
     {
-        margin-top: 1em;
-        margin-left: 2em;
+        margin-left: 4em;
     }
     .nos-hébergements
     {
-        margin-top: 1em;
-        margin-left: 3em;
+        margin-left: 2em;
+
     }
     .assistance
     {
-        margin-top: 1em;
-        margin-left: 3em;
+        margin-right: 10em;
     }
 }
