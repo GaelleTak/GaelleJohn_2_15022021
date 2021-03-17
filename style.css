@@ -1151,15 +1151,16 @@ footer h4
     }
     .bloc_page
     {
-        margin-left: 0em;
-        margin-right: 0em;
-
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .logo img, #sinscrire
     {
         display: flex;
         flex-direction: row;
         align-items: baseline;
+        margin-top: 1em;
+        margin-left: 1em;
     }
     .option a
     {
@@ -1169,19 +1170,25 @@ footer h4
         padding-bottom: 1.5em;
         padding-right: 1em;
         border-bottom: 3px solid #F2F2F2;
-        width: 90%;
+        width: 100%;
     }
+    
     #hébergements
     { 
-        padding-left: 3em;
+        padding-left: 4.5em;
         padding-right: 3em;
-        margin-left: -4em;
+        margin-left: -5em;
     }    
     #activités
     {
         padding-left: 3em;
-        padding-right: 3em;
-        margin-left: -2em;
+        padding-right: 3.5em;
+        margin-left: -4em;
+    }
+    .option ul 
+    {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
     }
     .option a:hover
     {
@@ -1191,28 +1198,34 @@ footer h4
         border-top: 0;
         padding-top: 0em;
     }
+
     #hébergements, #activités
     {
         display: flex;
         flex-direction: row;
         justify-content: stretch;
+        margin-left: -5em;
     }
     #sinscrire
     {
         margin-top: -3.5em;
-        margin-left: -6em;
+        margin-left: -10em;
         border-bottom: none;
         color: #0065FC;
+        font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
     }
+
     .subtitle h2
     {
-        width: 270px;
+        font-size: 1.5em;
+        margin-left: 0.5em;
     }
     h3
     {
         font-size: 0.9em;
         font-weight: normal;
+        margin-left: 1em;
     }
     .search-bar
     {
@@ -1223,6 +1236,7 @@ footer h4
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
+        margin-left: 1em;
     }
     .map-pin-mobile
     { 
@@ -1264,11 +1278,12 @@ footer h4
     {
         display: flex;
         flex-direction: column;
+        margin-left: 1em;
     }
     .economic
     {
-        margin-left: 0.9em;
-        margin-top: -3.5em;
+        margin-left: 0.5em;
+        margin-top: -3em;
         -webkit-margin-start: 0.5em;
         -webkit-margin-before: -3em;
         -webkit-margin-after: 2em;
@@ -1282,8 +1297,8 @@ footer h4
     }
     .familial
     {
-        margin-left: 16em;
-        margin-top: -3.5em;
+        margin-left: 13em;
+        margin-top: -3em;
         -webkit-margin-after-collapse: 2em;
         -webkit-margin-before: -4.5em;
         -webkit-margin-start: 13.5em;
@@ -1298,8 +1313,8 @@ footer h4
     }
     .romantic
     {
-        margin-left: 0.9em;
-        margin-top: -3.5em;
+        margin-left: 0.5em;
+        margin-top: -3em;
         -webkit-margin-after: 1em;
         -webkit-margin-before: -3em;
     }
@@ -1311,8 +1326,8 @@ footer h4
     }
     .animals
     {
-        margin-left: 0.9em;
-        margin-top: -3.5em;
+        margin-left: 0.5em;
+        margin-top: -3em;
         -webkit-margin-after: 0em;
     }
     .dog, .animals
@@ -1322,6 +1337,12 @@ footer h4
     h5
     {
         width: 250px;
+        margin-left: 4em;
+    }
+    .info-pin
+    {
+        margin-left: 1em;
+        margin-top: 3em;
     }
     .section1
     {
@@ -1332,11 +1353,11 @@ footer h4
     { 
         background-color: #F2F2F2;
         border-radius: 0em;
-        width: 295px;
+        width: 390px;
+        max-width: 100%;
         height: auto;
-        margin-left: -0.5em;
-        padding-right: 1em;
-        padding-left: 1em;
+        margin-left: 0em;
+        margin-right: 1em;
         -webkit-padding-end: 1em;
         -webkit-padding-start: 1em;
 
@@ -1358,7 +1379,7 @@ footer h4
     }
     .accomodation h2
     {
-        margin-left: 0.5em;
+        margin-left: -1em;
     }
     .marcus
     {
@@ -1368,20 +1389,24 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 255px;
+        width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.8em;
+        margin-left: 2.5em;
     }
     .marcus-img
     {
-        width: 255px;
+        width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
         margin-left: -0em;
+    }
+    .marcus-price
+    {
+        font-size: 0.8em;
     }
     .fred
     {
@@ -1391,20 +1416,24 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 255px;
+        width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.8em;
+        margin-left: 2.5em;
     }
     .fred-img
     {
-        width: 255px;
+        width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
         margin-left: -0em;
+    }
+    .fred-price
+    {
+        font-size: 0.8em;
     }
     .reisetopia
     {
@@ -1414,20 +1443,24 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 255px;
+        width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.8em;
+        margin-left: 2.5em;
     }
     .reisetopia-img
     {
-        width: 255px;
+        width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
         margin-left: -0em;
+    }
+    .reisetopia-price
+    {
+        font-size: 0.8em;
     }
     .annie
     {
@@ -1437,20 +1470,24 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 255px;
+        width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.8em;
+        margin-left: 2.5em;
     }
     .annie-img
     {
-        width: 255px;
+        width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
         margin-left: -0em;
+    }
+    .annie-price
+    {
+        font-size: 0.8em;
     }
     .nicate
     {
@@ -1460,20 +1497,24 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 255px;
+        width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.8em;
+        margin-left: 2.5em;
     }
     .nicate-img
     {
-        width: 255px;
+        width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
         margin-top: -0.15em;
         margin-right: -0.15em;
         margin-left: -0em;
+    }
+    .nicate-price
+    {
+        font-size: 0.8em;
     }
     .febrian
     {
@@ -1483,14 +1524,14 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 255px;
+        width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 1.8em;
+        margin-left: 2.5em;
     }
     .febrian-img
     {
-        width: 255px;
+        width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
@@ -1498,13 +1539,17 @@ footer h4
         margin-right: -0.15em;
         margin-left: -0em;
     }
+    .febrian-price
+    {
+        font-size: 0.8em;
+    }
     .afficher
     {
         border-radius: 0em;
         font-weight: bold;
         font-size: 0.9em;
         position: absolute;
-        margin-left: -10.5em;
+        margin-left: -14em;
         margin-top: 78em;
     }
     .most-popular 
@@ -1527,7 +1572,7 @@ footer h4
         background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 270px;
+        width: 340px;
         height: 120px;
         margin-left: 3%;
         margin-top: 1.5%;
@@ -1535,7 +1580,7 @@ footer h4
     }
     .emile-img
     {
-        width: 130px;
+        width: 160px;
         height: 110px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -1544,21 +1589,21 @@ footer h4
     .emile-title
     {
         font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 12.5em;
-        margin-top: -9em;
+        font-size: 0.9em;
+        margin-left: 15em;
+        margin-top: -8em;
     }
     .emile-title2
     {
         font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 12.5em;
+        font-size: 0.9em;
+        margin-left: 15em;
     }
     .emile-price
     {
         margin-top: -0.5em;
-        margin-left: 14.3em;
-        font-size: 0.70em;
+        margin-left: 17em;
+        font-size: 0.80em;
     }
     .emile-star
     {
@@ -1569,11 +1614,11 @@ footer h4
     {
         height: 10px;
         width: 10px;
-        margin-bottom: -2em;
+        margin-bottom: -1em;
     }
     .emile-star1
     {
-        margin-left: 10em;
+        margin-left: 13.5em;
     }
     .aw
     {
@@ -1584,7 +1629,7 @@ footer h4
         background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 270px;
+        width: 340px;
         height: 120px;
         margin-left: 3%;
         margin-top: 1.5%;
@@ -1592,7 +1637,7 @@ footer h4
     }
     .aw-img
     {
-        width: 130px;
+        width: 160px;
         height: 110px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -1601,21 +1646,21 @@ footer h4
     .aw-title
     {
         font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 12.5em;
-        margin-top: -9em;
+        font-size: 0.9em;
+        margin-left: 15em;
+        margin-top: -8em;
     }
     .aw-title2
     {
         font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 12.5em;
+        font-size: 0.9em;
+        margin-left: 15em;
     }
     .aw-price
     {
         margin-top: -0.5em;
-        margin-left: 14.3em;
-        font-size: 0.70em;
+        margin-left: 17em;
+        font-size: 0.80em;
     }
     .aw-star
     {
@@ -1626,11 +1671,11 @@ footer h4
     {
         height: 10px;
         width: 10px;
-        margin-bottom: -2em;
+        margin-bottom: -1em;
     }
     .aw-star1
     {
-        margin-left: 10em;
+        margin-left: 13.5em;
     }
     .zakaria
     {
@@ -1641,7 +1686,7 @@ footer h4
         background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 270px;
+        width: 340px;
         height: 120px;
         margin-left: 3%;
         margin-top: 1.5%;
@@ -1649,7 +1694,7 @@ footer h4
     }
     .zakaria-img
     {
-        width: 130px;
+        width: 160px;
         height: 110px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -1658,21 +1703,21 @@ footer h4
     .zakaria-title
     {
         font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 12.5em;
-        margin-top: -9em;
+        font-size: 0.9em;
+        margin-left: 15em;
+        margin-top: -8em;
     }
     .zakaria-title2
     {
         font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 12.5em;
+        font-size: 0.9em;
+        margin-left: 15em;
     }
     .zakaria-price
     {
         margin-top: -0.5em;
-        margin-left: 14.3em;
-        font-size: 0.70em;
+        margin-left: 17em;
+        font-size: 0.80em;
     }
     .zakaria-star
     {
@@ -1683,23 +1728,23 @@ footer h4
     {
         height: 10px;
         width: 10px;
-        margin-bottom: -2em;
+        margin-bottom: -1em;
     }
     .zakaria-star1
     {
-        margin-left: 10em;
+        margin-left: 13.5em;
     }
     .port
     {
-        height: 140px;
-        width: 260px;
+        height: 170px;
+        width: 330px;
         margin-top: -10em;   
         margin-left: 0.5em;
     }
     .port-img
     {
-        width: 260px;
-        height: 100px;
+        width: 330px;
+        height: 130px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px; 
     } 
@@ -1735,15 +1780,15 @@ footer h4
     .activities
     {
         font-size: 0.75em;
-        margin-left: 0.4em;
+        margin-left: 1em;
         margin-bottom: 1em;
         padding-top: 1em;
         margin-top: 2em;
     }
     .pomegues-img
     {
-        width: 260px;
-        height: 100px;
+        width: 330px;
+        height: 130px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -1756,8 +1801,8 @@ footer h4
     }
     .pomegues
     {
-        height: 140px;
-        width: 260px;
+        height: 170px;
+        width: 330px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -1768,8 +1813,8 @@ footer h4
     }
     .frioul-img
     {
-        width: 260px;
-        height: 100px;
+        width: 330px;
+        height: 130px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -1782,8 +1827,8 @@ footer h4
     }
     .frioul
     {
-        height: 140px;
-        width: 260px;
+        height: 170px;
+        width: 330px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -1794,15 +1839,15 @@ footer h4
     }
     .national
     {
-        height: 140px;
-        width: 260px;
+        height: 170px;
+        width: 330px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
     .national-img
     {
-        width: 260px;
-        height: 100px;
+        width: 330px;
+        height: 130px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -1815,8 +1860,8 @@ footer h4
     }
     .garde-img
     {
-        width: 260px;
-        height: 100px;
+        width: 330px;
+        height: 130px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -1829,8 +1874,8 @@ footer h4
     }
     .garde
     {
-        height: 140px;
-        width: 260px;
+        height: 170px;
+        width: 330px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -1841,8 +1886,8 @@ footer h4
     }
     .parc-img
     {
-        width: 260px;
-        height: 100px;
+        width: 330px;
+        height: 130px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -1855,8 +1900,8 @@ footer h4
     }
     .parc
     {
-        height: 140px;
-        width: 260px;
+        height: 170px;
+        width: 330px;
         margin-left: 0.5em;
         margin-top: 1em;
     }
@@ -1867,33 +1912,26 @@ footer h4
     }
     footer
     {
-        display: flex;
         flex-direction: column;
-        background-color: #F2F2F2;
-        width: 375px;
-        height: auto;
-        margin-bottom: -4em;
-        padding-right: 1.5em;
-        
-    }
-        footer p, footer h4
-    {
-        font-size: 0.80em;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2%;
+        padding: 0 0rem;
     }
         .a-propos
     {
         margin-top: 1em;
-        margin-left: 3.5em;
+        margin-left: 1.5em;
     }
     .nos-hébergements
     {
         margin-top: 1em;
-        margin-left: 3.5em;
+        margin-left: 1.5em;
     }
      .assistance
     {
         margin-top: 1em;
-        margin-left: 3.5em;
+        margin-left: 1.5em;
         margin-right: 0em;
         margin-bottom: 2em;
     }
