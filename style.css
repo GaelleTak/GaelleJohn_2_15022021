@@ -1,19 +1,17 @@
-/* Definition of the selected police */
+/* Principals elements of the page */
 
-@font-face
+body
 {
-    font-family: 'Raleway-Regular';
-    src: url('raleway/Raleway-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
 }
 
-@font-face
+.bloc_page
 {
-    font-family: 'Raleway-Bold'; 
-    src: url('raleway/Raleway-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* Header */
@@ -24,19 +22,6 @@ header
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 2.5em;
-}
-
-/* Principals elements of the page */
-
-body
-{
-    font-family: 'Raleway-Regular', Arial, sans-serif;
-}
-
-.bloc_page
-{
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 /* Header - main logo */
@@ -72,14 +57,15 @@ body
 
 .option li
 {
-    padding-right: 15px;
+    padding-right: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1em;
 }
 
 .option a
 {
-    font-size: 1em;
     color: black;
-    padding-bottom: 3px;
     text-decoration: none;
 }
 
@@ -94,13 +80,13 @@ body
 
 .subtitle h2
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
-    font-size: 1.25em;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 h3
 {
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: normal;
 }
 
@@ -125,7 +111,7 @@ h3
     height: 30px;
     width: 200px;
     border-color: #F2F2F2;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     color: black;
     border-style: solid;
     border-width: thin;
@@ -147,7 +133,7 @@ h3
 
 .search-bar-mobile
 {
-        display: none;
+    display: none;
 }
 
 /*Filter*/
@@ -162,10 +148,10 @@ h3
 
 h4
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
-    font-size: 0.85em;
-    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1em;
     margin-right: 2em;
+    margin-top: 0.5em;
 }
 
 .economic .money 
@@ -185,7 +171,9 @@ h4
 .economic
 {
     margin-right: 1em;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 0.85em;
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
@@ -218,7 +206,9 @@ h4
 .familial
 {
     margin-right: 1em;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 0.85em;
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
@@ -250,7 +240,9 @@ h4
 .romantic
 {
     margin-right: 1em;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 0.85em;
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
@@ -282,7 +274,9 @@ h4
 .animals
 {
     margin-right: 1em;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 0.85em;
     background-color: white;
     border-style: solid;
     border-color: #F2F2F2;
@@ -308,6 +302,7 @@ h4
 h5
 {
     font-size: 0.8em;
+    font-weight: normal;
     margin-left: 2.5em;
 }
 
@@ -337,7 +332,7 @@ h5
     border-radius: 2em;
     width: 935px;
     height: 580px;
-    margin-left: -1em;
+    margin-left: -1.5em;
 }
 .accomodation1
 {
@@ -351,13 +346,14 @@ aside
 { 
     background-color: #F2F2F2;
     border-radius: 2em;
-    width: 345px;
+    width: 370px;
     height: 580px; 
+    margin-right: 1em;
 }
 
 #Hébergements
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.9em;
     margin-left: 3em;
     margin-bottom: 0.5em;
@@ -371,7 +367,6 @@ aside
     border-color: #F2F2F2;
     border-radius: 12px;
     padding: 8px;
-    font-size: 1em;
     width: 250px;
     height: 180px;
     margin-bottom: 1.5em;
@@ -391,14 +386,14 @@ aside
 
 .marcus-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0em;
-    font-size: 0.80em;
+    font-size: 0.9em;
 }
 
 .marcus-price
 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -420,7 +415,6 @@ aside
     border-color: #F2F2F2;
     border-radius: 12px;
     padding: 8px;
-    font-size: 1em;
     width: 250px;
     height: 180px;
     margin-bottom: 1.5em;
@@ -440,14 +434,14 @@ aside
 
 .fred-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0em;
-    font-size: 0.80em;
+    font-size: 0.90em;
 }
 
 .fred-price
 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -470,7 +464,6 @@ aside
     border-color: #F2F2F2;
     border-radius: 12px;
     padding: 8px;
-    font-size: 1em;
     width: 250px;
     height: 180px;
     margin-bottom: 1.5em;
@@ -490,14 +483,14 @@ aside
 
 .reisetopia-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0em;
-    font-size: 0.80em;
+    font-size: 0.90em;
 }
 
 .reisetopia-price
 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -520,7 +513,6 @@ aside
     border-color: #F2F2F2;
     border-radius: 12px;
     padding: 8px;
-    font-size: 1em;
     width: 250px;
     height: 180px;
     margin-bottom: 1.5em;
@@ -540,14 +532,14 @@ aside
 
 .annie-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0em;
-    font-size: 0.80em;
+    font-size: 0.90em;
 }
 
 .annie-price
 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -570,7 +562,6 @@ aside
     border-color: #F2F2F2;
     border-radius: 12px;
     padding: 8px;
-    font-size: 1em;
     width: 250px;
     height: 180px;
     margin-bottom: 1.5em;
@@ -590,14 +581,14 @@ aside
 
 .nicate-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0em;
-    font-size: 0.80em;
+    font-size: 0.90em;
 }
 
 .nicate-price
 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -620,7 +611,6 @@ aside
     border-color: #F2F2F2;
     border-radius: 12px;
     padding: 8px;
-    font-size: 1em;
     width: 250px;
     height: 180px;
     margin-bottom: 1.5em;
@@ -640,14 +630,14 @@ aside
 
 .febrian-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0em;
-    font-size: 0.80em;
+    font-size: 0.90em;
 }
 
 .febrian-price
 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
@@ -666,7 +656,7 @@ aside
 .afficher
 {
     border-radius: 2em;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 1em;
     margin-left: 1.75em;
     margin-bottom: 1em;
@@ -679,10 +669,9 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-color: #F2F2F2;
     border-radius: 12px;
-    font-size: 0.9em;
     width: 300px;
     height: 130px;
-    margin-left: 1.5em;
+    margin-left: 2.25em;
     margin-top: 0.5em;
 }
 
@@ -698,23 +687,23 @@ aside
 
 .emile-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
-    font-size: 0.90em;
-    margin-left: 11.5em;
-    margin-top: -9em;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 11em;
+    margin-top: -8em;
 }
 .emile-title2
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
-    font-size: 0.90em;
-    margin-left: 11.5em;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 11em;
     margin-top: -1em;
 }
 
 .emile-price
 {
     margin-top: -0.5em;
-    margin-left: 12.75em;
+    margin-left: 12.5em;
     font-size: 0.80em;
 }
 
@@ -728,12 +717,12 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-bottom: -2em;
+    margin-bottom: -1em;
 }
 
 .emile-star1
 {
-    margin-left: 10.3em;
+    margin-left: 10em;
 }
 
 .emile-link
@@ -748,10 +737,9 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-color: #F2F2F2;
     border-radius: 12px;
-    font-size: 0.9em;
     width: 300px;
     height: 130px;
-    margin-left: 1.5em;
+    margin-left: 2.25em;
     margin-top: 2em;
 }
 
@@ -767,23 +755,23 @@ aside
 
 .aw-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
-    margin-left: 11.5em;
-    margin-top: -9em;
+    margin-left: 11em;
+    margin-top: -8em;
 }
 .aw-title2
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
-    margin-left: 11.5em;
+    margin-left: 11em;
     margin-top: -1em;
 }
 
 .aw-price
 {
     margin-top: -0.5em;
-    margin-left: 12.75em;
+    margin-left: 12.5em;
     font-size: 0.80em;
 }
 
@@ -797,12 +785,12 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-bottom: -2em;
+    margin-bottom: -1em;
 }
 
 .aw-star1
 {
-    margin-left: 10.3em;
+    margin-left: 10em;
 }
 
 .aw-link
@@ -817,10 +805,9 @@ aside
     box-shadow: 0px 2px 5px #F2F2F2;
     border-color: #F2F2F2;
     border-radius: 12px;
-    font-size: 0.9em;
     width: 300px;
     height: 130px;
-    margin-left: 1.5em;
+    margin-left: 2.25em;
     margin-top: 2em;
 }
 
@@ -836,23 +823,23 @@ aside
 
 .zakaria-title
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
-    margin-left: 11.5em;
-    margin-top: -9em;
+    margin-left: 11em;
+    margin-top: -8em;
 }
 .zakaria-title2
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
-    margin-left: 11.5em;
+    margin-left: 11em;
     margin-top: -1em;
 }
 
 .zakaria-price
 {
     margin-top: -0.5em;
-    margin-left: 12.75em;
+    margin-left: 12.5em;
     font-size: 0.80em;
 }
 
@@ -866,12 +853,12 @@ aside
 {
     height: 10px;
     width: 10px;
-    margin-bottom: -2em;
+    margin-bottom: -1em;
 }
 
 .zakaria-star1
 {
-    margin-left: 10.3em;
+    margin-left: 10em;
 }
 
 .zakaria-link
@@ -888,7 +875,7 @@ aside
 
 .most-popular h2
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 1.25em;
     margin-left: 1em;
     margin-top: 2em;
@@ -898,7 +885,7 @@ aside
 {
     height: 20px;
     width: 20px;
-    margin-left: 6em;
+    margin-left: 7em;
     margin-top: 2.75em;
 }
 
@@ -914,7 +901,7 @@ aside
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.9em;
     margin-left: 1em;
     margin-bottom: 1em;
@@ -937,11 +924,9 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-
 .port p
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.5em;
@@ -973,7 +958,7 @@ aside
 
 .pomegues p
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.5em;
@@ -1006,7 +991,7 @@ aside
 
 .frioul p
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.35em;
@@ -1038,7 +1023,7 @@ aside
 
 .national p
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.5em;
@@ -1071,7 +1056,7 @@ aside
 
 .garde p
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.35em;
@@ -1090,7 +1075,7 @@ aside
     height: 170px;
     width: 300px;
     margin-left: 64em;
-    margin-top: 2em;
+    margin-top: 1.75em;
 }
 
 .parc-img
@@ -1103,7 +1088,7 @@ aside
 
 .parc p
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.35em;
@@ -1121,44 +1106,45 @@ footer
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
-    margin-top: 2em;
-    margin-left: -3em;
-    width: 1450px;
-    height: 160px;
+    max-width: 100%;
+    width: 1440px;
+    margin-left: -2%;
+    margin-top: 2%;
+    padding: 0 2rem;
 }
-footer p, footer h4
+footer p
 {
     font-size: 0.80em;
 }
 
 footer h4
 {
-    font-family: 'Raleway-Bold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
 }
 
 .a-propos
 {
     margin-top: 1em;
-    margin-left: 4.5em;
+    margin-left: 1em;
 }
 
 .nos-hébergements
 {
     margin-top: 1em;
-    margin-left: -6em;
+    margin-left: 3em;
 }
 
 .assistance
 {
     margin-top: 1em;
-    margin-right: 25em;
+    margin-right: 22em;
 }
 
 @media only screen and (min-width : 345px) and (max-width : 549px) 
 {
     header
     {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding-top: 0em;
@@ -1217,7 +1203,7 @@ footer h4
         margin-left: -6em;
         border-bottom: none;
         color: #0065FC;
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
     }
     .subtitle h2
     {
@@ -1250,7 +1236,7 @@ footer h4
         height: 30px;
         width: 200px;
         border-color:#F2F2F2;
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         color: black;
         border-style: solid;
         border-width: thin;
@@ -1515,7 +1501,7 @@ footer h4
     .afficher
     {
         border-radius: 0em;
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.9em;
         position: absolute;
         margin-left: -10.5em;
@@ -1557,14 +1543,14 @@ footer h4
     }
     .emile-title
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 12.5em;
         margin-top: -9em;
     }
     .emile-title2
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 12.5em;
     }
@@ -1614,14 +1600,14 @@ footer h4
     }
     .aw-title
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 12.5em;
         margin-top: -9em;
     }
     .aw-title2
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 12.5em;
     }
@@ -1671,14 +1657,14 @@ footer h4
     }
     .zakaria-title
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 12.5em;
         margin-top: -9em;
     }
     .zakaria-title2
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 12.5em;
     }
@@ -1705,9 +1691,6 @@ footer h4
     }
     .port
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 140px;
         width: 260px;
         margin-top: -10em;   
@@ -1722,7 +1705,7 @@ footer h4
     } 
     .port p
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 1em;
         margin-top: 0.5em;
@@ -1766,16 +1749,13 @@ footer h4
     }
     .pomegues p
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 1em;
         margin-top: 0.5em;
     }
     .pomegues
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 140px;
         width: 260px;
         margin-left: 0.5em;
@@ -1795,16 +1775,13 @@ footer h4
     }
     .frioul p
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 1em;
         margin-top: 0.35em;
     }
     .frioul
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2; 
-        border-radius: 10px;
         height: 140px;
         width: 260px;
         margin-left: 0.5em;
@@ -1817,9 +1794,6 @@ footer h4
     }
     .national
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 140px;
         width: 260px;
         margin-left: 0.5em;
@@ -1834,7 +1808,7 @@ footer h4
     }
     .national p
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.80em;
         margin-left: 1em;
         margin-top: 0.5em;
@@ -1848,16 +1822,13 @@ footer h4
     }
     .garde p
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.8em;
         margin-left: 0.5em;
         margin-top: 0.6em;
     }
     .garde
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 140px;
         width: 260px;
         margin-left: 0.5em;
@@ -1877,16 +1848,13 @@ footer h4
     }
     .parc p
     {
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.8em;
         margin-left: 1em;
         margin-top: 0.5em;
     }
     .parc
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 140px;
         width: 260px;
         margin-left: 0.5em;
@@ -1931,29 +1899,14 @@ footer h4
     }
 }
 
-@media only screen and (min-width : 1040px) and (max-width : 1350px) 
-{
-    .animals
-    {
-        margin-left: -3.5em;
-        margin-top: 5.25em;
-        -webkit-margin-start: -3em;
-        -webkit-margin-before: 4em;
-    }
-    .dog
-    {
-        margin-top: 3.5em;
-        margin-left: -27.5em;
-        -webkit-margin-start: -30.25em;
-        -webkit-margin-before: 3.3em;
-    }
-    
+
+@media only screen and (min-width : 1040px) and (max-width : 1374px) 
+{   
    .section1
     {
         display: flex;
         flex-direction: column;
         justify-content:flex-start;
-        align-items:inherit;
     }
     .accomodation
     {
@@ -2024,7 +1977,7 @@ footer h4
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-family: 'Raleway-Bold', Arial, sans-serif;
+        font-weight: bold;
         font-size: 0.75em;
         margin-left: 1.7em;
         margin-bottom: 1em;
@@ -2034,9 +1987,6 @@ footer h4
     }
     .port
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 145px;
         width: 175px;
         margin-left: 2em;
@@ -2051,9 +2001,6 @@ footer h4
     }  
     .pomegues
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 145px;
         width: 175px;
         margin-left: 2em;
@@ -2068,9 +2015,6 @@ footer h4
     } 
     .frioul
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 145px;
         width: 175px;
         margin-left: 2em;
@@ -2085,9 +2029,6 @@ footer h4
     }
     .national
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 145px;
         width: 175px;
         margin-left: 2em;
@@ -2102,9 +2043,6 @@ footer h4
     }  
     .garde
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 145px;
         width: 175px;
         margin-left: 2em;
@@ -2119,9 +2057,6 @@ footer h4
     }  
     .parc
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-radius: 10px;
         height: 135px;
         width: 175px;
         margin-left: 2em;
@@ -2151,7 +2086,6 @@ footer h4
     .nos-hébergements
     {
         margin-left: 2em;
-
     }
     .assistance
     {
