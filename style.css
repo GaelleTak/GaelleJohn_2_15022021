@@ -1141,7 +1141,7 @@ footer h4
     margin-right: 22em;
 }
 
-@media only screen and (min-width : 345px) and (max-width : 549px) 
+@media only screen and (min-width : 320px) and (max-width : 549px) 
 {
     header
     {
@@ -1353,8 +1353,7 @@ footer h4
     { 
         background-color: #F2F2F2;
         border-radius: 0em;
-        width: 390px;
-        max-width: 100%;
+        width: 375px;
         height: auto;
         margin-left: 0em;
         margin-right: 1em;
@@ -1392,7 +1391,8 @@ footer h4
         width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
+        -webkit-margin-start: 2em;
     }
     .marcus-img
     {
@@ -1419,7 +1419,8 @@ footer h4
         width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
+        -webkit-margin-start: 2em;
     }
     .fred-img
     {
@@ -1446,7 +1447,8 @@ footer h4
         width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
+        -webkit-margin-start: 2em;
     }
     .reisetopia-img
     {
@@ -1473,7 +1475,8 @@ footer h4
         width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
+        -webkit-margin-start: 2em;
     }
     .annie-img
     {
@@ -1500,7 +1503,8 @@ footer h4
         width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
+        -webkit-margin-start: 2em;
     }
     .nicate-img
     {
@@ -1527,7 +1531,8 @@ footer h4
         width: 330px;
         height: 155px;
         margin-bottom: 1.5em;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
+        -webkit-margin-start: 2em;
     }
     .febrian-img
     {
@@ -1551,6 +1556,7 @@ footer h4
         position: absolute;
         margin-left: -14em;
         margin-top: 78em;
+        -webkit-margin-start: -15.5em;
     }
     .most-popular 
     {
@@ -1558,6 +1564,7 @@ footer h4
         justify-content: space-around;
         margin-top: -1em;
         margin-left: -1em;
+        -webkit-margin-start: -2em;
     }
     .most-popular img
     {
@@ -1574,9 +1581,10 @@ footer h4
         font-size: 0.9em;
         width: 340px;
         height: 120px;
-        margin-left: 3%;
+        margin-left: 4%;
         margin-top: 1.5%;
         margin-bottom: 0.75em;
+        -webkit-margin-start: 0em;
     }
     .emile-img
     {
@@ -1631,9 +1639,10 @@ footer h4
         font-size: 0.9em;
         width: 340px;
         height: 120px;
-        margin-left: 3%;
+        margin-left: 4%;
         margin-top: 1.5%;
         margin-bottom: 0.75em;
+        -webkit-margin-start: 0em;
     }
     .aw-img
     {
@@ -1688,9 +1697,10 @@ footer h4
         font-size: 0.9em;
         width: 340px;
         height: 120px;
-        margin-left: 3%;
+        margin-left: 4%;
         margin-top: 1.5%;
         margin-bottom: 0.75em;
+        -webkit-margin-start: 0em;
     }
     .zakaria-img
     {
@@ -1734,32 +1744,6 @@ footer h4
     {
         margin-left: 13.5em;
     }
-    .port
-    {
-        height: 170px;
-        width: 330px;
-        margin-top: -10em;   
-        margin-left: 0.5em;
-    }
-    .port-img
-    {
-        width: 330px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px; 
-    } 
-    .port p
-    {
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
-    .port-link
-    {
-        color: black;
-        text-decoration: none;
-    }
     .section2
     {
         display: flex;
@@ -1784,7 +1768,36 @@ footer h4
         margin-bottom: 1em;
         padding-top: 1em;
         margin-top: 2em;
+        -webkit-margin-start: 0em;
     }
+    .port
+    {
+        height: 170px;
+        width: 330px;
+        margin-top: -10em;   
+        margin-left: 0.75em;
+        -webkit-margin-start: 0.25em;
+    }
+    .port-img
+    {
+        width: 330px;
+        height: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; 
+    } 
+    .port p
+    {
+        font-weight: bold;
+        font-size: 0.80em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+    .port-link
+    {
+        color: black;
+        text-decoration: none;
+    }
+
     .pomegues-img
     {
         width: 330px;
@@ -1803,8 +1816,9 @@ footer h4
     {
         height: 170px;
         width: 330px;
-        margin-left: 0.5em;
+        margin-left: 0.75em;
         margin-top: 1em;
+        -webkit-margin-start: 0.25em;
     }
     .pomegues-link
     {
@@ -1829,8 +1843,9 @@ footer h4
     {
         height: 170px;
         width: 330px;
-        margin-left: 0.5em;
+        margin-left: 0.75em;
         margin-top: 1em;
+        -webkit-margin-start: 0.25em;
     }
     .frioul-link
     {
@@ -1841,8 +1856,9 @@ footer h4
     {
         height: 170px;
         width: 330px;
-        margin-left: 0.5em;
+        margin-left: 0.75em;
         margin-top: 1em;
+        -webkit-margin-start: 0.25em;
     }
     .national-img
     {
@@ -1876,8 +1892,9 @@ footer h4
     {
         height: 170px;
         width: 330px;
-        margin-left: 0.5em;
+        margin-left: 0.75em;
         margin-top: 1em;
+        -webkit-margin-start: 0.25em;
     }
     .garde-link
     {
@@ -1902,8 +1919,9 @@ footer h4
     {
         height: 170px;
         width: 330px;
-        margin-left: 0.5em;
+        margin-left: 0.75em;
         margin-top: 1em;
+        -webkit-margin-start: 0.25em;
     }
     .parc-link
     {
@@ -1913,7 +1931,7 @@ footer h4
     footer
     {
         flex-direction: column;
-        width: 100%;
+        width: 375px;
         margin-left: 0%;
         margin-top: 2%;
         padding: 0 0rem;
