@@ -7,15 +7,12 @@ body
     margin: 0;
     padding: 0;
 }
-
 .bloc_page
 {
     margin-left: 2%;
     margin-right: 2%;
 }
-
 /* Header */
-
 header
 {
     display: flex;
@@ -23,22 +20,18 @@ header
     align-items: flex-end;
     padding-top: 2.5em;
 }
-
 /* Header - main logo */
-
 .logo
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
 .logo img
 {
     width: 80px;
     height: 60px;
 }
-
 /* Header - search bar */
 
 #sinscrire
@@ -46,7 +39,6 @@ header
     color: #0065FC;
     font-weight: bold;
 }
-
 .option ul
 {
     list-style-type: none;
@@ -54,7 +46,6 @@ header
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-
 .option li
 {
     padding-right: 10px;
@@ -62,50 +53,41 @@ header
     margin-right: 2em;
     font-size: 1em;
 }
-
 .option a
 {
     color: black;
     text-decoration: none;
 }
-
 .option a:hover
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 3.8em;
 }
-
 /* Object */
-
 .subtitle h2
 {
     font-weight: bold;
     font-size: 2em;
 }
-
 h3
 {
     font-size: 1.25em;
     font-weight: normal;
 }
-
 /*City search bar*/
-
 .search-bar
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
 .map-pin
 { 
     border-color: #F2F2F2;
     height: 34px;
     width: 40px;
 }
-
 .search
 {
     height: 30px;
@@ -130,22 +112,18 @@ h3
     border-color: #0065FC;
     border: none;
 }
-
 .search-bar-mobile
 {
     display: none;
 }
-
 /*Filter*/
-
 .filters
 {
     display: flex;
     align-items: flex-start ;
     padding-top: 1.5em;
     margin-bottom: -1.5em;
-}
-
+}   
 h4
 {
     font-weight: bold;
@@ -153,21 +131,18 @@ h4
     margin-right: 2em;
     margin-top: 0.5em;
 }
-
 .economic .money 
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;  
 }
-
 .money
 {
     width: 50px;
     height: 40px;
     position: relative;
 }
-
 .economic
 {
     margin-right: 1em;
@@ -182,19 +157,16 @@ h4
     border-radius: 3em;
 
 }
-
 .economic:hover 
 {
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
-
 .familial .child 
 {
     display: flex; 
     align-items:unset; 
 }
-
 .child
 {
     width: 50px;
@@ -202,7 +174,6 @@ h4
     margin-top: 0%;
     position: relative;
 }
-
 .familial
 {
     margin-right: 1em;
@@ -216,19 +187,16 @@ h4
     margin-left: -3em;
     border-radius: 3em;
 }
-
 .familial:hover 
 {
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
-
 .romantic .heart 
 {
     display: flex; 
     align-items:unset; 
 }
-
 .heart
 {
     width: 50px;
@@ -236,7 +204,6 @@ h4
     margin-top: 0%;
     position: relative;
 }
-
 .romantic
 {
     margin-right: 1em;
@@ -250,19 +217,16 @@ h4
     margin-left: -3em;
     border-radius: 3em;
 }
-
 .romantic:hover 
 {
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
-
 .animals .dog
 {
     display: flex; 
     align-items:unset; 
 }
-
 .dog
 {
     width: 50px;
@@ -270,7 +234,6 @@ h4
     margin-top: 0%;
     position: relative;
 }
-
 .animals
 {
     margin-right: 1em;
@@ -289,40 +252,31 @@ h4
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
-
-
 /*Information*/
-
 .information
 {
     display: flex;
     align-items: flex-end ;
 }
-
 h5
 {
     font-size: 0.8em;
     font-weight: normal;
     margin-left: 2.5em;
 }
-
 .info-pin
 {
     width: 24px;
     height: 24px;
     margin-bottom: -2.7em;
 }
-
 /*Accomodation*/
-
 .section1
 {
     display: flex;
     justify-content: space-around;
     align-items:inherit;
-
 }
-
 .accomodation
 {
     display: flex;
@@ -341,7 +295,6 @@ h5
     flex-wrap: wrap;
     margin-left: 1em;
 }
-
 aside
 { 
     background-color: #F2F2F2;
@@ -350,7 +303,6 @@ aside
     height: 580px; 
     margin-right: 1em;
 }
-
 #Hébergements
 {
     font-weight: bold;
@@ -359,7 +311,6 @@ aside
     margin-bottom: 0.5em;
     margin-top: 1.5em;
 }
-
 .marcus
 {
     background-color: white;
@@ -372,7 +323,6 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-
 .marcus-img
 {
     width: 250px;
@@ -383,14 +333,12 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-
 .marcus-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.9em;
 }
-
 .marcus-price
 {
     margin-top: -1em;
@@ -420,7 +368,6 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-
 .fred-img
 {
     width: 250px;
@@ -431,14 +378,12 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-
 .fred-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.90em;
 }
-
 .fred-price
 {
     margin-top: -1em;
@@ -456,7 +401,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .reisetopia
 {
     background-color: white;
@@ -469,7 +413,6 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-
 .reisetopia-img
 {
     width: 250px;
@@ -480,14 +423,12 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-
 .reisetopia-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.90em;
 }
-
 .reisetopia-price
 {
     margin-top: -1em;
@@ -505,7 +446,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .annie
 {
     background-color: white;
@@ -518,7 +458,6 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-
 .annie-img
 {
     width: 250px;
@@ -529,14 +468,12 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-
 .annie-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.90em;
 }
-
 .annie-price
 {
     margin-top: -1em;
@@ -554,7 +491,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .nicate
 {
     background-color: white;
@@ -567,7 +503,6 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-
 .nicate-img
 {
     width: 250px;
@@ -578,14 +513,12 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-
 .nicate-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.90em;
 }
-
 .nicate-price
 {
     margin-top: -1em;
@@ -603,7 +536,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .febrian
 {
     background-color: white;
@@ -616,7 +548,6 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-
 .febrian-img
 {
     width: 250px;
@@ -627,14 +558,12 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-
 .febrian-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.90em;
 }
-
 .febrian-price
 {
     margin-top: -1em;
@@ -652,7 +581,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .afficher
 {
     border-radius: 2em;
@@ -661,7 +589,6 @@ aside
     margin-left: 1.75em;
     margin-bottom: 1em;
     margin-top: -1em;
-
 }
 .emile
 {
@@ -674,7 +601,6 @@ aside
     margin-left: 2.25em;
     margin-top: 0.5em;
 }
-
 .emile-img
 {
     width: 120px;
@@ -684,7 +610,6 @@ aside
     margin-top: 0.35em;
     margin-left: 0.4em;
 }
-
 .emile-title
 {
     font-weight: bold;
@@ -699,38 +624,32 @@ aside
     margin-left: 11em;
     margin-top: -1em;
 }
-
 .emile-price
 {
     margin-top: -0.5em;
     margin-left: 12.5em;
     font-size: 0.80em;
 }
-
 .emile-star
 {
     display: flex;
     flex-direction: row;
 }
-
 .emile-star img
 {
     height: 10px;
     width: 10px;
     margin-bottom: -1em;
 }
-
 .emile-star1
 {
     margin-left: 10em;
 }
-
 .emile-link
 {
     color: black;
     text-decoration: none;
 }
-
 .aw
 {
     background-color: white;
@@ -742,7 +661,6 @@ aside
     margin-left: 2.25em;
     margin-top: 2em;
 }
-
 .aw-img
 {
     width: 120px;
@@ -752,7 +670,6 @@ aside
     margin-top: 0.35em;
     margin-left: 0.4em;
 }
-
 .aw-title
 {
     font-weight: bold;
@@ -767,38 +684,32 @@ aside
     margin-left: 11em;
     margin-top: -1em;
 }
-
 .aw-price
 {
     margin-top: -0.5em;
     margin-left: 12.5em;
     font-size: 0.80em;
 }
-
 .aw-star
 {
     display: flex;
     flex-direction: row;
 }
-
 .aw-star img
 {
     height: 10px;
     width: 10px;
     margin-bottom: -1em;
 }
-
 .aw-star1
 {
     margin-left: 10em;
 }
-
 .aw-link
 {
     color: black;
     text-decoration: none;
 }
-
 .zakaria
 {
     background-color: white;
@@ -810,7 +721,6 @@ aside
     margin-left: 2.25em;
     margin-top: 2em;
 }
-
 .zakaria-img
 {
     width: 120px;
@@ -820,7 +730,6 @@ aside
     margin-top: 0.35em;
     margin-left: 0.4em;
 }
-
 .zakaria-title
 {
     font-weight: bold;
@@ -835,44 +744,37 @@ aside
     margin-left: 11em;
     margin-top: -1em;
 }
-
 .zakaria-price
 {
     margin-top: -0.5em;
     margin-left: 12.5em;
     font-size: 0.80em;
 }
-
 .zakaria-star
 {
     display: flex;
     flex-direction: row;
 }
-
 .zakaria-star img
 {
     height: 10px;
     width: 10px;
     margin-bottom: -1em;
 }
-
 .zakaria-star1
 {
     margin-left: 10em;
 }
-
 .zakaria-link
 {
     color: black;
     text-decoration: none;
 }
-
 .most-popular
 {
     display: flex;
     flex-direction: row;
 }
-
 .most-popular h2
 {
     font-weight: bold;
@@ -880,7 +782,6 @@ aside
     margin-left: 1em;
     margin-top: 2em;
 }
-
 .most-popular img
 {
     height: 20px;
@@ -888,14 +789,11 @@ aside
     margin-left: 7em;
     margin-top: 2.75em;
 }
-
 /* Activities search*/
-
 .section2
 {
     margin-left: 0em;
 }
-
 .activities
 {
     display: flex;
@@ -916,7 +814,6 @@ aside
     width: 300px;
     margin-left: 1em;
 }
-
 .port-img
 {
     width: 300px;
@@ -931,13 +828,11 @@ aside
     margin-left: 1em;
     margin-top: 0.5em;
 }
-
 .port-link
 {
     color: black;
     text-decoration: none;
 }
-
 .pomegues
 {
     background-color: white;
@@ -955,7 +850,6 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .pomegues p
 {
     font-weight: bold;
@@ -963,13 +857,11 @@ aside
     margin-left: 1em;
     margin-top: 0.5em;
 }
-
 .pomegues-link
 {
     color: black;
     text-decoration: none;
 }
-
 .frioul
 {
     background-color: white;
@@ -980,7 +872,6 @@ aside
     margin-left: 22em;
     margin-top: 1.5em;
 }
-
 .frioul-img
 {
     width: 300px;
@@ -988,7 +879,6 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .frioul p
 {
     font-weight: bold;
@@ -1001,7 +891,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .national
 {
     background-color: white;
@@ -1012,7 +901,6 @@ aside
     margin-left: 43em;
     margin-top: -23em;
 }
-
 .national-img
 {
     width: 300px;
@@ -1020,7 +908,6 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .national p
 {
     font-weight: bold;
@@ -1028,13 +915,11 @@ aside
     margin-left: 1em;
     margin-top: 0.5em;
 }
-
 .national-link
 {
     color: black;
     text-decoration: none;
 }
-
 .garde
 {
     background-color: white;
@@ -1045,7 +930,6 @@ aside
     margin-left: 64em;
     margin-top: -23em;
 }
-
 .garde-img
 {
     width: 300px;
@@ -1053,7 +937,6 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .garde p
 {
     font-weight: bold;
@@ -1066,7 +949,6 @@ aside
     color: black;
     text-decoration: none;
 }
-
 .parc
 {
     background-color: white;
@@ -1077,7 +959,6 @@ aside
     margin-left: 64em;
     margin-top: 1.75em;
 }
-
 .parc-img
 {
     width: 300px;
@@ -1085,7 +966,6 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .parc p
 {
     font-weight: bold;
@@ -1098,9 +978,7 @@ aside
     color: black;
     text-decoration: none;
 }
-
 /* Footer */
-
 footer
 {
     display: flex;
@@ -1122,26 +1000,22 @@ footer h4
     font-weight: bold;
     font-size: 0.9em;
 }
-
 .a-propos
 {
     margin-top: 1em;
     margin-left: 1em;
 }
-
 .nos-hébergements
 {
     margin-top: 1em;
     margin-left: 3em;
 }
-
 .assistance
 {
     margin-top: 1em;
     margin-right: 22em;
 }
-
-@media only screen and (min-width : 320px) and (max-width : 549px) 
+@media only screen and (min-width : 320px) and (max-width : 480px) 
 {
     header
     {
@@ -1172,7 +1046,6 @@ footer h4
         border-bottom: 3px solid #F2F2F2;
         width: 100%;
     }
-    
     #hébergements
     { 
         padding-left: 4.5em;
@@ -1198,7 +1071,6 @@ footer h4
         border-top: 0;
         padding-top: 0em;
     }
-
     #hébergements, #activités
     {
         display: flex;
@@ -1215,11 +1087,11 @@ footer h4
         font-family: 'Raleway-Bold', Arial, sans-serif;
         font-weight: bold;
     }
-
     .subtitle h2
     {
         font-size: 1.5em;
         margin-left: 0.5em;
+        width: 375px;
     }
     h3
     {
@@ -1359,7 +1231,6 @@ footer h4
         margin-right: 1em;
         -webkit-padding-end: 1em;
         -webkit-padding-start: 1em;
-
     }
     .accomodation1 
     {
@@ -1934,7 +1805,7 @@ footer h4
         width: 375px;
         margin-left: 0%;
         margin-top: 2%;
-        padding: 0 0rem;
+        padding: 0 2rem;
     }
         .a-propos
     {
@@ -1954,8 +1825,217 @@ footer h4
         margin-bottom: 2em;
     }
 }
+@media only screen and (min-width : 481px) and (max-width : 1039px) 
+{   
+    .heart
+    {
+        margin-left: -19.75em;
+        margin-top: 4em;
+    }
+    .romantic
+    {
+        margin-left: -3em;
+        margin-top: 4.75em;
+    }
+    .dog
+    {
+        margin-top: 8em;
+        margin-left: -10.75em;
+    }
+    .animals
+    {
+        margin-left: -3em;
+        margin-top: 9.4em;
+    }
 
-
+   .section1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    .accomodation
+    {
+        margin-top: 2em;
+        width: auto;
+        height: auto;
+    }
+    .accomodation1
+    {
+        margin-top: 0em;
+    }
+    aside
+    { 
+        background-color: #F2F2F2;
+        border-radius: 2em;
+        margin-top: 2em;
+        width: auto;
+        height: auto; 
+        padding-bottom: 2em;
+        margin-left: -1em;
+    }
+    .afficher
+    {
+        margin-top: -0.5em;
+    }
+    .most-popular
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: -1em;
+    }
+    .emile
+    {
+        margin-top: 0em;
+        margin-left: 1em;
+    }
+    .aw
+    {
+        margin-top: 2em;
+        margin-left: 10em;
+    }   
+    .zakaria
+    {
+        margin-top: 2em;
+        margin-left: 1em;
+    }   
+    .section2
+    {
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 3em;
+        width: auto;
+    }  
+    .places
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: -2em;
+        margin-left: -2em;
+        width: auto;
+    }
+    .activities
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-weight: bold;
+        font-size: 0.75em;
+        margin-left: 1.7em;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        margin-top: 2em;
+        width: auto;
+    }
+    .port
+    {
+        height: 145px;
+        width: 175px;
+        margin-left: 2em;
+        margin-top: 2em;
+    } 
+    .port-img
+    {
+        width: 175px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }  
+    .pomegues
+    {
+        height: 145px;
+        width: 175px;
+        margin-left: 2em;
+        margin-top: 2em;
+    } 
+    .pomegues-img
+    {
+        width: 175px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    } 
+    .frioul
+    {
+        height: 145px;
+        width: 175px;
+        margin-left: 2em;
+        margin-top: 2em;
+    } 
+    .frioul-img
+    {
+        width: 175px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .national
+    {
+        height: 145px;
+        width: 175px;
+        margin-left: 2em;
+        margin-top: 2em;
+    } 
+    .national-img
+    {
+        width: 175px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }  
+    .garde
+    {
+        height: 145px;
+        width: 175px;
+        margin-left: 2em;
+        margin-top: 2em;
+    } 
+    .garde-img
+    {
+        width: 175px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }  
+    .parc
+    {
+        height: 135px;
+        width: 175px;
+        margin-left: 2em;
+        margin-top: 2em;
+    } 
+    .parc-img
+    {
+        width: 175px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }  
+    footer
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+        width: auto;
+        height: auto;
+        margin-bottom: -4em;
+        margin-right: -2em;
+    }
+    .a-propos
+    {
+        margin-left: 0em;
+    }
+    .nos-hébergements
+    {
+        margin-left: 2em;
+    }
+    .assistance
+    {
+        margin-right: 10em;
+    }
+}
 @media only screen and (min-width : 1040px) and (max-width : 1374px) 
 {   
    .section1
