@@ -1,5 +1,4 @@
 /* Principals elements of the page */
-
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -33,7 +32,6 @@ header
     height: 60px;
 }
 /* Header - search bar */
-
 #sinscrire
 {
     color: #0065FC;
@@ -131,19 +129,13 @@ h4
     margin-right: 2em;
     margin-top: 0.5em;
 }
-.economic .money 
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;  
-}
-.money
+.money, .child, .heart, .dog
 {
     width: 50px;
     height: 40px;
     position: relative;
 }
-.economic
+.economic, .familial, .romantic, .animals 
 {
     margin-right: 1em;
     font-weight: bold;
@@ -155,102 +147,16 @@ h4
     padding: 10px 25px 10px 40px;
     margin-left: -3em;
     border-radius: 3em;
-
 }
-.economic:hover 
+.economic:hover, .familial:hover, .romantic:hover, .animals:hover 
 {
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
-.familial .child 
+.economic .money, .familial .child, .romantic .heart, .animals .dog
 {
     display: flex; 
     align-items:unset; 
-}
-.child
-{
-    width: 50px;
-    height: 40px;
-    margin-top: 0%;
-    position: relative;
-}
-.familial
-{
-    margin-right: 1em;
-    font-weight: bold;
-    font-family: 'Raleway';
-    font-size: 0.85em;
-    background-color: white;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 10px 25px 10px 40px;
-    margin-left: -3em;
-    border-radius: 3em;
-}
-.familial:hover 
-{
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
-}
-.romantic .heart 
-{
-    display: flex; 
-    align-items:unset; 
-}
-.heart
-{
-    width: 50px;
-    height: 40px;
-    margin-top: 0%;
-    position: relative;
-}
-.romantic
-{
-    margin-right: 1em;
-    font-weight: bold;
-    font-family: 'Raleway';
-    font-size: 0.85em;
-    background-color: white;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 10px 25px 10px 40px;
-    margin-left: -3em;
-    border-radius: 3em;
-}
-.romantic:hover 
-{
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
-}
-.animals .dog
-{
-    display: flex; 
-    align-items:unset; 
-}
-.dog
-{
-    width: 50px;
-    height: 40px;
-    margin-top: 0%;
-    position: relative;
-}
-.animals
-{
-    margin-right: 1em;
-    font-weight: bold;
-    font-family: 'Raleway';
-    font-size: 0.85em;
-    background-color: white;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 10px 25px 10px 40px;
-    margin-left: -3em;
-    border-radius: 3em;
-}
-.animals:hover 
-{
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
 }
 /*Information*/
 .information
@@ -311,7 +217,7 @@ aside
     margin-bottom: 0.5em;
     margin-top: 1.5em;
 }
-.marcus
+.marcus, .fred, .reisetopia, .annie, .nicate, .febrian
 {
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
@@ -323,7 +229,7 @@ aside
     margin-bottom: 1.5em;
     margin-left: 1.5em;
 }
-.marcus-img
+.marcus-img, .fred-img, .reisetopia-img, .annie-img, .nicate-img, .febrian-img
 {
     width: 250px;
     height: 125px;
@@ -333,250 +239,25 @@ aside
     margin-right: -0.15em;
     margin-left: -0.05em;
 }
-.marcus-title
+.marcus-title, .fred-title, .reisetopia-title, .annie-title, .nicate-title, .febrian-title
 {
     font-weight: bold;
     margin-top: 0em;
     font-size: 0.9em;
 }
-.marcus-price
+.marcus-price, .fred-price, .reisetopia-price, .annie-price, .nicate-price, .febrian-price
 {
     margin-top: -1em;
     margin-bottom: -0.3em;
     font-size: 0.70em;
 }
-.marcus-star img
+.marcus-star img, .fred-star img, .reisetopia-star img, .annie-star img, .nicate-star img, .febrian-star img
 {
     height: 10px;
     width: 10px;
     margin-top: 0.75em; 
 }
-.marcus-link
-{
-    color: black;
-    text-decoration: none;
-}
-.fred
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    padding: 8px;
-    width: 250px;
-    height: 180px;
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
-}
-.fred-img
-{
-    width: 250px;
-    height: 125px;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    margin-top: -0.15em;
-    margin-right: -0.15em;
-    margin-left: -0.05em;
-}
-.fred-title
-{
-    font-weight: bold;
-    margin-top: 0em;
-    font-size: 0.90em;
-}
-.fred-price
-{
-    margin-top: -1em;
-    margin-bottom: -0.3em;
-    font-size: 0.70em;
-}
-.fred-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-top: 0.75em; 
-}
-.fred-link
-{
-    color: black;
-    text-decoration: none;
-}
-.reisetopia
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    padding: 8px;
-    width: 250px;
-    height: 180px;
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
-}
-.reisetopia-img
-{
-    width: 250px;
-    height: 125px;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    margin-top: -0.15em;
-    margin-right: -0.15em;
-    margin-left: -0.05em;
-}
-.reisetopia-title
-{
-    font-weight: bold;
-    margin-top: 0em;
-    font-size: 0.90em;
-}
-.reisetopia-price
-{
-    margin-top: -1em;
-    margin-bottom: -0.3em;
-    font-size: 0.70em;
-}
-.reisetopia-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-top: 0.75em; 
-}
-.reisetopia-link
-{
-    color: black;
-    text-decoration: none;
-}
-.annie
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    padding: 8px;
-    width: 250px;
-    height: 180px;
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
-}
-.annie-img
-{
-    width: 250px;
-    height: 125px;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    margin-top: -0.15em;
-    margin-right: -0.15em;
-    margin-left: -0.05em;
-}
-.annie-title
-{
-    font-weight: bold;
-    margin-top: 0em;
-    font-size: 0.90em;
-}
-.annie-price
-{
-    margin-top: -1em;
-    margin-bottom: -0.3em;
-    font-size: 0.70em;
-}
-.annie-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-top: 0.75em; 
-}
-.annie-link
-{
-    color: black;
-    text-decoration: none;
-}
-.nicate
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    padding: 8px;
-    width: 250px;
-    height: 180px;
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
-}
-.nicate-img
-{
-    width: 250px;
-    height: 125px;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    margin-top: -0.15em;
-    margin-right: -0.15em;
-    margin-left: -0.05em;
-}
-.nicate-title
-{
-    font-weight: bold;
-    margin-top: 0em;
-    font-size: 0.90em;
-}
-.nicate-price
-{
-    margin-top: -1em;
-    margin-bottom: -0.3em;
-    font-size: 0.70em;
-}
-.nicate-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-top: 0.75em; 
-}
-.nicate-link
-{
-    color: black;
-    text-decoration: none;
-}
-.febrian
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    padding: 8px;
-    width: 250px;
-    height: 180px;
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
-}
-.febrian-img
-{
-    width: 250px;
-    height: 125px;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    margin-top: -0.15em;
-    margin-right: -0.15em;
-    margin-left: -0.05em;
-}
-.febrian-title
-{
-    font-weight: bold;
-    margin-top: 0em;
-    font-size: 0.90em;
-}
-.febrian-price
-{
-    margin-top: -1em;
-    margin-bottom: -0.3em;
-    font-size: 0.70em;
-}
-.febrian-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-top: 0.75em; 
-}
-.febrian-link
+.marcus-link, .fred-link, .reisetopia-link, .annie-link, .nicate-link, .febrian-link
 {
     color: black;
     text-decoration: none;
@@ -590,7 +271,7 @@ aside
     margin-bottom: 1em;
     margin-top: -1em;
 }
-.emile
+.emile, .aw, .zakaria
 {
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
@@ -599,9 +280,16 @@ aside
     width: 300px;
     height: 130px;
     margin-left: 2.25em;
+}
+.emile  
+{   
     margin-top: 0.5em;
 }
-.emile-img
+.aw, .zakaria
+{
+    margin-top: 2em;
+}
+.emile-img, .aw-img, .zakaria-img
 {
     width: 120px;
     height: 120px;
@@ -610,162 +298,42 @@ aside
     margin-top: 0.35em;
     margin-left: 0.4em;
 }
-.emile-title
+.emile-title, .aw-title, .zakaria-title
 {
     font-weight: bold;
     font-size: 0.9em;
     margin-left: 11em;
     margin-top: -8em;
 }
-.emile-title2
+.emile-title2, .aw-title2, .zakaria-title2
 {
     font-weight: bold;
     font-size: 0.9em;
     margin-left: 11em;
     margin-top: -1em;
 }
-.emile-price
+.emile-price, .aw-price, .zakaria-price
 {
     margin-top: -0.5em;
     margin-left: 12.5em;
     font-size: 0.80em;
 }
-.emile-star
+.emile-star, .aw-star, .zakaria-star
 {
     display: flex;
     flex-direction: row;
 }
-.emile-star img
+.emile-star img, .aw-star img, .zakaria-star img
 {
     height: 10px;
     width: 10px;
     margin-bottom: -1em;
 }
-.emile-star1
+.emile-star1, .aw-star1, .zakaria-star1
 {
     margin-left: 10em;
 }
-.emile-link
-{
-    color: black;
-    text-decoration: none;
-}
-.aw
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    width: 300px;
-    height: 130px;
-    margin-left: 2.25em;
-    margin-top: 2em;
-}
-.aw-img
-{
-    width: 120px;
-    height: 120px;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-    margin-top: 0.35em;
-    margin-left: 0.4em;
-}
-.aw-title
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 11em;
-    margin-top: -8em;
-}
-.aw-title2
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 11em;
-    margin-top: -1em;
-}
-.aw-price
-{
-    margin-top: -0.5em;
-    margin-left: 12.5em;
-    font-size: 0.80em;
-}
-.aw-star
-{
-    display: flex;
-    flex-direction: row;
-}
-.aw-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-bottom: -1em;
-}
-.aw-star1
-{
-    margin-left: 10em;
-}
-.aw-link
-{
-    color: black;
-    text-decoration: none;
-}
-.zakaria
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-color: #F2F2F2;
-    border-radius: 12px;
-    width: 300px;
-    height: 130px;
-    margin-left: 2.25em;
-    margin-top: 2em;
-}
-.zakaria-img
-{
-    width: 120px;
-    height: 120px;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-    margin-top: 0.35em;
-    margin-left: 0.4em;
-}
-.zakaria-title
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 11em;
-    margin-top: -8em;
-}
-.zakaria-title2
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 11em;
-    margin-top: -1em;
-}
-.zakaria-price
-{
-    margin-top: -0.5em;
-    margin-left: 12.5em;
-    font-size: 0.80em;
-}
-.zakaria-star
-{
-    display: flex;
-    flex-direction: row;
-}
-.zakaria-star img
-{
-    height: 10px;
-    width: 10px;
-    margin-bottom: -1em;
-}
-.zakaria-star1
-{
-    margin-left: 10em;
-}
-.zakaria-link
+.emile-link, .aw-link, .zakaria-link
 {
     color: black;
     text-decoration: none;
@@ -805,178 +373,96 @@ aside
     margin-bottom: 1em;
     margin-top: 2em;
 }
-.port
+.port, .pomegues, .frioul, .national, .garde, .parc
 {
     background-color: white;
     box-shadow: 0px 2px 5px #F2F2F2;
-    border-radius: 10px;
-    height: 370px;
-    width: 300px;
-    margin-left: 1em;
+    border-radius: 10px; 
 }
-.port-img
+.port-img, .pomegues-img, .frioul-img, .national-img, .garde-img, .parc-img
 {
-    width: 300px;
-    height: 330px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.port p
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 1em;
-    margin-top: 0.5em;
-}
-.port-link
+.port-link, .pomegues-link, .frioul-link, .national-link, .garde-link, .parc-link
 {
     color: black;
     text-decoration: none;
 }
-.pomegues
+.port-img, .national-img
 {
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-radius: 10px;
-    height: 215px;
     width: 300px;
-    margin-left: 22em;
-    margin-top: -23em;
+    height: 330px;
+}
+.garde-img, .parc-img
+{
+    width: 300px;
+    height: 135px;
 }
 .pomegues-img
 {
     width: 300px;
     height: 175px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.pomegues p
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 1em;
-    margin-top: 0.5em;
-}
-.pomegues-link
-{
-    color: black;
-    text-decoration: none;
-}
-.frioul
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2; 
-    border-radius: 10px;
-    height: 130px;
-    width: 300px;
-    margin-left: 22em;
-    margin-top: 1.5em;
 }
 .frioul-img
 {
     width: 300px;
     height: 90px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
-.frioul p
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 1em;
-    margin-top: 0.35em;
-}
-.frioul-link
-{
-    color: black;
-    text-decoration: none;
-}
-.national
-{
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2;
-    border-radius: 10px;
-    height: 370px;
-    width: 300px;
-    margin-left: 43em;
-    margin-top: -23em;
-}
-.national-img
-{
-    width: 300px;
-    height: 330px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.national p
+.port p, .pomegues p, .national p
 {
     font-weight: bold;
     font-size: 0.90em;
     margin-left: 1em;
     margin-top: 0.5em;
 }
-.national-link
+.frioul p, .parc p, .garde p
 {
-    color: black;
-    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.90em;
+    margin-left: 1em;
+    margin-top: 0.35em;
+}
+.port
+{
+    height: 370px;
+    width: 300px;
+    margin-left: 1em;
+}
+.pomegues
+{
+    height: 215px;
+    width: 300px;
+    margin-left: 22em;
+    margin-top: -23em;
+}
+.frioul
+{
+    height: 130px;
+    width: 300px;
+    margin-left: 22em;
+    margin-top: 1.5em;
+}
+.national
+{
+    height: 370px;
+    width: 300px;
+    margin-left: 43em;
+    margin-top: -23em;
 }
 .garde
 {
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2; 
-    border-radius: 10px;
     height: 170px;
     width: 300px;
     margin-left: 64em;
     margin-top: -23em;
 }
-.garde-img
-{
-    width: 300px;
-    height: 135px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.garde p
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 1em;
-    margin-top: 0.35em;
-}
-.garde-link
-{
-    color: black;
-    text-decoration: none;
-}
 .parc
 {
-    background-color: white;
-    box-shadow: 0px 2px 5px #F2F2F2; 
-    border-radius: 10px;
     height: 170px;
     width: 300px;
     margin-left: 64em;
     margin-top: 1.75em;
-}
-.parc-img
-{
-    width: 300px;
-    height: 135px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.parc p
-{
-    font-weight: bold;
-    font-size: 0.90em;
-    margin-left: 1em;
-    margin-top: 0.35em;
-}
-.parc-link
-{
-    color: black;
-    text-decoration: none;
 }
 /* Footer */
 footer
@@ -994,7 +480,6 @@ footer p
 {
     font-size: 0.80em;
 }
-
 footer h4
 {
     font-weight: bold;
@@ -1039,7 +524,6 @@ footer h4
     .option a
     {
         font-size: 0.90em;
-        color:black;
         text-decoration-line: none; 
         padding-bottom: 1.5em;
         padding-right: 1em;
@@ -1065,7 +549,6 @@ footer h4
     }
     .option a:hover
     {
-        color: #0065FC;
         text-decoration-line: none;
         border-bottom: medium solid #0065FC;
         border-top: 0;
@@ -1083,9 +566,6 @@ footer h4
         margin-top: -3.5em;
         margin-left: -10em;
         border-bottom: none;
-        color: #0065FC;
-        font-family: 'Raleway-Bold', Arial, sans-serif;
-        font-weight: bold;
     }
     .subtitle h2
     {
@@ -1096,7 +576,6 @@ footer h4
     h3
     {
         font-size: 0.9em;
-        font-weight: normal;
         margin-left: 1em;
     }
     .search-bar
@@ -1148,7 +627,6 @@ footer h4
     }
     .filters
     {
-        display: flex;
         flex-direction: column;
         margin-left: 1em;
     }
@@ -1218,12 +696,10 @@ footer h4
     }
     .section1
     {
-        display: flex;
         flex-direction: column-reverse;
     }
     aside
-    { 
-        background-color: #F2F2F2;
+    {
         border-radius: 0em;
         width: 375px;
         height: auto;
@@ -1234,7 +710,6 @@ footer h4
     }
     .accomodation1 
     {
-        display: flex;
         justify-content: space-around;
         margin-top: -1em;
         margin-left:-1em;
@@ -1251,178 +726,31 @@ footer h4
     {
         margin-left: -1em;
     }
-    .marcus
+    .marcus, .fred, .reisetopia, .annie, .nicate, .febrian 
     {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
         width: 330px;
         height: 155px;
-        margin-bottom: 1.5em;
         margin-left: 2.75em;
         -webkit-margin-start: 2em;
     }
-    .marcus-img
+    .marcus-img, .fred-img, .reisetopia-img, .annie-img, .nicate-img, .febrian-img 
     {
         width: 330px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
-        margin-top: -0.15em;
-        margin-right: -0.15em;
         margin-left: -0em;
     }
-    .marcus-price
-    {
-        font-size: 0.8em;
-    }
-    .fred
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 15px;
-        padding: 7px;
-        font-size: 0.9em;
-        width: 330px;
-        height: 155px;
-        margin-bottom: 1.5em;
-        margin-left: 2.75em;
-        -webkit-margin-start: 2em;
-    }
-    .fred-img
-    {
-        width: 330px;
-        height: 100px;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        margin-top: -0.15em;
-        margin-right: -0.15em;
-        margin-left: -0em;
-    }
-    .fred-price
-    {
-        font-size: 0.8em;
-    }
-    .reisetopia
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 15px;
-        padding: 7px;
-        font-size: 0.9em;
-        width: 330px;
-        height: 155px;
-        margin-bottom: 1.5em;
-        margin-left: 2.75em;
-        -webkit-margin-start: 2em;
-    }
-    .reisetopia-img
-    {
-        width: 330px;
-        height: 100px;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        margin-top: -0.15em;
-        margin-right: -0.15em;
-        margin-left: -0em;
-    }
-    .reisetopia-price
-    {
-        font-size: 0.8em;
-    }
-    .annie
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 15px;
-        padding: 7px;
-        font-size: 0.9em;
-        width: 330px;
-        height: 155px;
-        margin-bottom: 1.5em;
-        margin-left: 2.75em;
-        -webkit-margin-start: 2em;
-    }
-    .annie-img
-    {
-        width: 330px;
-        height: 100px;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        margin-top: -0.15em;
-        margin-right: -0.15em;
-        margin-left: -0em;
-    }
-    .annie-price
-    {
-        font-size: 0.8em;
-    }
-    .nicate
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 15px;
-        padding: 7px;
-        font-size: 0.9em;
-        width: 330px;
-        height: 155px;
-        margin-bottom: 1.5em;
-        margin-left: 2.75em;
-        -webkit-margin-start: 2em;
-    }
-    .nicate-img
-    {
-        width: 330px;
-        height: 100px;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        margin-top: -0.15em;
-        margin-right: -0.15em;
-        margin-left: -0em;
-    }
-    .nicate-price
-    {
-        font-size: 0.8em;
-    }
-    .febrian
-    {
-        background-color: white;
-        box-shadow: 0px 2px 5px #F2F2F2;
-        border-color: #F2F2F2;
-        border-radius: 15px;
-        padding: 7px;
-        font-size: 0.9em;
-        width: 330px;
-        height: 155px;
-        margin-bottom: 1.5em;
-        margin-left: 2.75em;
-        -webkit-margin-start: 2em;
-    }
-    .febrian-img
-    {
-        width: 330px;
-        height: 100px;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        margin-top: -0.15em;
-        margin-right: -0.15em;
-        margin-left: -0em;
-    }
-    .febrian-price
+    .marcus-price, .fred-price, .reisetopia-price, .annie-price, .nicate-price, .febrian-price
     {
         font-size: 0.8em;
     }
     .afficher
     {
         border-radius: 0em;
-        font-weight: bold;
         font-size: 0.9em;
         position: absolute;
         margin-left: -14em;
@@ -1431,7 +759,6 @@ footer h4
     }
     .most-popular 
     {
-        display: flex;
         justify-content: space-around;
         margin-top: -1em;
         margin-left: -1em;
@@ -1441,13 +768,11 @@ footer h4
     {
         margin-right: 0.5em;
     }
-    .emile
+    .emile, .aw, .zakaria
     {
-        border-color: #F2F2F2;
         box-shadow: none;
         border-style: solid;
         border-width: thin;
-        background-color: white;
         border-radius: 15px;
         font-size: 0.9em;
         width: 340px;
@@ -1457,7 +782,7 @@ footer h4
         margin-bottom: 0.75em;
         -webkit-margin-start: 0em;
     }
-    .emile-img
+    .emile-img, .aw-img, .zakaria-img
     {
         width: 160px;
         height: 110px;
@@ -1467,151 +792,18 @@ footer h4
     }
     .emile-title
     {
-        font-weight: bold;
-        font-size: 0.9em;
         margin-left: 15em;
         margin-top: -8em;
     }
-    .emile-title2
+    .emile-title2, .aw-title, .aw-title2, .zakaria-title, .zakaria-title2
     {
-        font-weight: bold;
-        font-size: 0.9em;
         margin-left: 15em;
     }
-    .emile-price
+    .emile-price, .aw-price, .zakaria-price
     {
-        margin-top: -0.5em;
         margin-left: 17em;
-        font-size: 0.80em;
     }
-    .emile-star
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    .emile-star img
-    {
-        height: 10px;
-        width: 10px;
-        margin-bottom: -1em;
-    }
-    .emile-star1
-    {
-        margin-left: 13.5em;
-    }
-    .aw
-    {
-        border-color: #F2F2F2;
-        box-shadow: none;
-        border-style: solid;
-        border-width: thin;
-        background-color: white;
-        border-radius: 15px;
-        font-size: 0.9em;
-        width: 340px;
-        height: 120px;
-        margin-left: 4%;
-        margin-top: 1.5%;
-        margin-bottom: 0.75em;
-        -webkit-margin-start: 0em;
-    }
-    .aw-img
-    {
-        width: 160px;
-        height: 110px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        padding-left: 0.5%;
-    }
-    .aw-title
-    {
-        font-weight: bold;
-        font-size: 0.9em;
-        margin-left: 15em;
-        margin-top: -8em;
-    }
-    .aw-title2
-    {
-        font-weight: bold;
-        font-size: 0.9em;
-        margin-left: 15em;
-    }
-    .aw-price
-    {
-        margin-top: -0.5em;
-        margin-left: 17em;
-        font-size: 0.80em;
-    }
-    .aw-star
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    .aw-star img
-    {
-        height: 10px;
-        width: 10px;
-        margin-bottom: -1em;
-    }
-    .aw-star1
-    {
-        margin-left: 13.5em;
-    }
-    .zakaria
-    {
-        border-color: #F2F2F2;
-        box-shadow: none;
-        border-style: solid;
-        border-width: thin;
-        background-color: white;
-        border-radius: 15px;
-        font-size: 0.9em;
-        width: 340px;
-        height: 120px;
-        margin-left: 4%;
-        margin-top: 1.5%;
-        margin-bottom: 0.75em;
-        -webkit-margin-start: 0em;
-    }
-    .zakaria-img
-    {
-        width: 160px;
-        height: 110px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        padding-left: 0.5%;
-    }
-    .zakaria-title
-    {
-        font-weight: bold;
-        font-size: 0.9em;
-        margin-left: 15em;
-        margin-top: -8em;
-    }
-    .zakaria-title2
-    {
-        font-weight: bold;
-        font-size: 0.9em;
-        margin-left: 15em;
-    }
-    .zakaria-price
-    {
-        margin-top: -0.5em;
-        margin-left: 17em;
-        font-size: 0.80em;
-    }
-    .zakaria-star
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    .zakaria-star img
-    {
-        height: 10px;
-        width: 10px;
-        margin-bottom: -1em;
-    }
-    .zakaria-star1
+    .emile-star1, .aw-star1, .zakaria-star1
     {
         margin-left: 13.5em;
     }
@@ -1636,191 +828,54 @@ footer h4
     {
         font-size: 0.75em;
         margin-left: 1em;
-        margin-bottom: 1em;
         padding-top: 1em;
-        margin-top: 2em;
         -webkit-margin-start: 0em;
+    }
+    .port, .pomegues, .frioul, .garde, .parc, .national
+    {
+        height: 170px;
+        width: 330px;
+        margin-left: 0.75em;
+        -webkit-margin-start: 0.25em;  
     }
     .port
     {
-        height: 170px;
-        width: 330px;
-        margin-top: -10em;   
-        margin-left: 0.75em;
-        -webkit-margin-start: 0.25em;
+        margin-top: -10em; 
     }
-    .port-img
+     .pomegues, .frioul, .garde, .parc, .national
+    {
+        margin-top: 1em;
+    }
+    .port-img, .pomegues-img, .frioul-img, .national-img, .garde-img, .parc-img
     {
         width: 330px;
         height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px; 
     } 
-    .port p
+    .port p, .pomegues p, .frioul p, .national p, .garde p, .parc p
     {
-        font-weight: bold;
         font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
-    .port-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-
-    .pomegues-img
-    {
-        width: 330px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .pomegues p
-    {
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
-    .pomegues
-    {
-        height: 170px;
-        width: 330px;
-        margin-left: 0.75em;
-        margin-top: 1em;
-        -webkit-margin-start: 0.25em;
-    }
-    .pomegues-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-    .frioul-img
-    {
-        width: 330px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .frioul p
-    {
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.35em;
-    }
-    .frioul
-    {
-        height: 170px;
-        width: 330px;
-        margin-left: 0.75em;
-        margin-top: 1em;
-        -webkit-margin-start: 0.25em;
-    }
-    .frioul-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-    .national
-    {
-        height: 170px;
-        width: 330px;
-        margin-left: 0.75em;
-        margin-top: 1em;
-        -webkit-margin-start: 0.25em;
-    }
-    .national-img
-    {
-        width: 330px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .national p
-    {
-        font-weight: bold;
-        font-size: 0.80em;
-        margin-left: 1em;
-        margin-top: 0.5em;
-    }
-    .garde-img
-    {
-        width: 330px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
     }
     .garde p
     {
-        font-weight: bold;
-        font-size: 0.8em;
         margin-left: 0.5em;
         margin-top: 0.6em;
     }
-    .garde
-    {
-        height: 170px;
-        width: 330px;
-        margin-left: 0.75em;
-        margin-top: 1em;
-        -webkit-margin-start: 0.25em;
-    }
-    .garde-link
-    {
-        color: black;
-        text-decoration: none;
-    }
-    .parc-img
-    {
-        width: 330px;
-        height: 130px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
     .parc p
     {
-        font-weight: bold;
-        font-size: 0.8em;
-        margin-left: 1em;
         margin-top: 0.5em;
-    }
-    .parc
-    {
-        height: 170px;
-        width: 330px;
-        margin-left: 0.75em;
-        margin-top: 1em;
-        -webkit-margin-start: 0.25em;
-    }
-    .parc-link
-    {
-        color: black;
-        text-decoration: none;
     }
     footer
     {
         flex-direction: column;
         width: 375px;
         margin-left: 0%;
-        margin-top: 2%;
-        padding: 0 2rem;
     }
-        .a-propos
+    .a-propos, .nos-hébergements, .assistance
     {
-        margin-top: 1em;
-        margin-left: 1.5em;
-    }
-    .nos-hébergements
-    {
-        margin-top: 1em;
-        margin-left: 1.5em;
+        margin-left: 0em;
     }
      .assistance
     {
-        margin-top: 1em;
-        margin-left: 1.5em;
         margin-right: 0em;
         margin-bottom: 2em;
     }
@@ -1834,7 +889,6 @@ footer h4
     }
     .romantic
     {
-        margin-left: -3em;
         margin-top: 4.75em;
     }
     .dog
@@ -1844,7 +898,6 @@ footer h4
     }
     .animals
     {
-        margin-left: -3em;
         margin-top: 9.4em;
     }
 
@@ -1866,8 +919,6 @@ footer h4
     }
     aside
     { 
-        background-color: #F2F2F2;
-        border-radius: 2em;
         margin-top: 2em;
         width: auto;
         height: auto; 
@@ -1880,8 +931,6 @@ footer h4
     }
     .most-popular
     {
-        display: flex;
-        flex-direction: row;
         margin-top: -1em;
     }
     .emile
@@ -1891,17 +940,14 @@ footer h4
     }
     .aw
     {
-        margin-top: 2em;
         margin-left: 10em;
     }   
     .zakaria
     {
-        margin-top: 2em;
         margin-left: 1em;
     }   
     .section2
     {
-        margin-left: 0em;
         margin-top: 0em;
         margin-bottom: 3em;
         width: auto;
@@ -1917,107 +963,28 @@ footer h4
     }
     .activities
     {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-weight: bold;
         font-size: 0.75em;
         margin-left: 1.7em;
-        margin-bottom: 1em;
         padding-top: 1em;
         margin-top: 2em;
         width: auto;
     }
-    .port
+    .port, .pomegues, .frioul, .national, .garde, .parc
     {
         height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
     } 
-    .port-img
+    .port-img, .pomegues-img, .frioul-img, .national-img, .garde-img, .parc-img
     {
         width: 175px;
         height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
-    .pomegues
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .pomegues-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    } 
-    .frioul
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .frioul-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .national
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .national-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
-    .garde
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .garde-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
-    .parc
-    {
-        height: 135px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .parc-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
+    }    
     footer
     {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: #F2F2F2;
         width: auto;
         height: auto;
         margin-bottom: -4em;
@@ -2040,7 +1007,6 @@ footer h4
 {   
    .section1
     {
-        display: flex;
         flex-direction: column;
         justify-content:flex-start;
     }
@@ -2059,8 +1025,6 @@ footer h4
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: #F2F2F2;
-        border-radius: 2em;
         margin-top: 2em;
         width: auto;
         height: auto; 
@@ -2073,8 +1037,6 @@ footer h4
     }
     .most-popular
     {
-        display: flex;
-        flex-direction: row;
         margin-top: -1em;
     }
     .emile
@@ -2094,7 +1056,6 @@ footer h4
     }   
     .section2
     {
-        margin-left: 0em;
         margin-top: 0em;
         margin-bottom: 3em;
         width: auto;
@@ -2110,106 +1071,27 @@ footer h4
     }
     .activities
     {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-weight: bold;
         font-size: 0.75em;
         margin-left: 1.7em;
-        margin-bottom: 1em;
         padding-top: 1em;
         margin-top: 2em;
         width: auto;
     }
-    .port
+    .port, .pomegues, .frioul, .national, .garde, .parc
     {
         height: 145px;
         width: 175px;
         margin-left: 2em;
         margin-top: 2em;
     } 
-    .port-img
+    .port-img, .pomegues-img, .frioul-img, .national-img, .garde-img, .parc-img
     {
         width: 175px;
         height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
-    .pomegues
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .pomegues-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    } 
-    .frioul
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .frioul-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .national
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .national-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
-    .garde
-    {
-        height: 145px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .garde-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
-    .parc
-    {
-        height: 135px;
-        width: 175px;
-        margin-left: 2em;
-        margin-top: 2em;
-    } 
-    .parc-img
-    {
-        width: 175px;
-        height: 100px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }  
+    }     
     footer
     {
-        display: flex;
         flex-direction: row;
-        background-color: #F2F2F2;
         width: auto;
         height: auto;
         margin-bottom: -4em;
