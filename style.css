@@ -571,7 +571,7 @@ footer h4
     {
         font-size: 1.5em;
         margin-left: 0.5em;
-        width: 375px;
+        width: 360px;
     }
     h3
     {
@@ -701,12 +701,9 @@ footer h4
     aside
     {
         border-radius: 0em;
-        width: 355px;
+        width: 375px;
         height: auto;
-        margin-left: -1em;
-        margin-right: 0em;
-        -webkit-padding-end: 1em;
-        -webkit-padding-start: 1em;
+        margin-right: 1em;
     }
     .accomodation1 
     {
@@ -734,7 +731,7 @@ footer h4
         width: 320px;
         height: 155px;
         margin-left: 2.75em;
-        -webkit-margin-start: 2em;
+        -webkit-margin-start: 2.25em;
     }
     .marcus-img, .fred-img, .reisetopia-img, .annie-img, .nicate-img, .febrian-img 
     {
@@ -755,14 +752,13 @@ footer h4
         position: absolute;
         margin-left: -14em;
         margin-top: 78em;
-        -webkit-margin-start: -15.5em;
+        -webkit-margin-start: -14.5em;
     }
     .most-popular 
     {
         justify-content: space-around;
         margin-top: -1em;
         margin-left: -1em;
-        -webkit-margin-start: -0em;
     }
     .most-popular img
     {
@@ -780,6 +776,7 @@ footer h4
         margin-left: 1em;
         margin-top: 1.5%;
         margin-bottom: 0.75em;
+        padding-left: 0.25em;
         -webkit-margin-start: 1em;
     }
     .emile-img, .aw-img, .zakaria-img
@@ -836,6 +833,7 @@ footer h4
         height: 170px;
         width: 320px;
         margin-left: 0.75em;
+        padding-left: 0.25em;
         -webkit-margin-start: 0.25em;  
     }
     .port
@@ -867,13 +865,14 @@ footer h4
     footer
     {
         flex-direction: column;
-        width: 350px;
-        margin-left: -1%;
-        padding: 0 1rem;
+        width: 375px;
+        margin-left: 0%;
+        padding: 0 0rem;
+        max-width: 106%;
     }
     .a-propos, .nos-hébergements, .assistance
     {
-        margin-left: 1em;
+        margin-left: 2em;
     }
      .assistance
     {
