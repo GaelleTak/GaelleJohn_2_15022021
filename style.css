@@ -507,11 +507,11 @@ footer h4
         flex-direction: column;
         align-items: flex-start;
         padding-top: 0em;
+        width: 375px;
     }
     .bloc_page
     {
         margin-left: 0%;
-        margin-right: 0%;
     }
     .logo img, #sinscrire
     {
@@ -521,31 +521,16 @@ footer h4
         margin-top: 1em;
         margin-left: 1em;
     }
+    .option ul
+    {
+        flex: none;
+    }
     .option a
     {
         font-size: 0.90em;
         text-decoration-line: none; 
         padding-bottom: 1.5em;
-        padding-right: 1em;
         border-bottom: 3px solid #F2F2F2;
-        width: 100%;
-    }
-    #hébergements
-    { 
-        padding-left: 4.5em;
-        padding-right: 3em;
-        margin-left: -5em;
-    }    
-    #activités
-    {
-        padding-left: 3em;
-        padding-right: 3.5em;
-        margin-left: -4em;
-    }
-    .option ul 
-    {
-        justify-content: flex-start;
-        flex-wrap: nowrap;
     }
     .option a:hover
     {
@@ -558,13 +543,28 @@ footer h4
     {
         display: flex;
         flex-direction: row;
-        justify-content: stretch;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin-left: 0em;
+    }
+    #hébergements
+    { 
+        padding-left: 4em;
+        padding-right: 5em;
         margin-left: -5em;
+        margin-right: -2em;
+    }    
+    #activités
+    {
+        padding-left: 4em;
+        padding-right: 4em;
+        margin-left: -4.75em;
+        margin-right: -3em;
     }
     #sinscrire
     {
-        margin-top: -3.5em;
-        margin-left: -10em;
+        margin-top: -6.5em;
+        margin-left: -5em;
         border-bottom: none;
     }
     .subtitle h2
@@ -701,10 +701,10 @@ footer h4
     aside
     {
         border-radius: 0em;
-        width: 375px;
+        width: 355px;
         height: auto;
-        margin-left: 0em;
-        margin-right: 1em;
+        margin-left: -1em;
+        margin-right: 0em;
         -webkit-padding-end: 1em;
         -webkit-padding-start: 1em;
     }
@@ -731,14 +731,14 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 330px;
+        width: 320px;
         height: 155px;
         margin-left: 2.75em;
         -webkit-margin-start: 2em;
     }
     .marcus-img, .fred-img, .reisetopia-img, .annie-img, .nicate-img, .febrian-img 
     {
-        width: 330px;
+        width: 320px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
@@ -762,7 +762,7 @@ footer h4
         justify-content: space-around;
         margin-top: -1em;
         margin-left: -1em;
-        -webkit-margin-start: -2em;
+        -webkit-margin-start: -0em;
     }
     .most-popular img
     {
@@ -775,12 +775,12 @@ footer h4
         border-width: thin;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 340px;
+        width: 330px;
         height: 120px;
-        margin-left: 4%;
+        margin-left: 1em;
         margin-top: 1.5%;
         margin-bottom: 0.75em;
-        -webkit-margin-start: 0em;
+        -webkit-margin-start: 1em;
     }
     .emile-img, .aw-img, .zakaria-img
     {
@@ -834,7 +834,7 @@ footer h4
     .port, .pomegues, .frioul, .garde, .parc, .national
     {
         height: 170px;
-        width: 330px;
+        width: 320px;
         margin-left: 0.75em;
         -webkit-margin-start: 0.25em;  
     }
@@ -848,7 +848,7 @@ footer h4
     }
     .port-img, .pomegues-img, .frioul-img, .national-img, .garde-img, .parc-img
     {
-        width: 330px;
+        width: 320px;
         height: 130px;
     } 
     .port p, .pomegues p, .frioul p, .national p, .garde p, .parc p
@@ -867,12 +867,13 @@ footer h4
     footer
     {
         flex-direction: column;
-        width: 375px;
-        margin-left: 0%;
+        width: 350px;
+        margin-left: -1%;
+        padding: 0 1rem;
     }
     .a-propos, .nos-hébergements, .assistance
     {
-        margin-left: 0em;
+        margin-left: 1em;
     }
      .assistance
     {
