@@ -786,6 +786,7 @@ footer h4
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         padding-left: 0.5%;
+        margin-left: 0em;
     }
     .emile-title
     {
@@ -865,14 +866,14 @@ footer h4
     footer
     {
         flex-direction: column;
-        width: 375px;
+        width: 312px;
         margin-left: 0%;
-        padding: 0 0rem;
-        max-width: 106%;
+        padding: -1 0rem;
+        max-width: 100%;
     }
     .a-propos, .nos-hébergements, .assistance
     {
-        margin-left: 2em;
+        margin-left: 0em;
     }
      .assistance
     {
@@ -882,6 +883,18 @@ footer h4
 }
 @media only screen and (min-width : 481px) and (max-width : 1039px) 
 {   
+    .logo img
+    {
+        margin-top: -6em;
+    }
+    .option ul
+    {
+        display:block;
+    }
+    .option a:hover
+    {
+        padding-top:unset;
+    }
     .heart
     {
         margin-left: -19.75em;
@@ -1099,7 +1112,7 @@ footer h4
     }
     .a-propos
     {
-        margin-left: 4em;
+        margin-left: 0em;
     }
     .nos-hébergements
     {
@@ -1107,6 +1120,6 @@ footer h4
     }
     .assistance
     {
-        margin-right: 10em;
+        margin-right: 15em;
     }
 }
