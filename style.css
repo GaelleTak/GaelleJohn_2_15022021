@@ -238,6 +238,7 @@ aside
     margin-top: -0.15em;
     margin-right: -0.15em;
     margin-left: -0.05em;
+    object-fit: cover;
 }
 .marcus-title, .fred-title, .reisetopia-title, .annie-title, .nicate-title, .febrian-title
 {
@@ -297,6 +298,7 @@ aside
     border-bottom-left-radius: 0.5em;
     margin-top: 0.35em;
     margin-left: 0.4em;
+    object-fit: cover;
 }
 .emile-title, .aw-title, .zakaria-title
 {
@@ -383,6 +385,7 @@ aside
 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 .port-link, .pomegues-link, .frioul-link, .national-link, .garde-link, .parc-link
 {
@@ -511,7 +514,7 @@ footer h4
     }
     .bloc_page
     {
-        margin-left: 0%;
+        margin-left: -0.5%;
     }
     .logo img, #sinscrire
     {
@@ -564,14 +567,14 @@ footer h4
     #sinscrire
     {
         margin-top: -6.5em;
-        margin-left: -5em;
+        margin-left: -6em;
         border-bottom: none;
     }
     .subtitle h2
     {
         font-size: 1.5em;
         margin-left: 0.5em;
-        width: 360px;
+        width: auto;
     }
     h3
     {
@@ -701,9 +704,16 @@ footer h4
     aside
     {
         border-radius: 0em;
-        width: 375px;
+        width: 102%;
         height: auto;
-        margin-right: 1em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+    #Hébergements
+    {   
+        font-size: 0.75em;
+        margin-left: 27%;
+        margin-bottom: 6%;
     }
     .accomodation1 
     {
@@ -728,14 +738,14 @@ footer h4
         border-radius: 15px;
         padding: 7px;
         font-size: 0.9em;
-        width: 320px;
+        width: 260px;
         height: 155px;
-        margin-left: 2.75em;
+        margin-left: 19%;
         -webkit-margin-start: 2.25em;
     }
     .marcus-img, .fred-img, .reisetopia-img, .annie-img, .nicate-img, .febrian-img 
     {
-        width: 320px;
+        width: 260px;
         height: 100px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
@@ -750,7 +760,7 @@ footer h4
         border-radius: 0em;
         font-size: 0.9em;
         position: absolute;
-        margin-left: -14em;
+        margin-left: -5em;
         margin-top: 78em;
         -webkit-margin-start: -14.5em;
     }
@@ -758,7 +768,8 @@ footer h4
     {
         justify-content: space-around;
         margin-top: -1em;
-        margin-left: -1em;
+        margin-left: em;
+        width: 100%;
     }
     .most-popular img
     {
@@ -771,9 +782,9 @@ footer h4
         border-width: thin;
         border-radius: 15px;
         font-size: 0.9em;
-        width: 330px;
+        width: 260px;
         height: 120px;
-        margin-left: 1em;
+        margin-left: 15%;
         margin-top: 1.5%;
         margin-bottom: 0.75em;
         padding-left: 0.25em;
@@ -781,7 +792,7 @@ footer h4
     }
     .emile-img, .aw-img, .zakaria-img
     {
-        width: 160px;
+        width: 120px;
         height: 110px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -790,50 +801,47 @@ footer h4
     }
     .emile-title
     {
-        margin-left: 15em;
+        margin-left: 10em;
         margin-top: -8em;
     }
     .emile-title2, .aw-title, .aw-title2, .zakaria-title, .zakaria-title2
     {
-        margin-left: 15em;
+        margin-left: 10em;
     }
     .emile-price, .aw-price, .zakaria-price
     {
-        margin-left: 17em;
+        margin-left: 11.25em;
     }
     .emile-star1, .aw-star1, .zakaria-star1
     {
-        margin-left: 13.5em;
+        margin-left: 9em;
     }
     .section2
     {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 0.5em;
+        margin-left: 14%;
         margin-top: 45em;
         margin-bottom: 3em;
         -webkit-padding-start: 0.5em;
     }  
     .places
     {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         margin-top: 10em;
     }
     .activities
     {
         font-size: 0.75em;
-        margin-left: 1em;
+        margin-left: 2%;
         padding-top: 1em;
         -webkit-margin-start: 0em;
     }
     .port, .pomegues, .frioul, .garde, .parc, .national
     {
         height: 170px;
-        width: 320px;
-        margin-left: 0.75em;
+        width: 260px;
+        margin-left:unset;
         padding-left: 0.25em;
         -webkit-margin-start: 0.25em;  
     }
@@ -847,7 +855,7 @@ footer h4
     }
     .port-img, .pomegues-img, .frioul-img, .national-img, .garde-img, .parc-img
     {
-        width: 320px;
+        width: 260px;
         height: 130px;
     } 
     .port p, .pomegues p, .frioul p, .national p, .garde p, .parc p
@@ -866,13 +874,12 @@ footer h4
     footer
     {
         flex-direction: column;
-        width: 312px;
-        margin-left: 0%;
-        max-width: 100%;
+        width: auto;
+        margin-right: -2%;
     }
     .a-propos, .nos-hébergements, .assistance
     {
-        margin-left: 0em;
+        margin-left: 2em;
     }
      .assistance
     {
