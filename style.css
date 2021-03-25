@@ -877,7 +877,7 @@ footer h4
     }
     .a-propos, .nos-hébergements, .assistance
     {
-        margin-left: 1em;
+        margin-left: 0em;
     }
      .assistance
     {
@@ -1260,7 +1260,7 @@ footer h4
     }
     .a-propos, .nos-hébergements, .assistance
     {
-        margin-left: 2em;
+        margin-left: 0em;
     }
      .assistance
     {
@@ -1386,8 +1386,8 @@ footer h4
         flex-wrap: wrap;
         width: auto;
         height: auto;
+        margin-right: -2%;
         margin-bottom: -4em;
-        margin-right: -2em;
     }
     .a-propos
     {
